@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from franka_spine_msgs/srv/GetPosition.srv
+// generated code does not contain a copyright notice
+
+
+module franka_spine_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Query the current spine position in metres.")
+    struct GetPosition_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetPosition_Response {
+      @verbatim (language="comment", text=
+        "Current position")
+      @unit (value="m")
+      double position;
+
+      @verbatim (language="comment", text=
+        "True if the REST call succeeded")
+      boolean success;
+    };
+  };
+};

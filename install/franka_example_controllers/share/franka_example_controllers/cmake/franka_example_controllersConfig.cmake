@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/franka_example_controllers/ament_cmake_core/franka_example_controllersConfig.cmake

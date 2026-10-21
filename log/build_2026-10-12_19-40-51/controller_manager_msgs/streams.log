@@ -1,0 +1,687 @@
+[0.034s] Invoking command in '/home/nick/franka_ros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/ros2_control/controller_manager_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/controller_manager_msgs
+[0.185s] -- The C compiler identification is GNU 13.3.0
+[0.251s] -- The CXX compiler identification is GNU 13.3.0
+[0.264s] -- Detecting C compiler ABI info
+[0.460s] -- Detecting C compiler ABI info - done
+[0.473s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.474s] -- Detecting C compile features
+[0.474s] -- Detecting C compile features - done
+[0.483s] -- Detecting CXX compiler ABI info
+[0.769s] -- Detecting CXX compiler ABI info - done
+[0.782s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.782s] -- Detecting CXX compile features
+[0.783s] -- Detecting CXX compile features - done
+[0.788s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.966s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.025s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.097s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[4.161s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.532s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.988s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.024s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.054s] -- Found lifecycle_msgs: 2.0.4 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[7.232s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.251s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[7.278s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[8.279s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[9.494s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.334s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.638s] -- Found PythonExtra: /usr/bin/python3  
+[11.280s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[11.378s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.388s] -- Configuring done (11.3s)
+[11.452s] -- Generating done (0.1s)
+[11.454s] [33mCMake Warning:
+[11.454s]   Manually-specified variables were not used by the project:
+[11.454s] 
+[11.454s]     BUILD_TESTS
+[11.454s] 
+[11.454s] [0m
+[11.462s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/controller_manager_msgs
+[11.472s] Invoked command in '/home/nick/franka_ros2_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/ros2_control/controller_manager_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/controller_manager_msgs
+[11.473s] Invoking command in '/home/nick/franka_ros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/controller_manager_msgs -- -j20 -l20
+[11.537s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[11.541s] [  0%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[11.546s] [  0%] Built target ament_cmake_python_symlink_controller_manager_msgs
+[11.748s] running egg_info
+[11.749s] creating controller_manager_msgs.egg-info
+[11.763s] writing controller_manager_msgs.egg-info/PKG-INFO
+[11.763s] writing dependency_links to controller_manager_msgs.egg-info/dependency_links.txt
+[11.763s] writing top-level names to controller_manager_msgs.egg-info/top_level.txt
+[11.763s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[11.808s] reading manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[11.808s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[11.831s] [  0%] Built target ament_cmake_python_build_controller_manager_msgs_egg
+[12.281s] [  0%] Built target controller_manager_msgs__rs
+[12.567s] [  0%] Built target controller_manager_msgs__rosidl_generator_type_description
+[12.580s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.589s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.905s] [  0%] Built target controller_manager_msgs__cpp
+[14.209s] [  1%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__description.c.o[0m
+[14.209s] [  2%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/chain_connection__functions.c.o[0m
+[14.209s] [  3%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_component_state__description.c.o[0m
+[14.210s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__type_support.c.o[0m
+[14.210s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/chain_connection__description.c.o[0m
+[14.211s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__type_support.c.o[0m
+[14.214s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_component_state__functions.c.o[0m
+[14.214s] [  5%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support.c.o[0m
+[14.214s] [  6%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__description.c.o[0m
+[14.214s] [  6%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__functions.c.o[0m
+[14.214s] [  7%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support.c.o[0m
+[14.214s] [  7%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/chain_connection__type_support.c.o[0m
+[14.214s] [  7%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__functions.c.o[0m
+[14.215s] [  8%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/named_lifecycle_state__description.c.o[0m
+[14.215s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_manager_activity__functions.c.o[0m
+[14.218s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_manager_activity__type_support.c.o[0m
+[14.218s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/named_lifecycle_state__functions.c.o[0m
+[14.219s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_manager_activity__description.c.o[0m
+[14.240s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__functions.c.o[0m
+[14.241s] [ 10%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__description.c.o[0m
+[14.263s] [ 11%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__type_support.c.o[0m
+[14.263s] [ 12%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__functions.c.o[0m
+[14.266s] [ 12%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__type_support.c.o[0m
+[14.269s] [ 12%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__description.c.o[0m
+[14.278s] [ 13%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__description.c.o[0m
+[14.294s] [ 13%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__functions.c.o[0m
+[14.294s] [ 13%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_components__description.c.o[0m
+[14.300s] [ 14%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__type_support.c.o[0m
+[14.300s] [ 14%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_components__type_support.c.o[0m
+[14.309s] [ 15%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__description.c.o[0m
+[14.311s] [ 16%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_components__functions.c.o[0m
+[14.330s] [ 16%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.c.o[0m
+[14.340s] [ 16%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__description.c.o[0m
+[14.355s] [ 17%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.c.o[0m
+[14.359s] [ 18%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__functions.c.o[0m
+[14.379s] [ 19%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__type_support.c.o[0m
+[14.383s] [ 19%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__description.c.o[0m
+[14.390s] [ 20%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.c.o[0m
+[14.397s] [ 20%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.c.o[0m
+[14.399s] [ 20%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c.o[0m
+[14.401s] [ 21%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/set_hardware_component_state__description.c.o[0m
+[14.407s] [ 22%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.c.o[0m
+[14.408s] [ 23%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__functions.c.o[0m
+[14.410s] [ 23%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__description.c.o[0m
+[14.420s] [ 23%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__type_support.c.o[0m
+[14.426s] [ 24%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__description.c.o[0m
+[14.436s] [ 24%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__functions.c.o[0m
+[14.443s] [ 25%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__type_support.c.o[0m
+[14.446s] [ 26%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/cleanup_controller__functions.c.o[0m
+[14.450s] [ 26%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/cleanup_controller__description.c.o[0m
+[14.473s] [ 26%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/cleanup_controller__type_support.c.o[0m
+[14.695s] [ 27%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_generator_c.so[0m
+[14.751s] [ 27%] Built target controller_manager_msgs__rosidl_generator_c
+[14.761s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.762s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.762s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.762s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.762s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.764s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.621s] [ 31%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[16.623s] [ 32%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o[0m
+[16.630s] [ 32%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o[0m
+[16.630s] [ 32%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/named_lifecycle_state__type_support.cpp.o[0m
+[16.630s] [ 33%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[16.630s] [ 34%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/chain_connection__type_support.cpp.o[0m
+[16.630s] [ 35%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/controller_manager_activity__type_support.cpp.o[0m
+[16.634s] [ 35%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o[0m
+[16.637s] [ 35%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/configure_controller__type_support.cpp.o[0m
+[16.645s] [ 36%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_controller__type_support.cpp.o[0m
+[16.646s] [ 37%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_hardware_components__type_support.cpp.o[0m
+[16.646s] [ 37%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o[0m
+[16.661s] [ 37%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o[0m
+[16.661s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/set_hardware_component_state__type_support.cpp.o[0m
+[16.669s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/switch_controller__type_support.cpp.o[0m
+[17.147s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[17.153s] [ 39%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/unload_controller__type_support.cpp.o[0m
+[17.158s] [ 40%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/chain_connection__type_support.cpp.o[0m
+[17.274s] [ 41%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o[0m
+[17.318s] [ 41%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o[0m
+[17.371s] [ 41%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/cleanup_controller__type_support.cpp.o[0m
+[17.418s] [ 42%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/named_lifecycle_state__type_support.cpp.o[0m
+[17.458s] [ 42%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/controller_manager_activity__type_support.cpp.o[0m
+[17.541s] [ 43%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/configure_controller__type_support.cpp.o[0m
+[17.578s] [ 43%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[17.583s] [ 44%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o[0m
+[17.622s] [ 44%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_state__type_support.cpp.o[0m
+[17.622s] [ 44%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_hardware_components__type_support.cpp.o[0m
+[17.684s] [ 45%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o[0m
+[17.686s] [ 46%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/chain_connection__type_support.cpp.o[0m
+[17.762s] [ 46%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_controller__type_support.cpp.o[0m
+[17.762s] [ 46%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/hardware_component_state__type_support.cpp.o[0m
+[17.768s] [ 47%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/hardware_interface__type_support.cpp.o[0m
+[17.780s] [ 47%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support.cpp.o[0m
+[17.808s] [ 49%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o[0m
+[17.808s] [ 49%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_manager_activity__type_support.cpp.o[0m
+[17.835s] [ 49%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/configure_controller__type_support.cpp.o[0m
+[17.858s] [ 49%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/controller_state__type_support.c.o[0m
+[17.952s] [ 49%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/set_hardware_component_state__type_support.cpp.o[0m
+[18.001s] [ 50%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/chain_connection__type_support.c.o[0m
+[18.008s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/unload_controller__type_support.cpp.o[0m
+[18.011s] [ 51%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/switch_controller__type_support.cpp.o[0m
+[18.067s] [ 51%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support.c.o[0m
+[18.105s] [ 52%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/cleanup_controller__type_support.cpp.o[0m
+[18.222s] [ 53%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controllers__type_support.cpp.o[0m
+[18.227s] [ 54%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_interface__type_support.c.o[0m
+[18.247s] [ 55%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_state__type_support_c.cpp.o[0m
+[18.248s] [ 55%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_c.so[0m
+[18.249s] [ 56%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support.c.o[0m
+[18.250s] [ 56%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/controller_manager_activity__type_support.c.o[0m
+[18.283s] [ 56%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controller_types__type_support.cpp.o[0m
+[18.329s] [ 57%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/configure_controller__type_support.c.o[0m
+[18.411s] [ 57%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/chain_connection__type_support_c.cpp.o[0m
+[18.427s] [ 57%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controllers__type_support.c.o[0m
+[18.446s] [ 58%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support_c.cpp.o[0m
+[18.447s] [ 59%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_hardware_components__type_support.cpp.o[0m
+[18.475s] [ 59%] Built target controller_manager_msgs__rosidl_typesupport_c
+[18.486s] [ 59%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.cpp.o[0m
+[18.506s] [ 61%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controller_types__type_support.c.o[0m
+[18.506s] [ 60%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/hardware_interface__type_support_c.cpp.o[0m
+[18.582s] [ 61%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_hardware_components__type_support.c.o[0m
+[18.605s] [ 62%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.c.o[0m
+[18.616s] [ 63%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_controller__type_support.cpp.o[0m
+[18.623s] [ 63%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_controller__type_support.c.o[0m
+[18.742s] [ 64%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_cpp.so[0m
+[18.744s] [ 64%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support_c.cpp.o[0m
+[18.778s] [ 64%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.cpp.o[0m
+[18.785s] [ 64%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.c.o[0m
+[18.792s] [ 65%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c.o[0m
+[18.858s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_manager_activity__type_support_c.cpp.o[0m
+[18.964s] [ 67%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.cpp.o[0m
+[19.205s] [ 68%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/switch_controller__type_support.c.o[0m
+[19.215s] [ 68%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[19.241s] [ 68%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__type_support.cpp.o[0m
+[19.418s] [ 68%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/configure_controller__type_support_c.cpp.o[0m
+[19.455s] [ 68%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/unload_controller__type_support.c.o[0m
+[19.480s] [ 69%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controllers__type_support_c.cpp.o[0m
+[19.674s] [ 69%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controller_types__type_support_c.cpp.o[0m
+[19.685s] [ 70%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/cleanup_controller__type_support.c.o[0m
+[19.740s] [ 71%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/unload_controller__type_support.cpp.o[0m
+[19.783s] [ 72%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o[0m
+[19.791s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_hardware_components__type_support_c.cpp.o[0m
+[19.837s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/cleanup_controller__type_support.cpp.o[0m
+[19.908s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support_c.cpp.o[0m
+[19.915s] [ 73%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so[0m
+[20.028s] [ 73%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[20.048s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/chain_connection__type_support.cpp.o[0m
+[20.068s] [ 74%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/hardware_component_state__type_support.cpp.o[0m
+[20.216s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_controller__type_support_c.cpp.o[0m
+[20.377s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/hardware_interface__type_support.cpp.o[0m
+[20.461s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support_c.cpp.o[0m
+[20.698s] [ 76%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/named_lifecycle_state__type_support.cpp.o[0m
+[20.779s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support_c.cpp.o[0m
+[20.792s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/switch_controller__type_support_c.cpp.o[0m
+[20.802s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/controller_manager_activity__type_support.cpp.o[0m
+[20.879s] [ 78%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/configure_controller__type_support.cpp.o[0m
+[20.904s] [ 79%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/unload_controller__type_support_c.cpp.o[0m
+[20.946s] [ 79%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/cleanup_controller__type_support_c.cpp.o[0m
+[21.115s] [ 79%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controllers__type_support.cpp.o[0m
+[21.149s] [ 80%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controller_types__type_support.cpp.o[0m
+[21.250s] [ 80%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_hardware_components__type_support.cpp.o[0m
+[21.330s] [ 81%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_hardware_interfaces__type_support.cpp.o[0m
+[21.440s] [ 81%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_controller__type_support.cpp.o[0m
+[21.457s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/reload_controller_libraries__type_support.cpp.o[0m
+[21.600s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/set_hardware_component_state__type_support.cpp.o[0m
+[21.622s] [ 83%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/switch_controller__type_support.cpp.o[0m
+[21.643s] [ 83%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/unload_controller__type_support.cpp.o[0m
+[21.694s] [ 84%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[21.742s] [ 85%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/cleanup_controller__type_support.cpp.o[0m
+[21.916s] [ 85%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[22.752s] [ 86%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[22.887s] [ 86%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[24.133s] [ 86%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.953s] [ 86%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[25.010s] [ 86%] Built target controller_manager_msgs
+[25.096s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.647s] [ 87%] Built target controller_manager_msgs__py
+[28.669s] [ 87%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_controller_state_s.c.o[0m
+[28.669s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_hardware_interface_s.c.o[0m
+[28.669s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controller_types_s.c.o[0m
+[28.669s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_named_lifecycle_state_s.c.o[0m
+[28.669s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_hardware_component_state_s.c.o[0m
+[28.669s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_configure_controller_s.c.o[0m
+[28.669s] [ 89%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controllers_s.c.o[0m
+[28.669s] [ 90%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_chain_connection_s.c.o[0m
+[28.679s] [ 91%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_controller_manager_activity_s.c.o[0m
+[28.680s] [ 92%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_hardware_components_s.c.o[0m
+[28.680s] [ 92%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_hardware_interfaces_s.c.o[0m
+[28.680s] [ 92%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_reload_controller_libraries_s.c.o[0m
+[28.680s] [ 93%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_load_controller_s.c.o[0m
+[28.690s] [ 94%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_set_hardware_component_state_s.c.o[0m
+[28.707s] [ 95%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_unload_controller_s.c.o[0m
+[28.713s] [ 95%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_switch_controller_s.c.o[0m
+[28.727s] [ 95%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_cleanup_controller_s.c.o[0m
+[29.254s] [ 96%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_generator_py.so[0m
+[29.315s] [ 96%] Built target controller_manager_msgs__rosidl_generator_py
+[29.335s] [ 97%] [32mBuilding C object CMakeFiles/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[29.338s] [ 98%] [32mBuilding C object CMakeFiles/controller_manager_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[29.340s] [ 99%] [32mBuilding C object CMakeFiles/controller_manager_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[30.121s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.so[0m
+[30.121s] [100%] [32m[1mLinking C shared module rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[30.137s] [100%] [32m[1mLinking C shared module rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[30.154s] [100%] Built target controller_manager_msgs_s__rosidl_typesupport_c
+[30.160s] [100%] Built target controller_manager_msgs_s__rosidl_typesupport_introspection_c
+[30.171s] [100%] Built target controller_manager_msgs_s__rosidl_typesupport_fastrtps_c
+[30.186s] Invoked command in '/home/nick/franka_ros2_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/controller_manager_msgs -- -j20 -l20
+[30.187s] Invoking command in '/home/nick/franka_ros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/controller_manager_msgs
+[30.195s] -- Install configuration: "Release"
+[30.195s] -- Execute custom install script
+[30.195s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_manager_msgs
+[30.207s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.json
+[30.214s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.json
+[30.225s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.json
+[30.234s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.json
+[30.245s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/NamedLifecycleState.json
+[30.254s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerManagerActivity.json
+[30.264s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.json
+[30.274s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.json
+[30.282s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.json
+[30.290s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.json
+[30.298s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.json
+[30.307s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.json
+[30.315s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.json
+[30.322s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.json
+[30.329s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.json
+[30.335s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.json
+[30.342s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/CleanupController.json
+[30.353s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/chain_connection.h
+[30.364s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_manager_activity.h
+[30.376s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_state.h
+[30.386s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__functions.h
+[30.398s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.h
+[30.409s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.h
+[30.442s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__functions.h
+[30.453s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__struct.h
+[30.463s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__type_support.h
+[30.474s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__functions.h
+[30.483s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.h
+[30.494s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.h
+[30.501s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__functions.h
+[30.512s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.h
+[30.522s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.h
+[30.530s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__functions.h
+[30.540s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.h
+[30.547s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.h
+[30.557s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__functions.h
+[30.565s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__struct.h
+[30.576s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support.h
+[30.585s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_component_state.h
+[30.595s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_interface.h
+[30.604s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/named_lifecycle_state.h
+[30.611s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_c__visibility_control.h
+[30.619s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/cleanup_controller.h
+[30.626s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.h
+[30.637s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__functions.h
+[30.644s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__struct.h
+[30.655s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__type_support.h
+[30.663s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__functions.h
+[30.670s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.h
+[30.681s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.h
+[30.692s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__functions.h
+[30.702s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.h
+[30.713s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.h
+[30.723s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__functions.h
+[30.730s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.h
+[30.738s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.h
+[30.745s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__functions.h
+[30.752s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.h
+[30.762s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.h
+[30.773s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.h
+[30.781s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.h
+[30.792s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.h
+[30.803s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__functions.h
+[30.814s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.h
+[30.826s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.h
+[30.837s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.h
+[30.845s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.h
+[30.857s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.h
+[30.863s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.h
+[30.874s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.h
+[30.881s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.h
+[30.894s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__functions.h
+[30.905s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.h
+[30.916s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.h
+[30.927s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__functions.h
+[30.938s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.h
+[30.947s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.h
+[30.958s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.h
+[30.969s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.h
+[30.980s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.h
+[30.989s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.h
+[30.997s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.h
+[31.008s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.h
+[31.015s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.h
+[31.021s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.h
+[31.027s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.h
+[31.034s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.sh
+[31.046s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.dsv
+[31.056s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_fastrtps_c.h
+[31.067s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__rosidl_typesupport_fastrtps_c.h
+[31.077s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[31.084s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[31.091s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_c.h
+[31.097s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__rosidl_typesupport_fastrtps_c.h
+[31.108s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.114s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__rosidl_typesupport_fastrtps_c.h
+[31.121s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_c.h
+[31.128s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_c.h
+[31.138s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_c.h
+[31.145s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_c.h
+[31.156s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_c.h
+[31.166s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_c.h
+[31.177s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_c.h
+[31.188s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[31.199s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_c.h
+[31.209s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_c.h
+[31.219s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/chain_connection.hpp
+[31.230s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_manager_activity.hpp
+[31.240s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_state.hpp
+[31.250s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__builder.hpp
+[31.259s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.hpp
+[31.269s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__traits.hpp
+[31.279s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.hpp
+[31.289s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__builder.hpp
+[31.297s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__struct.hpp
+[31.307s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__traits.hpp
+[31.316s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__type_support.hpp
+[31.323s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__builder.hpp
+[31.334s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.hpp
+[31.344s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__traits.hpp
+[31.354s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.hpp
+[31.360s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__builder.hpp
+[31.367s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.hpp
+[31.375s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__traits.hpp
+[31.386s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.hpp
+[31.392s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__builder.hpp
+[31.403s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp
+[31.413s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp
+[31.424s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.hpp
+[31.431s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__builder.hpp
+[31.437s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__struct.hpp
+[31.447s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__traits.hpp
+[31.454s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support.hpp
+[31.460s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_component_state.hpp
+[31.471s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_interface.hpp
+[31.481s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/named_lifecycle_state.hpp
+[31.491s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[31.500s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/cleanup_controller.hpp
+[31.510s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.hpp
+[31.520s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__builder.hpp
+[31.530s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__struct.hpp
+[31.541s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__traits.hpp
+[31.551s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__type_support.hpp
+[31.562s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__builder.hpp
+[31.572s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.hpp
+[31.581s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__traits.hpp
+[31.591s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.hpp
+[31.601s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp
+[31.611s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp
+[31.621s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp
+[31.631s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.hpp
+[31.637s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__builder.hpp
+[31.644s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.hpp
+[31.656s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__traits.hpp
+[31.663s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.hpp
+[31.671s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__builder.hpp
+[31.677s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp
+[31.684s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__traits.hpp
+[31.695s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.hpp
+[31.705s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp
+[31.714s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp
+[31.725s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp
+[31.734s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.hpp
+[31.745s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__builder.hpp
+[31.755s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.hpp
+[31.765s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__traits.hpp
+[31.773s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.hpp
+[31.783s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp
+[31.791s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp
+[31.802s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp
+[31.813s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.hpp
+[31.824s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__builder.hpp
+[31.834s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.hpp
+[31.845s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__traits.hpp
+[31.851s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.hpp
+[31.858s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp
+[31.865s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp
+[31.875s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp
+[31.882s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.hpp
+[31.888s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__builder.hpp
+[31.899s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.hpp
+[31.909s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__traits.hpp
+[31.920s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.hpp
+[31.926s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.hpp
+[31.936s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.hpp
+[31.942s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.hpp
+[31.949s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.hpp
+[31.960s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.hpp
+[31.971s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.hpp
+[31.978s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.hpp
+[31.985s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp
+[31.993s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.hpp
+[32.004s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_fastrtps_cpp.hpp
+[32.011s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__rosidl_typesupport_fastrtps_cpp.hpp
+[32.020s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[32.027s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[32.037s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[32.048s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__rosidl_typesupport_fastrtps_cpp.hpp
+[32.058s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[32.069s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[32.080s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[32.091s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_cpp.hpp
+[32.102s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_cpp.hpp
+[32.110s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_cpp.hpp
+[32.121s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.hpp
+[32.132s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[32.144s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_cpp.hpp
+[32.150s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[32.161s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[32.168s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[32.177s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_introspection_c.h
+[32.187s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__rosidl_typesupport_introspection_c.h
+[32.199s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[32.205s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_c.h
+[32.217s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_c.h
+[32.227s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__rosidl_typesupport_introspection_c.h
+[32.235s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[32.242s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__rosidl_typesupport_introspection_c.h
+[32.248s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_c.h
+[32.259s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_c.h
+[32.266s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_c.h
+[32.275s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_c.h
+[32.286s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_c.h
+[32.294s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_c.h
+[32.302s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_c.h
+[32.311s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_c.h
+[32.318s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_c.h
+[32.329s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_c.h
+[32.336s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_introspection_cpp.hpp
+[32.347s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__rosidl_typesupport_introspection_cpp.hpp
+[32.359s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[32.370s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[32.381s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_cpp.hpp
+[32.392s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__rosidl_typesupport_introspection_cpp.hpp
+[32.401s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/cleanup_controller__rosidl_typesupport_introspection_cpp.hpp
+[32.412s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[32.422s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_cpp.hpp
+[32.433s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_cpp.hpp
+[32.444s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_cpp.hpp
+[32.455s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_cpp.hpp
+[32.464s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_cpp.hpp
+[32.475s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_cpp.hpp
+[32.486s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[32.496s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp
+[32.507s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_cpp.hpp
+[32.516s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.sh
+[32.525s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.dsv
+[32.536s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs-4.49.0-py3.12.egg-info/PKG-INFO
+[32.547s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs-4.49.0-py3.12.egg-info/SOURCES.txt
+[32.557s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs-4.49.0-py3.12.egg-info/dependency_links.txt
+[32.565s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs-4.49.0-py3.12.egg-info/top_level.txt
+[32.577s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/__init__.py
+[32.585s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c
+[32.595s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[32.603s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[32.610s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.so
+[32.618s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.so
+[32.625s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.so
+[32.632s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/__init__.py
+[32.643s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_chain_connection.py
+[32.653s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_chain_connection_s.c
+[32.664s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_manager_activity.py
+[32.675s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_manager_activity_s.c
+[32.686s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_state.py
+[32.696s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_state_s.c
+[32.707s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_component_state.py
+[32.718s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_component_state_s.c
+[32.729s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_interface.py
+[32.738s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_interface_s.c
+[32.745s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_named_lifecycle_state.py
+[32.755s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_named_lifecycle_state_s.c
+[32.766s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/__init__.py
+[32.777s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_cleanup_controller.py
+[32.787s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_cleanup_controller_s.c
+[32.794s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_configure_controller.py
+[32.802s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_configure_controller_s.c
+[32.811s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controller_types.py
+[32.821s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controller_types_s.c
+[32.831s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controllers.py
+[32.838s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controllers_s.c
+[32.846s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_components.py
+[32.853s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_components_s.c
+[32.860s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py
+[32.871s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_interfaces_s.c
+[32.878s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_load_controller.py
+[32.889s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_load_controller_s.c
+[32.899s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_reload_controller_libraries.py
+[32.909s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_reload_controller_libraries_s.c
+[32.918s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_set_hardware_component_state.py
+[32.929s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_set_hardware_component_state_s.c
+[32.935s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_switch_controller.py
+[32.944s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_switch_controller_s.c
+[32.954s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_unload_controller.py
+[32.965s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_unload_controller_s.c
+[32.976s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.so
+[32.976s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.so
+[32.976s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.so
+[32.977s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/rust/Cargo.toml
+[32.985s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/rust/build.rs
+[32.992s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/rust/src/lib.rs
+[32.999s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/rust/src/msg.rs
+[33.007s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/rust/src/msg/rmw.rs
+[33.017s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/rust/src/srv.rs
+[33.028s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/rust/src/srv/rmw.rs
+[33.039s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.idl
+[33.050s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.idl
+[33.060s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.idl
+[33.070s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.idl
+[33.078s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/NamedLifecycleState.idl
+[33.089s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerManagerActivity.idl
+[33.100s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.idl
+[33.111s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.idl
+[33.123s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.idl
+[33.134s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.idl
+[33.142s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.idl
+[33.153s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.idl
+[33.162s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.idl
+[33.173s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.idl
+[33.184s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.idl
+[33.195s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.idl
+[33.206s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/CleanupController.idl
+[33.217s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.msg
+[33.228s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.msg
+[33.238s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.msg
+[33.249s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.msg
+[33.260s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/NamedLifecycleState.msg
+[33.270s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerManagerActivity.msg
+[33.281s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.srv
+[33.290s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.srv
+[33.299s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.srv
+[33.309s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.srv
+[33.319s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.srv
+[33.329s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.srv
+[33.339s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.srv
+[33.348s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.srv
+[33.360s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.srv
+[33.369s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.srv
+[33.383s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/CleanupController.srv
+[33.392s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/package_run_dependencies/controller_manager_msgs
+[33.402s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/parent_prefix_path/controller_manager_msgs
+[33.410s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.sh
+[33.421s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.dsv
+[33.427s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.sh
+[33.439s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.dsv
+[33.447s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.bash
+[33.459s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.sh
+[33.470s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.zsh
+[33.481s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.dsv
+[33.492s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv
+[33.515s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/packages/controller_manager_msgs
+[33.541s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake-extras.cmake
+[33.570s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.596s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.621s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[33.646s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[33.657s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.668s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.680s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[33.691s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig.cmake
+[33.703s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig-version.cmake
+[33.714s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.xml
+[33.724s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so
+[33.725s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so" to ""
+[33.726s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so
+[33.726s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[33.726s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
+[33.727s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.727s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so
+[33.728s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so" to ""
+[33.728s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so
+[33.729s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so" to ""
+[33.730s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so
+[33.730s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[33.730s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so
+[33.731s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so" to ""
+[33.845s] Listing '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs'...
+[33.845s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/__init__.py'...
+[33.845s] Listing '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/__init__.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_chain_connection.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_manager_activity.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_state.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_component_state.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_interface.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_named_lifecycle_state.py'...
+[33.846s] Listing '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/__init__.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_cleanup_controller.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_configure_controller.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controller_types.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controllers.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_components.py'...
+[33.846s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py'...
+[33.847s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_load_controller.py'...
+[33.847s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_reload_controller_libraries.py'...
+[33.847s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_set_hardware_component_state.py'...
+[33.847s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_switch_controller.py'...
+[33.847s] Compiling '/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_unload_controller.py'...
+[33.850s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_py.so
+[33.851s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_py.so" to ""
+[33.851s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cExport.cmake
+[33.851s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cExport-release.cmake
+[33.851s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[33.851s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[33.852s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cppExport.cmake
+[33.852s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[33.852s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[33.852s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport.cmake
+[33.852s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[33.852s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport.cmake
+[33.852s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport-release.cmake
+[33.853s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[33.853s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[33.853s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport.cmake
+[33.853s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport-release.cmake
+[33.853s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_pyExport.cmake
+[33.853s] -- Installing: /home/nick/franka_ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_pyExport-release.cmake
+[33.856s] Invoked command in '/home/nick/franka_ros2_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/controller_manager_msgs

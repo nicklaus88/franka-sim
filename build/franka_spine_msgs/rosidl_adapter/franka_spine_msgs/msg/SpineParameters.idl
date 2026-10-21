@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_spine_msgs/msg/SpineParameters.msg
+// generated code does not contain a copyright notice
+
+#include "franka_spine_msgs/msg/UserLimits.idl"
+
+module franka_spine_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Aggregated spine parameters returned by the GetParameters service.")
+    struct SpineParameters {
+      @verbatim (language="comment", text=
+        "User-defined motion limits")
+      franka_spine_msgs::msg::UserLimits user_limits;
+    };
+  };
+};

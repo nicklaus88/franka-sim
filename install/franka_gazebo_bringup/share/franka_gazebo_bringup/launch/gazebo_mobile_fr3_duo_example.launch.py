@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_bringup/launch/gazebo_mobile_fr3_duo_example.launch.py

@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_spine_msgs/msg/SpineState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module franka_spine_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Periodic spine state sample published on ~/state." "\n"
+      "Subscribe to this instead of polling the GetSpineState service in a loop." "\n"
+      "Possible states: NotReadyToSwitchOn, SwitchedOff, ReadyToSwitchOn," "\n"
+      "  MotorOff, SwitchedOn, QuickStopActive, FaultReactionActive, Fault, Unknown.")
+    struct SpineState {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Current spine state")
+      string state;
+
+      @verbatim (language="comment", text=
+        "Error code (empty when no error)")
+      string error_code;
+
+      @verbatim (language="comment", text=
+        "Human-readable error description")
+      string error_description;
+
+      @verbatim (language="comment", text=
+        "False when the sample is stale because the REST read failed")
+      boolean valid;
+    };
+  };
+};

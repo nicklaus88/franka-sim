@@ -1,0 +1,10 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTS
+
+[0m
+[01m[K/home/nick/franka_ros2_ws/src/mobile_fr3_duo_trajectory_controller/src/mobile_fr3_duo_trajectory_controller.cpp:[m[K In member function ‘[01m[Kbool mobile_fr3_duo_trajectory_controller::MobileFR3DuoTrajectoryController::[01;32m[Kvalidate_trajectory_msg[m[K(const trajectory_msgs::msg::JointTrajectory&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/mobile_fr3_duo_trajectory_controller/src/mobile_fr3_duo_trajectory_controller.cpp:306:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  306 |     [01;35m[Kconst trajectory_msgs::msg::JointTrajectory& trajectory[m[K) const {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K

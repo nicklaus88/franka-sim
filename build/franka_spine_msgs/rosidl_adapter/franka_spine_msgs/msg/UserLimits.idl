@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_spine_msgs/msg/UserLimits.msg
+// generated code does not contain a copyright notice
+
+
+module franka_spine_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "User-defined soft motion limits for the spine.")
+    struct UserLimits {
+      @verbatim (language="comment", text=
+        "Lower motion limit")
+      @unit (value="m")
+      double lower_limit;
+
+      @verbatim (language="comment", text=
+        "Upper motion limit")
+      @unit (value="m")
+      double upper_limit;
+    };
+  };
+};

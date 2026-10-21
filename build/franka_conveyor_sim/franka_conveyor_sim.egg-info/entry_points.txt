@@ -1,0 +1,6 @@
+[console_scripts]
+box_pose_estimator = franka_conveyor_sim.box_pose_estimator:main
+box_spawner = franka_conveyor_sim.box_spawner:main
+conveyor_tracker = franka_conveyor_sim.conveyor_tracker:main
+pickup_executor = franka_conveyor_sim.pickup_executor:main
+pickup_planner = franka_conveyor_sim.pickup_planner:main

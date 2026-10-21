@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_typesupport_fastrtps_c/franka_spine_msgs/srv/detail/switch_off__rosidl_typesupport_fastrtps_c.h

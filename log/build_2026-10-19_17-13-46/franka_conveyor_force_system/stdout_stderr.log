@@ -1,0 +1,20 @@
+[100%] Built target franka_conveyor_force_system
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/lib/libfranka_conveyor_force_system.so
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/conveyor_force.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/ament_index/resource_index/package_run_dependencies/franka_conveyor_force_system
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/ament_index/resource_index/parent_prefix_path/franka_conveyor_force_system
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.bash
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.zsh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/package.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/ament_index/resource_index/packages/franka_conveyor_force_system
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/cmake/franka_conveyor_force_systemConfig.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/cmake/franka_conveyor_force_systemConfig-version.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/package.xml

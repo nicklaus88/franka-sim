@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/franka_vision_and_manipulation_kit/ament_cmake_environment_hooks/local_setup.zsh

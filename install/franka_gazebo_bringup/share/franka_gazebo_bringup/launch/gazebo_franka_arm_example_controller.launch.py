@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_bringup/launch/gazebo_franka_arm_example_controller.launch.py

@@ -1,0 +1,138 @@
+[0.010s] Invoking command in '/home/nick/franka_ros2_ws/build/joint_limits': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/nick/franka_ros2_ws/src/ros2_control/joint_limits -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/joint_limits
+[0.075s] -- The CXX compiler identification is GNU 13.3.0
+[0.092s] -- Detecting CXX compiler ABI info
+[0.188s] -- Detecting CXX compiler ABI info - done
+[0.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.202s] -- Detecting CXX compile features
+[0.202s] -- Detecting CXX compile features - done
+[0.206s] -- Found ros2_control_cmake: 0.4.0 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.206s] -- Compiler warnings enabled for GNU
+[0.207s] -- Performing Test COMPILER_SUPPORTS_CXX20
+[0.302s] -- Performing Test COMPILER_SUPPORTS_CXX20 - Success
+[0.303s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[0.713s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[0.713s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.717s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.869s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.940s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.991s] -- Found pluginlib: 5.4.6 (/opt/ros/jazzy/share/pluginlib/cmake)
+[1.027s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.028s] -- Found realtime_tools: 3.10.1 (/home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[1.065s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.081s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.098s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.188s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.192s] -- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.222s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.509s] -- Found rclcpp_lifecycle: 28.1.22 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.542s] -- Found trajectory_msgs: 5.3.8 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[1.601s] -- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+[1.619s] -- Found ament_cmake_gmock: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.624s] -- Found generate_parameter_library: 0.7.6 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.639s] -- Found tcb_span: 1.3.2 (/opt/ros/jazzy/share/tcb_span/cmake)
+[1.651s] -- Found parameter_traits: 0.7.6 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.663s] -- Found launch_testing_ament_cmake: 3.4.12 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[1.666s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.801s] -- Found PythonExtra: /usr/bin/python3  
+[1.805s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.157s] -- The C compiler identification is GNU 13.3.0
+[2.171s] -- Detecting C compiler ABI info
+[2.275s] -- Detecting C compiler ABI info - done
+[2.287s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.288s] -- Detecting C compile features
+[2.288s] -- Detecting C compile features - done
+[2.295s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.295s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.378s] -- Configuring done (2.4s)
+[2.419s] -- Generating done (0.0s)
+[2.421s] [33mCMake Warning:
+[2.421s]   Manually-specified variables were not used by the project:
+[2.421s] 
+[2.421s]     BUILD_TESTS
+[2.421s] 
+[2.421s] [0m
+[2.433s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/joint_limits
+[2.445s] Invoked command in '/home/nick/franka_ros2_ws/build/joint_limits' returned '0': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/nick/franka_ros2_ws/src/ros2_control/joint_limits -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/joint_limits
+[2.445s] Invoking command in '/home/nick/franka_ros2_ws/build/joint_limits': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/joint_limits -- -j20 -l20
+[2.496s] [  4%] [34m[1mGenerating joint_limits/version.h[0m
+[2.499s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.501s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.503s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.517s] [ 16%] Built target ament_generate_version_header__joint_limits
+[2.542s] [ 25%] [32mBuilding CXX object CMakeFiles/joint_limiter_interface.dir/src/joint_limiter_interface.cpp.o[0m
+[2.542s] [ 25%] [32mBuilding CXX object CMakeFiles/joint_limits_helpers.dir/src/joint_limits_helpers.cpp.o[0m
+[3.643s] [ 29%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.716s] [ 29%] Built target gmock_main
+[5.423s] [ 33%] [32m[1mLinking CXX shared library libjoint_limits_helpers.so[0m
+[5.846s] [ 37%] [32m[1mLinking CXX shared library libjoint_limiter_interface.so[0m
+[5.849s] [ 37%] Built target joint_limits_helpers
+[8.002s] [ 37%] Built target joint_limiter_interface
+[8.027s] [ 45%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_saturation_limiter.cpp.o[0m
+[8.027s] [ 45%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_soft_limiter.cpp.o[0m
+[8.027s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_range_limiter.cpp.o[0m
+[10.759s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[12.007s] [ 54%] Built target gmock
+[12.025s] [ 58%] [32mBuilding CXX object CMakeFiles/test_joint_range_limiter.dir/test/test_joint_range_limiter.cpp.o[0m
+[12.028s] [ 62%] [32mBuilding CXX object CMakeFiles/test_joint_saturation_limiter.dir/test/test_joint_saturation_limiter.cpp.o[0m
+[12.030s] [ 66%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[12.031s] [ 70%] [32mBuilding CXX object CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o[0m
+[12.031s] [ 75%] [32mBuilding CXX object CMakeFiles/test_joint_soft_limiter.dir/test/test_joint_soft_limiter.cpp.o[0m
+[12.064s] [ 79%] [32m[1mLinking CXX shared library libjoint_saturation_limiter.so[0m
+[12.164s] [ 79%] Built target joint_saturation_limiter
+[14.510s] [ 83%] [32m[1mLinking CXX executable joint_limits_urdf_test[0m
+[14.682s] [ 83%] Built target joint_limits_urdf_test
+[17.150s] [ 87%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[17.323s] [ 87%] Built target joint_limits_rosparam_test
+[20.297s] [ 91%] [32m[1mLinking CXX executable test_joint_saturation_limiter[0m
+[20.514s] [ 91%] Built target test_joint_saturation_limiter
+[21.387s] [ 95%] [32m[1mLinking CXX executable test_joint_range_limiter[0m
+[21.641s] [ 95%] Built target test_joint_range_limiter
+[22.457s] [100%] [32m[1mLinking CXX executable test_joint_soft_limiter[0m
+[22.682s] [100%] Built target test_joint_soft_limiter
+[22.696s] Invoked command in '/home/nick/franka_ros2_ws/build/joint_limits' returned '0': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/joint_limits -- -j20 -l20
+[22.697s] Invoking command in '/home/nick/franka_ros2_ws/build/joint_limits': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/joint_limits
+[22.706s] -- Install configuration: "Release"
+[22.706s] -- Execute custom install script
+[22.706s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits//joint_limiters.xml
+[22.715s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[22.724s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[22.733s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/test/joint_saturation_limiter_param.yaml
+[22.742s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/data_structures.hpp
+[22.750s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limiter_interface.hpp
+[22.760s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits.hpp
+[22.769s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_helpers.hpp
+[22.776s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_rosparam.hpp
+[22.784s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_urdf.hpp
+[22.795s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_saturation_limiter.hpp
+[22.802s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_soft_limiter.hpp
+[22.810s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/library_path.sh
+[22.820s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/library_path.dsv
+[22.831s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[22.841s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[22.851s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[22.862s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[22.870s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/path.sh
+[22.880s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+[22.889s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/local_setup.bash
+[22.897s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/local_setup.sh
+[22.904s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+[22.914s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+[22.924s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/package.dsv
+[22.932s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[22.943s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/ament_index/resource_index/joint_limits__pluginlib__plugin/joint_limits
+[22.951s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_targets-extras.cmake
+[22.961s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.970s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[22.977s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[22.985s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/package.xml
+[22.992s] -- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/version.h
+[23.002s] -- Installing: /home/nick/franka_ros2_ws/install/joint_limits/lib/libjoint_limiter_interface.so
+[23.002s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/joint_limits/lib/libjoint_limiter_interface.so" to ""
+[23.003s] -- Installing: /home/nick/franka_ros2_ws/install/joint_limits/lib/libjoint_saturation_limiter.so
+[23.003s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/joint_limits/lib/libjoint_saturation_limiter.so" to ""
+[23.003s] -- Installing: /home/nick/franka_ros2_ws/install/joint_limits/lib/libjoint_limits_helpers.so
+[23.003s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/joint_limits/lib/libjoint_limits_helpers.so" to ""
+[23.003s] -- Installing: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+[23.003s] -- Installing: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport-release.cmake
+[23.005s] Invoked command in '/home/nick/franka_ros2_ws/build/joint_limits' returned '0': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/joint_limits

@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found launch_testing_ament_cmake: 3.4.12 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/gz_ros2_control_tests
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_tests
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_tests
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/environment/path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.bash
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.zsh
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/ament_index/resource_index/packages/gz_ros2_control_tests
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/cmake/gz_ros2_control_testsConfig-version.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_tests/share/gz_ros2_control_tests/package.xml

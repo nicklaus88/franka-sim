@@ -1,0 +1,1 @@
+rclpy;franka_spine_msgs;franka_desk_api;std_msgs;ament_lint_auto;ament_lint_common;ament_cmake_pytest;launch;launch_ros;launch_testing;launch_testing_ament_cmake

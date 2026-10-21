@@ -1,0 +1,415 @@
+[0.031s] Invoking command in '/home/nick/franka_ros2_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control/lib:/home/nick/franka_ros2_ws/install/controller_manager/lib:/home/nick/franka_ros2_ws/install/hardware_interface_testing/lib:/home/nick/franka_ros2_ws/install/controller_interface/lib:/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nick/franka_ros2_ws/build/ros2controlcli:/home/nick/franka_ros2_ws/install/ros2controlcli/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control_demos -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/gz_ros2_control_demos
+[0.500s] -- The C compiler identification is GNU 13.3.0
+[0.553s] -- The CXX compiler identification is GNU 13.3.0
+[0.571s] -- Detecting C compiler ABI info
+[0.656s] -- Detecting C compiler ABI info - done
+[0.666s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.666s] -- Detecting C compile features
+[0.667s] -- Detecting C compile features - done
+[0.675s] -- Detecting CXX compiler ABI info
+[0.780s] -- Detecting CXX compiler ABI info - done
+[0.788s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.789s] -- Detecting CXX compile features
+[0.789s] -- Detecting CXX compile features - done
+[0.793s] -- Found ros2_control_cmake: 0.4.0 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.793s] -- Compiler warnings enabled for GNU
+[0.794s] -- Performing Test COMPILER_SUPPORTS_CXX20
+[1.305s] -- Performing Test COMPILER_SUPPORTS_CXX20 - Success
+[1.305s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[1.404s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[1.404s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[1.411s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.583s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.643s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.691s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.740s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.755s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.773s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.792s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.835s] -- Found gz_sim_vendor: 0.0.13 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)
+[1.895s] -- Looking for gz-sim8 -- found version 8.15.0
+[1.901s] -- Searching for dependencies of gz-sim8
+[1.903s] -- Looking for sdformat14 -- found version 14.9.0
+[1.903s] -- Searching for dependencies of sdformat14
+[1.908s] -- Checking for module 'tinyxml2'
+[1.925s] --   Found tinyxml2, version 10.0.0
+[1.959s] -- Looking for gz-math7 -- found version 7.7.0
+[1.959s] -- Searching for dependencies of gz-math7
+[1.961s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.962s] -- Searching for dependencies of gz-utils2
+[1.963s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.963s] -- Searching for dependencies of gz-utils2
+[1.963s] -- Searching for <gz-utils2> component [cli]
+[1.965s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[1.965s] -- Searching for dependencies of gz-utils2-cli
+[1.968s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.968s] -- Searching for dependencies of gz-plugin2
+[1.968s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.968s] -- Searching for <gz-plugin2> component [loader]
+[1.971s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[1.971s] -- Searching for dependencies of gz-plugin2-loader
+[1.971s] -- Searching for <gz-plugin2> component [register]
+[1.973s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[1.973s] -- Searching for dependencies of gz-plugin2-register
+[1.975s] -- Looking for gz-transport13 -- found version 13.6.0
+[1.976s] -- Searching for dependencies of gz-transport13
+[2.097s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[2.112s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.118s] -- Checking for module 'libzmq >= 4'
+[2.137s] --   Found libzmq, version 4.3.5
+[2.177s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.184s] -- Checking for module 'uuid'
+[2.201s] --   Found uuid, version 2.39.3
+[2.233s] -- Found UUID: TRUE  
+[2.233s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.238s] -- Looking for gz-msgs10 -- found version 10.4.0
+[2.238s] -- Searching for dependencies of gz-msgs10
+[2.261s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.261s] -- Looking for gz-math7 -- found version 7.7.0
+[2.269s] -- Searching for <gz-transport13> component [log]
+[2.274s] -- Looking for gz-transport13-log -- found version 13.6.0
+[2.274s] -- Searching for dependencies of gz-transport13-log
+[2.274s] -- Searching for <gz-transport13> component [parameters]
+[2.279s] -- Looking for gz-transport13-parameters -- found version 13.6.0
+[2.279s] -- Searching for dependencies of gz-transport13-parameters
+[2.280s] -- Looking for gz-msgs10 -- found version 10.4.0
+[2.285s] -- Looking for gz-common5 -- found version 5.9.0
+[2.285s] -- Searching for dependencies of gz-common5
+[2.286s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.286s] -- Looking for dlfcn.h - found
+[2.289s] -- Looking for libdl - found
+[2.291s] -- Found DL: TRUE  
+[2.298s] -- Searching for <gz-common5> component [av]
+[2.303s] -- Looking for gz-common5-av -- found version 5.9.0
+[2.303s] -- Searching for dependencies of gz-common5-av
+[2.309s] -- Checking for module 'libswscale'
+[2.329s] --   Found libswscale, version 7.5.100
+[2.365s] -- Found SWSCALE: TRUE  
+[2.371s] -- Checking for module 'libavdevice >= 56.4.100'
+[2.389s] --   Found libavdevice, version 60.3.100
+[2.437s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[2.443s] -- Checking for module 'libavformat'
+[2.462s] --   Found libavformat, version 60.16.100
+[2.500s] -- Found AVFORMAT: TRUE  
+[2.506s] -- Checking for module 'libavcodec'
+[2.525s] --   Found libavcodec, version 60.31.102
+[2.563s] -- Found AVCODEC: TRUE  
+[2.569s] -- Checking for module 'libavutil'
+[2.587s] --   Found libavutil, version 58.29.100
+[2.622s] -- Found AVUTIL: TRUE  
+[2.623s] -- Searching for <gz-common5> component [events]
+[2.627s] -- Looking for gz-common5-events -- found version 5.9.0
+[2.628s] -- Searching for dependencies of gz-common5-events
+[2.628s] -- Looking for gz-math7 -- found version 7.7.0
+[2.628s] -- Searching for <gz-common5> component [graphics]
+[2.631s] -- Looking for gz-common5-graphics -- found version 5.9.0
+[2.631s] -- Searching for dependencies of gz-common5-graphics
+[2.631s] -- Looking for gz-math7 -- found version 7.7.0
+[2.636s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[2.637s] -- Searching for <gz-common5> component [io]
+[2.639s] -- Looking for gz-common5-io -- found version 5.9.0
+[2.639s] -- Searching for dependencies of gz-common5-io
+[2.639s] -- Searching for <gz-common5> component [profiler]
+[2.642s] -- Looking for gz-common5-profiler -- found version 5.9.0
+[2.642s] -- Searching for dependencies of gz-common5-profiler
+[2.644s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[2.644s] -- Searching for dependencies of gz-fuel_tools9
+[2.754s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[2.771s] -- Checking for module 'jsoncpp'
+[2.791s] --   Found jsoncpp, version 1.9.5
+[2.825s] -- Found JSONCPP: TRUE  
+[2.844s] -- Checking for module 'yaml-0.1'
+[2.863s] --   Found yaml-0.1, version 0.2.5
+[2.897s] -- Found YAML: TRUE  
+[2.903s] -- Checking for module 'libzip'
+[2.922s] --   Found libzip, version 1.7.3
+[2.956s] -- Found ZIP: TRUE  
+[2.956s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.957s] -- Looking for gz-common5 -- found version 5.9.0
+[2.957s] -- Searching for dependencies of gz-common5
+[2.958s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.958s] -- Looking for dlfcn.h - found
+[2.958s] -- Looking for libdl - found
+[2.967s] -- Searching for <gz-common5> component [testing]
+[2.970s] -- Looking for gz-common5-testing -- found version 5.9.0
+[2.970s] -- Searching for dependencies of gz-common5-testing
+[2.970s] -- Looking for gz-math7 -- found version 7.7.0
+[2.971s] -- Looking for gz-msgs10 -- found version 10.4.0
+[2.973s] -- Looking for gz-gui8 -- found version 8.4.0
+[2.974s] -- Searching for dependencies of gz-gui8
+[2.997s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.998s] -- Looking for gz-math7 -- found version 7.7.0
+[2.998s] -- Looking for gz-common5 -- found version 5.9.0
+[2.999s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.999s] -- Looking for gz-transport13 -- found version 13.6.0
+[3.004s] -- Looking for gz-rendering8 -- found version 8.2.3
+[3.004s] -- Searching for dependencies of gz-rendering8
+[3.004s] -- Looking for gz-math7 -- found version 7.7.0
+[3.004s] -- Searching for dependencies of gz-math7
+[3.005s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.005s] -- Searching for <gz-math7> component [eigen3]
+[3.009s] -- Looking for gz-math7-eigen3 -- found version 7.7.0
+[3.009s] -- Searching for dependencies of gz-math7-eigen3
+[3.017s] -- Looking for gz-common5 -- found version 5.9.0
+[3.017s] -- Searching for dependencies of gz-common5
+[3.017s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.017s] -- Looking for dlfcn.h - found
+[3.017s] -- Looking for libdl - found
+[3.026s] -- Searching for <gz-common5> component [graphics]
+[3.026s] -- Searching for <gz-common5> component [events]
+[3.026s] -- Searching for <gz-common5> component [geospatial]
+[3.029s] -- Looking for gz-common5-geospatial -- found version 5.9.0
+[3.029s] -- Searching for dependencies of gz-common5-geospatial
+[3.029s] -- Looking for gz-math7 -- found version 7.7.0
+[3.030s] -- Looking for gz-common5 -- found version 5.9.0
+[3.031s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.031s] -- Searching for dependencies of gz-plugin2
+[3.031s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.031s] -- Searching for <gz-plugin2> component [all]
+[3.033s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[3.034s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.034s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.047s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[3.048s] -- Looking for gz-msgs10 -- found version 10.4.0
+[3.074s] -- Looking for gz-physics7 -- found version 7.8.0
+[3.074s] -- Searching for dependencies of gz-physics7
+[3.074s] -- Looking for gz-common5 -- found version 5.9.0
+[3.075s] -- Looking for gz-math7 -- found version 7.7.0
+[3.075s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.075s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.076s] -- Searching for <gz-physics7> component [heightmap]
+[3.078s] -- Looking for gz-physics7-heightmap -- found version 7.8.0
+[3.078s] -- Searching for dependencies of gz-physics7-heightmap
+[3.078s] -- Looking for gz-common5 -- found version 5.9.0
+[3.079s] -- Searching for <gz-physics7> component [mesh]
+[3.081s] -- Looking for gz-physics7-mesh -- found version 7.8.0
+[3.081s] -- Searching for dependencies of gz-physics7-mesh
+[3.081s] -- Looking for gz-common5 -- found version 5.9.0
+[3.081s] -- Searching for <gz-physics7> component [sdf]
+[3.083s] -- Looking for gz-physics7-sdf -- found version 7.8.0
+[3.083s] -- Searching for dependencies of gz-physics7-sdf
+[3.084s] -- Looking for sdformat14 -- found version 14.9.0
+[3.086s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.086s] -- Searching for dependencies of gz-sensors8
+[3.104s] -- Looking for gz-math7 -- found version 7.7.0
+[3.104s] -- Looking for gz-common5 -- found version 5.9.0
+[3.105s] -- Looking for gz-transport13 -- found version 13.6.0
+[3.105s] -- Looking for gz-rendering8 -- found version 8.2.3
+[3.106s] -- Looking for gz-msgs10 -- found version 10.4.0
+[3.106s] -- Looking for sdformat14 -- found version 14.9.0
+[3.107s] -- Searching for <gz-sensors8> component [air_pressure]
+[3.109s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[3.109s] -- Searching for dependencies of gz-sensors8-air_pressure
+[3.110s] -- Searching for <gz-sensors8> component [air_speed]
+[3.112s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[3.112s] -- Searching for dependencies of gz-sensors8-air_speed
+[3.112s] -- Searching for <gz-sensors8> component [altimeter]
+[3.114s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[3.114s] -- Searching for dependencies of gz-sensors8-altimeter
+[3.115s] -- Searching for <gz-sensors8> component [imu]
+[3.116s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[3.117s] -- Searching for dependencies of gz-sensors8-imu
+[3.117s] -- Searching for <gz-sensors8> component [force_torque]
+[3.119s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[3.119s] -- Searching for dependencies of gz-sensors8-force_torque
+[3.119s] -- Searching for <gz-sensors8> component [logical_camera]
+[3.121s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[3.121s] -- Searching for dependencies of gz-sensors8-logical_camera
+[3.121s] -- Searching for <gz-sensors8> component [magnetometer]
+[3.123s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[3.123s] -- Searching for dependencies of gz-sensors8-magnetometer
+[3.124s] -- Searching for <gz-sensors8> component [navsat]
+[3.126s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[3.126s] -- Searching for dependencies of gz-sensors8-navsat
+[3.126s] -- Searching for <gz-sensors8> component [dvl]
+[3.128s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[3.128s] -- Searching for dependencies of gz-sensors8-dvl
+[3.128s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.128s] -- Searching for dependencies of gz-sensors8
+[3.147s] -- Looking for gz-math7 -- found version 7.7.0
+[3.147s] -- Looking for gz-common5 -- found version 5.9.0
+[3.148s] -- Looking for gz-transport13 -- found version 13.6.0
+[3.148s] -- Looking for gz-rendering8 -- found version 8.2.3
+[3.148s] -- Looking for gz-msgs10 -- found version 10.4.0
+[3.149s] -- Looking for sdformat14 -- found version 14.9.0
+[3.149s] -- Searching for <gz-sensors8> component [rendering]
+[3.153s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[3.154s] -- Searching for dependencies of gz-sensors8-rendering
+[3.155s] -- Searching for <gz-sensors8> component [rendering]
+[3.155s] -- Searching for <gz-sensors8> component [lidar]
+[3.159s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[3.159s] -- Searching for dependencies of gz-sensors8-lidar
+[3.160s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.161s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[3.165s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[3.165s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[3.165s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.166s] -- Searching for <gz-sensors8> component [camera]
+[3.170s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[3.170s] -- Searching for dependencies of gz-sensors8-camera
+[3.170s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.171s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[3.175s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[3.175s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[3.176s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[3.179s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[3.180s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[3.180s] -- Searching for <gz-sensors8> component [depth_camera]
+[3.184s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[3.184s] -- Searching for dependencies of gz-sensors8-depth_camera
+[3.185s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.185s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[3.189s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[3.189s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[3.190s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.190s] -- Searching for <gz-sensors8> component [thermal_camera]
+[3.192s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[3.192s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[3.193s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.193s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[3.195s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[3.195s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[3.196s] -- Looking for gz-rendering8 -- found version 8.2.3
+[3.196s] -- Looking for gz-math7 -- found version 7.7.0
+[3.196s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.223s] -- Found pluginlib: 5.4.6 (/opt/ros/jazzy/share/pluginlib/cmake)
+[3.253s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[3.257s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.328s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.333s] -- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[3.384s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.470s] -- Found rclcpp_action: 28.1.22 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[3.538s] -- Found rclcpp_lifecycle: 28.1.22 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[3.585s] -- Found control_msgs: 5.10.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[3.695s] -- Found control_toolbox: 4.11.1 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[3.724s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[3.724s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[3.724s]   Lyrical Luth.
+[3.724s] 
+[3.724s]         Use tl/expected.hpp from libexpected-dev,
+[3.724s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[3.724s] Call Stack (most recent call first):
+[3.724s]   /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.725s]   /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[3.725s]   /opt/ros/jazzy/share/control_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.725s]   /opt/ros/jazzy/share/control_toolbox/cmake/control_toolboxConfig.cmake:41 (include)
+[3.725s]   CMakeLists.txt:23 (find_package)
+[3.725s] 
+[3.725s] [0m
+[3.789s] -- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.790s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.790s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.882s] -- Found gz_ros2_control: 1.2.20 (/home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake)
+[4.176s] -- Configuring done (4.1s)
+[4.250s] -- Generating done (0.1s)
+[4.255s] [33mCMake Warning:
+[4.255s]   Manually-specified variables were not used by the project:
+[4.256s] 
+[4.256s]     BUILD_TESTS
+[4.256s] 
+[4.256s] [0m
+[4.268s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/gz_ros2_control_demos
+[4.283s] Invoked command in '/home/nick/franka_ros2_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control/lib:/home/nick/franka_ros2_ws/install/controller_manager/lib:/home/nick/franka_ros2_ws/install/hardware_interface_testing/lib:/home/nick/franka_ros2_ws/install/controller_interface/lib:/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nick/franka_ros2_ws/build/ros2controlcli:/home/nick/franka_ros2_ws/install/ros2controlcli/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control_demos -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/gz_ros2_control_demos
+[4.284s] Invoking command in '/home/nick/franka_ros2_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control/lib:/home/nick/franka_ros2_ws/install/controller_manager/lib:/home/nick/franka_ros2_ws/install/hardware_interface_testing/lib:/home/nick/franka_ros2_ws/install/controller_interface/lib:/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nick/franka_ros2_ws/build/ros2controlcli:/home/nick/franka_ros2_ws/install/ros2controlcli/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/gz_ros2_control_demos -- -j20 -l20
+[4.355s] [  6%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_position.cpp.o[0m
+[4.357s] [ 12%] [32mBuilding CXX object CMakeFiles/example_ackermann_drive.dir/examples/example_ackermann_drive.cpp.o[0m
+[4.357s] [ 18%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_position.cpp.o[0m
+[4.358s] [ 25%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[4.358s] [ 31%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[4.358s] [ 37%] [32mBuilding CXX object CMakeFiles/gz_custom_hardware_plugins.dir/src/gz_custom_system.cpp.o[0m
+[4.359s] [ 43%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[4.361s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[9.497s] [ 56%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[9.523s] [ 62%] [32m[1mLinking CXX executable example_diff_drive[0m
+[9.607s] [ 62%] Built target example_tricycle_drive
+[9.698s] [ 62%] Built target example_diff_drive
+[10.892s] [ 68%] [32m[1mLinking CXX executable example_position[0m
+[11.088s] [ 68%] Built target example_position
+[11.773s] [ 75%] [32m[1mLinking CXX executable example_gripper[0m
+[11.926s] [ 75%] Built target example_gripper
+[12.192s] [ 81%] [32m[1mLinking CXX executable example_velocity[0m
+[12.317s] [ 81%] Built target example_velocity
+[13.023s] [ 87%] [32m[1mLinking CXX executable example_ackermann_drive[0m
+[13.048s] [ 93%] [32m[1mLinking CXX executable example_effort[0m
+[13.119s] [ 93%] Built target example_ackermann_drive
+[13.192s] [ 93%] Built target example_effort
+[13.852s] [100%] [32m[1mLinking CXX shared library libgz_custom_hardware_plugins.so[0m
+[14.283s] [100%] Built target gz_custom_hardware_plugins
+[14.927s] Invoked command in '/home/nick/franka_ros2_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control/lib:/home/nick/franka_ros2_ws/install/controller_manager/lib:/home/nick/franka_ros2_ws/install/hardware_interface_testing/lib:/home/nick/franka_ros2_ws/install/controller_interface/lib:/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nick/franka_ros2_ws/build/ros2controlcli:/home/nick/franka_ros2_ws/install/ros2controlcli/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/gz_ros2_control_demos -- -j20 -l20
+[14.929s] Invoking command in '/home/nick/franka_ros2_ws/build/gz_ros2_control_demos': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control/lib:/home/nick/franka_ros2_ws/install/controller_manager/lib:/home/nick/franka_ros2_ws/install/hardware_interface_testing/lib:/home/nick/franka_ros2_ws/install/controller_interface/lib:/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nick/franka_ros2_ws/build/ros2controlcli:/home/nick/franka_ros2_ws/install/ros2controlcli/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/gz_ros2_control_demos
+[14.937s] -- Install configuration: "Release"
+[14.938s] -- Execute custom install script
+[14.938s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/ackermann_drive_example.launch.py
+[14.948s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_effort.launch.py
+[14.960s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_ft_sensor.launch.py
+[14.971s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_position.launch.py
+[14.979s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity.launch.py
+[14.986s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/cart_example_velocity_custom_plugin.launch.py
+[14.997s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example.launch.py
+[15.007s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/diff_drive_example_namespaced.launch.py
+[15.018s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.py
+[15.026s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_effort.launch.xml
+[15.035s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.py
+[15.044s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/gripper_mimic_joint_example_position.launch.xml
+[15.054s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/mecanum_drive_example.launch.py
+[15.064s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[15.071s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/pendulum_example_position.launch.py
+[15.082s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[15.094s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/ackermann_drive_controller.yaml
+[15.105s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_effort.yaml
+[15.117s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_ft_sensor.yaml
+[15.126s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_position.yaml
+[15.138s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/cart_controller_velocity.yaml
+[15.150s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/diff_drive_controller.yaml
+[15.161s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_effort.yaml
+[15.173s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/gripper_controller_position.yaml
+[15.185s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/mecanum_drive_controller.yaml
+[15.196s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//config/tricycle_drive_controller.yaml
+[15.208s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf/test_ackermann_drive.xacro.sdf
+[15.220s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//sdf/test_diff_drive.xacro.sdf
+[15.232s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_ackermann_drive.xacro.urdf
+[15.244s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[15.253s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_ft_sensor.xacro.urdf
+[15.264s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[15.271s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[15.283s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_cart_velocity_custom_plugin.xacro.urdf
+[15.301s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[15.313s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_effort.xacro.urdf
+[15.320s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_gripper_mimic_joint_position.xacro.urdf
+[15.332s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_mecanum_drive.xacro.urdf
+[15.343s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[15.354s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[15.366s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[15.376s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//worlds/empty_ft_sensor.sdf
+[15.389s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_position
+[15.397s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_velocity
+[15.407s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_effort
+[15.416s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_diff_drive
+[15.426s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_tricycle_drive
+[15.438s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_ackermann_drive
+[15.447s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/lib/gz_ros2_control_demos/example_gripper
+[15.457s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/library_path.sh
+[15.467s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/library_path.dsv
+[15.477s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos//gz_custom_hardware_plugins.xml
+[15.489s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control_demos
+[15.497s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control_demos
+[15.507s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.sh
+[15.519s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/ament_prefix_path.dsv
+[15.528s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.sh
+[15.539s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/environment/path.dsv
+[15.551s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.bash
+[15.559s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.sh
+[15.571s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.zsh
+[15.579s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/local_setup.dsv
+[15.590s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.dsv
+[15.599s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/packages/gz_ros2_control_demos
+[15.608s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control_demos
+[15.620s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/ament_cmake_export_targets-extras.cmake
+[15.629s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig.cmake
+[15.638s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/gz_ros2_control_demosConfig-version.cmake
+[15.648s] -- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/package.xml
+[15.658s] -- Installing: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/lib/libgz_custom_hardware_plugins.so
+[15.659s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/gz_ros2_control_demos/lib/libgz_custom_hardware_plugins.so" to ""
+[15.659s] -- Installing: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/export_gz_custom_hardware_pluginsExport.cmake
+[15.659s] -- Installing: /home/nick/franka_ros2_ws/install/gz_ros2_control_demos/share/gz_ros2_control_demos/cmake/export_gz_custom_hardware_pluginsExport-release.cmake
+[15.661s] Invoked command in '/home/nick/franka_ros2_ws/build/gz_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control:/home/nick/franka_ros2_ws/install/controller_manager:/home/nick/franka_ros2_ws/install/hardware_interface_testing:/home/nick/franka_ros2_ws/install/controller_interface:/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/franka_ros2_ws/install/controller_manager_msgs:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/gz_ros2_control/lib:/home/nick/franka_ros2_ws/install/controller_manager/lib:/home/nick/franka_ros2_ws/install/hardware_interface_testing/lib:/home/nick/franka_ros2_ws/install/controller_interface/lib:/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nick/franka_ros2_ws/build/ros2controlcli:/home/nick/franka_ros2_ws/install/ros2controlcli/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager/lib/python3.12/site-packages:/home/nick/franka_ros2_ws/install/controller_manager_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/gz_ros2_control_demos

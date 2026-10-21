@@ -1,0 +1,1 @@
+franka_mobile_fr3_duo_moveit_config

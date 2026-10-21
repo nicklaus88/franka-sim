@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nick/franka_ros2_ws/build/franka_gazebo_hardware/libfranka_gz_hardware_plugins.so" "TARGETS" "franka_gz_hardware_plugins" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

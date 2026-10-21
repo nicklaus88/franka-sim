@@ -1,0 +1,118 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.8.4 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found controller_interface: 4.49.0 (/home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found franka_msgs: 3.6.0 (/home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+-- Found franka_semantic_components: 3.6.0 (/home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+-- Found moveit_core: 2.12.4 (/opt/ros/jazzy/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found tcb_span: 1.3.2 (/opt/ros/jazzy/share/tcb_span/cmake)
+-- Found parameter_traits: 0.7.6 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/include (found version "1.83.0") found components: filesystem serialization 
+-- eigenpy FOUND. eigenpy at /opt/ros/jazzy/lib/x86_64-linux-gnu/libeigenpy.so
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.26.4
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development.Module NumPy 
+-- PythonLibraryDirs: 
+-- PythonLibVersionString: 3.12.3
+-- Python site lib: lib/python3.12/site-packages
+-- Python include dirs: /usr/include/python3.12
+-- Checking for NumPy
+--   NUMPY_INCLUDE_DIRS=/usr/lib/python3/dist-packages/numpy/core/include
+--   NUMPY_VERSION=1.26.4
+-- NumPy include dir: /usr/lib/python3/dist-packages/numpy/core/include
+-- Found Boost: /usr/include (found version "1.83.0") found components: python312 
+-- Default C++ standard: 201703
+-- C++ standard sufficient: Minimal required 17, currently defined: 17
+-- coal FOUND. coal at /opt/ros/jazzy/lib/x86_64-linux-gnu/libcoal.so
+-- Found Boost: /usr/include (found version "1.83.0") found components: serialization filesystem 
+-- C++ standard sufficient: Minimal required 17, currently defined: 17
+-- C++ standard sufficient: Minimal required 17, currently defined: 17
+-- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found ament_cmake_clang_format: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_copyright: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_flake8: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+-- Found ament_cmake_gmock: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+-- Found controller_manager: 4.49.0 (/home/nick/franka_ros2_ws/install/controller_manager/share/controller_manager/cmake)
+-- Found ros2_control_test_assets: 4.49.0 (/home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (3.8s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_example_controllers
+[  6%] Built target gmock_main
+[ 16%] Built target gmock
+[ 22%] Built target ptp_motion_example_node
+[ 80%] Built target franka_example_controllers
+[ 83%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_move_to_start_test.dir/test/test_move_to_start_example_controller.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_gravity_test.dir/test/test_gravity_compensation_example.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/franka_example_controllers_load_all_test.dir/test/test_load_all_example_controllers.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable franka_example_controllers_gravity_test[0m
+[ 93%] Built target franka_example_controllers_gravity_test
+[ 96%] [32m[1mLinking CXX executable franka_example_controllers_load_all_test[0m
+[100%] [32m[1mLinking CXX executable franka_example_controllers_move_to_start_test[0m
+[100%] Built target franka_example_controllers_load_all_test
+[100%] Built target franka_example_controllers_move_to_start_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers//franka_example_controllers.xml
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/lib/libfranka_example_controllers.so
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/async_motions/ptp_motion_example_node.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/default_robot_behavior_utils.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_elbow_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_impedance_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_orientation_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_pose_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/cartesian_velocity_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/elbow_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/gravity_compensation_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/gripper_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_impedance_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_impedance_with_ik_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_position_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/joint_velocity_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/model_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3/move_to_start_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/fr3_duo/fr3_duo_joint_impedance_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/mobile_fr3_duo/mobile_fr3_duo_joint_impedance_example_controller.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/motion_generator.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/robot_utils.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/include/franka_example_controllers/visibility_control.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/lib/franka_example_controllers/ptp_motion_example_node
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/library_path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/package_run_dependencies/franka_example_controllers
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/parent_prefix_path/franka_example_controllers
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/environment/path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.bash
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.zsh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/packages/franka_example_controllers
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_example_controllers
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/cmake/franka_example_controllersConfig-version.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_example_controllers/share/franka_example_controllers/package.xml

@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(franka_msgs_IDL_FILES "action/ErrorRecovery.idl;action/Grasp.idl;action/Homing.idl;action/Move.idl;action/PTPMotion.idl;msg/CollisionIndicators.idl;msg/Elbow.idl;msg/Errors.idl;msg/FrankaRobotState.idl;msg/GraspEpsilon.idl;msg/TargetStatus.idl;srv/SetCartesianStiffness.idl;srv/SetTCPFrame.idl;srv/SetForceTorqueCollisionBehavior.idl;srv/SetFullCollisionBehavior.idl;srv/SetJointStiffness.idl;srv/SetStiffnessFrame.idl;srv/SetLoad.idl")
+set(franka_msgs_INTERFACE_FILES "action/ErrorRecovery.action;action/Grasp.action;action/Homing.action;action/Move.action;action/PTPMotion.action;msg/CollisionIndicators.msg;msg/Elbow.msg;msg/Errors.msg;msg/FrankaRobotState.msg;msg/GraspEpsilon.msg;msg/TargetStatus.msg;srv/SetCartesianStiffness.srv;srv/SetTCPFrame.srv;srv/SetForceTorqueCollisionBehavior.srv;srv/SetFullCollisionBehavior.srv;srv/SetJointStiffness.srv;srv/SetStiffnessFrame.srv;srv/SetLoad.srv")

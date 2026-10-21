@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/franka_bringup/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,4 @@
+source;share/franka_mobile/environment/ament_prefix_path.sh
+source;share/franka_mobile/environment/library_path.sh
+source;share/franka_mobile/environment/path.sh
+source;share/franka_mobile/environment/pythonpath.sh

@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/action/PTPMotion_Goal",
+      "fields": [
+        {
+          "name": "goal_joint_configuration",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "maximum_joint_velocities",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "goal_tolerance",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/action/PTPMotion_Goal",
+      "hash_string": "RIHS01_aa5fbbb5e7b4cfff645f180e02d6d8d1fa13a03285f730e432fd06ea18ae63a1"
+    }
+  ]
+}

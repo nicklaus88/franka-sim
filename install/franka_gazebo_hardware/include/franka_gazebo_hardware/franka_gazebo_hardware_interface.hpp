@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp

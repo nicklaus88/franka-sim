@@ -1,0 +1,52 @@
+running develop
+running egg_info
+writing franka_conveyor_sim.egg-info/PKG-INFO
+writing dependency_links to franka_conveyor_sim.egg-info/dependency_links.txt
+writing entry points to franka_conveyor_sim.egg-info/entry_points.txt
+writing top-level names to franka_conveyor_sim.egg-info/top_level.txt
+reading manifest file 'franka_conveyor_sim.egg-info/SOURCES.txt'
+writing manifest file 'franka_conveyor_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka-conveyor-sim.egg-link (link to .)
+Installing box_pose_estimator script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+Installing box_spawner script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+Installing pickup_planner script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+
+Installed /home/nick/franka_ros2_ws/build/franka_conveyor_sim
+running symlink_data
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/resource/franka_conveyor_sim -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/ament_index/resource_index/packages
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/package.xml -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/README.md -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/RESUME.md -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/box/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/box/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/box_pickup/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box_pickup
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/box_pickup/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box_pickup
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/box_slider/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box_slider
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/box_slider/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box_slider
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/conveyor/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/conveyor/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/conveyor_pickup/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor_pickup
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/conveyor_pickup/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor_pickup
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/conveyor_stationary/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor_stationary
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/conveyor_stationary/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor_stationary
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/d435/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/d435
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/d435/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/d435
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/goal_table/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/goal_table
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/models/goal_table/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/goal_table
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/worlds/franka_pickup.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/worlds
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/worlds/conveyor_test.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/worlds
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/config/pickup_camera_bridge.yaml -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/config
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/config/pickup_planning.rviz -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/config
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/config/conveyor.yaml -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/config
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/config/pickup.rviz -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/config
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/launch/franka_conveyor_sim.launch.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/launch/add_conveyor.launch.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/launch/franka_pickup_sim.launch.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/launch/conveyor_test.launch.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/launch/pickup_planning.launch.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/test/results/pickup_plan.json -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/test/results
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/test/results/pickup_validation.json -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/test/results
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/test/results/pickup_rgb.png -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/test/results
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/test/results/pickup_detection.png -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/test/results
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/test/results/pickup_planning_validation.json -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/test/results

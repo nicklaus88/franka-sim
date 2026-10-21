@@ -1,0 +1,10 @@
+/home/nick/franka_ros2_ws/build/franka_spine_examples/CMakeFiles/uninstall.dir
+/home/nick/franka_ros2_ws/build/franka_spine_examples/CMakeFiles/franka_spine_examples_uninstall.dir
+/home/nick/franka_ros2_ws/build/franka_spine_examples/CMakeFiles/spine_client_example_cpp.dir
+/home/nick/franka_ros2_ws/build/franka_spine_examples/CMakeFiles/test.dir
+/home/nick/franka_ros2_ws/build/franka_spine_examples/CMakeFiles/edit_cache.dir
+/home/nick/franka_ros2_ws/build/franka_spine_examples/CMakeFiles/rebuild_cache.dir
+/home/nick/franka_ros2_ws/build/franka_spine_examples/CMakeFiles/list_install_components.dir
+/home/nick/franka_ros2_ws/build/franka_spine_examples/CMakeFiles/install.dir
+/home/nick/franka_ros2_ws/build/franka_spine_examples/CMakeFiles/install/local.dir
+/home/nick/franka_ros2_ws/build/franka_spine_examples/CMakeFiles/install/strip.dir

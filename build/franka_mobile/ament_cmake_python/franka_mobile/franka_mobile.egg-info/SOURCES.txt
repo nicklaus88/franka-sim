@@ -1,0 +1,9 @@
+setup.py
+franka_mobile/__init__.py
+franka_mobile/battery_api_client.py
+franka_mobile/battery_controller.py
+franka_mobile/battery_server.py
+franka_mobile.egg-info/PKG-INFO
+franka_mobile.egg-info/SOURCES.txt
+franka_mobile.egg-info/dependency_links.txt
+franka_mobile.egg-info/top_level.txt

@@ -1,0 +1,62 @@
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+  Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+  Lyrical Luth.
+
+        Use tl/expected.hpp from libexpected-dev,
+        or rcpputils/tl_expected/expected.hpp if the system header is not available)
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+  /home/nick/franka_ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nick/franka_ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake:41 (include)
+  /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake:41 (include)
+  CMakeLists.txt:19 (find_package)
+
+[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTS
+
+[0m
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp:24[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:28[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/install/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp:17[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn franka_gazebo_hardware::FrankaGazeboHardwareInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:333:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  333 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(system_info)[m[K != CallbackReturn::SUCCESS) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/system_interface.hpp:18[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp:27[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/include/franka_gazebo_hardware/franka_gazebo_hardware_interface.hpp:26[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+      |                          [01;36m[K^~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:339:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  339 |   return [01;35m[Kwrapped_system_->on_init(system_info)[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+      |                          [01;36m[K^~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> franka_gazebo_hardware::FrankaGazeboHardwareInterface::[01;32m[Kexport_state_interfaces[m[K()[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:359:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> hardware_interface::HardwareComponentInterface::[01;32m[Kexport_state_interfaces[m[K()[m[K’ is deprecated: Replaced by vector<StateInterface::ConstSharedPtr> on_export_state_interfaces() method. Exporting is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  359 |   auto state_interfaces = [01;35m[Kwrapped_system_->export_state_interfaces()[m[K;
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:177:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  177 |   [01;36m[Kexport_state_interfaces[m[K();
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> franka_gazebo_hardware::FrankaGazeboHardwareInterface::[01;32m[Kexport_command_interfaces[m[K()[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_gazebo/franka_gazebo_hardware/src/franka_gazebo_hardware_interface.cpp:403:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> hardware_interface::HardwareComponentInterface::[01;32m[Kexport_command_interfaces[m[K()[m[K’ is deprecated: Replaced by vector<CommandInterface::SharedPtr> on_export_command_interfaces() method. Exporting is handled by the Framework. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  403 |   return [01;35m[Kwrapped_system_->export_command_interfaces()[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:212:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  212 |   [01;36m[Kexport_command_interfaces[m[K();
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K

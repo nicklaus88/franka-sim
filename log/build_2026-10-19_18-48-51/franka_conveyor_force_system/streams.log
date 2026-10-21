@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/nick/franka_ros2_ws/build/franka_conveyor_force_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/franka_conveyor_force_system -- -j20 -l20
+[0.090s] [ 50%] Building CXX object CMakeFiles/franka_conveyor_force_system.dir/src/ConveyorForce.cc.o
+[2.713s] [100%] Linking CXX shared library libfranka_conveyor_force_system.so
+[2.879s] [100%] Built target franka_conveyor_force_system
+[2.889s] Invoked command in '/home/nick/franka_ros2_ws/build/franka_conveyor_force_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/franka_conveyor_force_system -- -j20 -l20
+[2.900s] Invoking command in '/home/nick/franka_ros2_ws/build/franka_conveyor_force_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/franka_conveyor_force_system
+[2.907s] -- Install configuration: ""
+[2.907s] -- Execute custom install script
+[2.907s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/lib/libfranka_conveyor_force_system.so
+[2.908s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/conveyor_force.dsv
+[2.908s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/ament_index/resource_index/package_run_dependencies/franka_conveyor_force_system
+[2.908s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/ament_index/resource_index/parent_prefix_path/franka_conveyor_force_system
+[2.908s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/ament_prefix_path.sh
+[2.908s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/ament_prefix_path.dsv
+[2.908s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/path.sh
+[2.908s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/path.dsv
+[2.908s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.bash
+[2.909s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.sh
+[2.909s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.zsh
+[2.909s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.dsv
+[2.909s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/package.dsv
+[2.919s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/ament_index/resource_index/packages/franka_conveyor_force_system
+[2.919s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/cmake/franka_conveyor_force_systemConfig.cmake
+[2.919s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/cmake/franka_conveyor_force_systemConfig-version.cmake
+[2.919s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/package.xml
+[2.920s] Invoked command in '/home/nick/franka_ros2_ws/build/franka_conveyor_force_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/franka_conveyor_force_system

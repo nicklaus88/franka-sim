@@ -1,0 +1,11 @@
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/uninstall.dir
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/franka_desk_api_uninstall.dir
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/ament_cmake_python_symlink_franka_desk_api.dir
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/ament_cmake_python_build_franka_desk_api_egg.dir
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/test.dir
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/edit_cache.dir
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/rebuild_cache.dir
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/list_install_components.dir
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/install.dir
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/install/local.dir
+/home/nick/franka_ros2_ws/build/franka_desk_api/CMakeFiles/install/strip.dir

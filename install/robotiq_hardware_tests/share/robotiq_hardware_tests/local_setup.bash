@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/robotiq_hardware_tests/ament_cmake_environment_hooks/local_setup.bash

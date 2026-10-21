@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from franka_spine_msgs/msg/SpinePosition.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module franka_spine_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Periodic spine position sample published on ~/position." "\n"
+      "Subscribe to this instead of polling the GetPosition service in a loop.")
+    struct SpinePosition {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Last known position")
+      @unit (value="m")
+      double position;
+
+      @verbatim (language="comment", text=
+        "False when the sample is stale because the REST read failed")
+      boolean valid;
+    };
+  };
+};

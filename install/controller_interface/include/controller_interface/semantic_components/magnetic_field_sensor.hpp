@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/include/semantic_components/magnetic_field_sensor.hpp

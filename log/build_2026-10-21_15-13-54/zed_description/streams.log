@@ -1,0 +1,51 @@
+[0.117s] Invoking command in '/home/nick/franka_ros2_ws/build/zed_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/zed_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/zed_description
+[0.156s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.740s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.757s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.761s] -- Added test 'lint_cmake' to check CMake code style
+[0.763s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.767s] -- Added test 'xmllint' to check XML markup files
+[0.770s] -- Configuring done (0.6s)
+[0.781s] -- Generating done (0.0s)
+[0.785s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/zed_description
+[0.791s] Invoked command in '/home/nick/franka_ros2_ws/build/zed_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/zed_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/zed_description
+[0.794s] Invoking command in '/home/nick/franka_ros2_ws/build/zed_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/zed_description -- -j20 -l20
+[0.894s] Invoked command in '/home/nick/franka_ros2_ws/build/zed_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/zed_description -- -j20 -l20
+[0.897s] Invoking command in '/home/nick/franka_ros2_ws/build/zed_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/zed_description
+[0.909s] -- Install configuration: "Release"
+[0.910s] -- Execute custom install script
+[0.910s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/urdf/include/materials.urdf.xacro
+[0.910s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/urdf/zed_descr.urdf.xacro
+[0.910s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/urdf/zed_macro.urdf.xacro
+[0.910s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/virtual.stl
+[0.910s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zed.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zed2.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zed2i.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zedm.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zedx.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zedxhdr.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zedxhdrmax.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zedxhdrmini.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zedxm.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zedxone4k.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zedxonegs.stl
+[0.911s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/meshes/zedxonehdr.stl
+[0.912s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/rviz2/zed_description.rviz
+[0.912s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/launch/zed_viz.launch.py
+[0.912s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/ament_index/resource_index/package_run_dependencies/zed_description
+[0.912s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/ament_index/resource_index/parent_prefix_path/zed_description
+[0.912s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/environment/ament_prefix_path.sh
+[0.912s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/environment/ament_prefix_path.dsv
+[0.912s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/environment/path.sh
+[0.913s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/environment/path.dsv
+[0.913s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/local_setup.bash
+[0.913s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/local_setup.sh
+[0.913s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/local_setup.zsh
+[0.913s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/local_setup.dsv
+[0.914s] -- Symlinking: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/package.dsv
+[0.933s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/ament_index/resource_index/packages/zed_description
+[0.934s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/cmake/zed_descriptionConfig.cmake
+[0.934s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/cmake/zed_descriptionConfig-version.cmake
+[0.935s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/zed_description/share/zed_description/package.xml
+[0.937s] Invoked command in '/home/nick/franka_ros2_ws/build/zed_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/zed_description

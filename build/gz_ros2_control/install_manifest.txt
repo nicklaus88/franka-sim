@@ -1,0 +1,6 @@
+/home/nick/franka_ros2_ws/install/gz_ros2_control/lib/libgz_ros2_control-system.so
+/home/nick/franka_ros2_ws/install/gz_ros2_control/lib/libgz_hardware_plugins.so
+/home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/export_gz_ros2_control.cmake
+/home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/export_gz_ros2_control-release.cmake
+/home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/export_gz_ros2_controlExport.cmake
+/home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/export_gz_ros2_controlExport-release.cmake

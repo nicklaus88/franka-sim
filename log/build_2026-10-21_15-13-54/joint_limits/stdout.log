@@ -1,0 +1,81 @@
+-- Found ros2_control_cmake: 0.4.0 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+-- Compiler warnings enabled for GNU
+-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found pluginlib: 5.4.6 (/opt/ros/jazzy/share/pluginlib/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found realtime_tools: 3.10.1 (/home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.22 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found trajectory_msgs: 5.3.8 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+-- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+-- Found ament_cmake_gmock: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+-- Found generate_parameter_library: 0.7.6 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+-- Found tcb_span: 1.3.2 (/opt/ros/jazzy/share/tcb_span/cmake)
+-- Found parameter_traits: 0.7.6 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found launch_testing_ament_cmake: 3.4.12 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (1.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/joint_limits
+[  8%] Built target gmock_main
+[ 12%] Built target ament_generate_version_header__joint_limits
+[ 25%] Built target gmock
+[ 33%] Built target joint_limiter_interface
+[ 41%] Built target joint_limits_urdf_test
+[ 50%] Built target joint_limits_helpers
+[ 58%] Built target joint_limits_rosparam_test
+[ 66%] Built target test_joint_saturation_limiter
+[ 75%] Built target test_joint_range_limiter
+[ 83%] Built target test_joint_soft_limiter
+[100%] Built target joint_saturation_limiter
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits//joint_limiters.xml
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/test/joint_saturation_limiter_param.yaml
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/data_structures.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limiter_interface.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_helpers.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_rosparam.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_limits_urdf.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_saturation_limiter.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/joint_soft_limiter.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/library_path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/library_path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/local_setup.bash
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/local_setup.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/package.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/ament_index/resource_index/joint_limits__pluginlib__plugin/joint_limits
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/package.xml
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/joint_limits/include/joint_limits/joint_limits/version.h
+-- Up-to-date: /home/nick/franka_ros2_ws/install/joint_limits/lib/libjoint_limiter_interface.so
+-- Up-to-date: /home/nick/franka_ros2_ws/install/joint_limits/lib/libjoint_saturation_limiter.so
+-- Up-to-date: /home/nick/franka_ros2_ws/install/joint_limits/lib/libjoint_limits_helpers.so
+-- Up-to-date: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport-release.cmake

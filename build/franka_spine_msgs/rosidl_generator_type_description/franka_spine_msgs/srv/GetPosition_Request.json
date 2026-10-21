@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_spine_msgs/srv/GetPosition_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_spine_msgs/srv/GetPosition_Request",
+      "hash_string": "RIHS01_8c83e808446c11ad46e53d04bc331f4c6f8fcc2cc16ed413483e8ef877b2ed5c"
+    }
+  ]
+}

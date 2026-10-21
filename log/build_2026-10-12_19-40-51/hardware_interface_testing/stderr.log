@@ -1,0 +1,20 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTS
+
+[0m
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface_testing/test/test_components/test_actuator.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type TestActuator::[01;32m[Kprepare_command_mode_switch[m[K(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface_testing/test/test_components/test_actuator.cpp:166:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart_interfaces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  166 |     [01;35m[Kconst std::vector<std::string> & start_interfaces[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface_testing/test/test_components/test_actuator.cpp:167:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstop_interfaces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  167 |     [01;35m[Kconst std::vector<std::string> & stop_interfaces[m[K) override
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface_testing/test/test_components/test_actuator.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type TestActuator::[01;32m[Kperform_command_mode_switch[m[K(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface_testing/test/test_components/test_actuator.cpp:175:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart_interfaces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  175 |     [01;35m[Kconst std::vector<std::string> & start_interfaces[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface_testing/test/test_components/test_actuator.cpp:176:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstop_interfaces[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  176 |     [01;35m[Kconst std::vector<std::string> & stop_interfaces[m[K) override
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K

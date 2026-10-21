@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_bringup/launch/fr3_duo.launch.py

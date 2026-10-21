@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_pytest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_mobile_fr3_duo_moveit_config
+Built target ament_cmake_python_symlink_franka_mobile_fr3_duo_moveit_config
+running egg_info
+creating franka_mobile_fr3_duo_moveit_config.egg-info
+writing franka_mobile_fr3_duo_moveit_config.egg-info/PKG-INFO
+writing dependency_links to franka_mobile_fr3_duo_moveit_config.egg-info/dependency_links.txt
+writing top-level names to franka_mobile_fr3_duo_moveit_config.egg-info/top_level.txt
+writing manifest file 'franka_mobile_fr3_duo_moveit_config.egg-info/SOURCES.txt'
+reading manifest file 'franka_mobile_fr3_duo_moveit_config.egg-info/SOURCES.txt'
+writing manifest file 'franka_mobile_fr3_duo_moveit_config.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_franka_mobile_fr3_duo_moveit_config_egg
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/environment/pythonpath.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/environment/pythonpath.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config-3.6.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config-3.6.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config-3.6.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config-3.6.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config/__init__.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config/description.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config/parameters.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/test/test_moveit_urdf_expansion.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/ament_index/resource_index/package_run_dependencies/franka_mobile_fr3_duo_moveit_config
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/ament_index/resource_index/parent_prefix_path/franka_mobile_fr3_duo_moveit_config
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/environment/ament_prefix_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/environment/path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/environment/path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/local_setup.bash
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/local_setup.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/local_setup.zsh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/package.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/ament_index/resource_index/packages/franka_mobile_fr3_duo_moveit_config
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/cmake/franka_mobile_fr3_duo_moveit_configConfig.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/cmake/franka_mobile_fr3_duo_moveit_configConfig-version.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/package.xml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/launch/moveit.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/launch/moveit_nodes.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/config/joint_limits.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/config/kinematics.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/config/mobile_fr3_duo_controllers.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/config/moveit.rviz
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/config/moveit_controllers.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/config/moveit_defaults.json
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/share/franka_mobile_fr3_duo_moveit_config/urdf/mobile_fr3_duo_v0_2.moveit.urdf.xacro
+Listing '/home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config/__init__.py'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config/description.py'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_mobile_fr3_duo_moveit_config/lib/python3.12/site-packages/franka_mobile_fr3_duo_moveit_config/parameters.py'...

@@ -1,0 +1,166 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTS
+
+[0m
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/robot.hpp:33[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/franka_param_service_server.hpp:21[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/franka_param_service_server.cpp:15[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/robot.hpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/robot.hpp:33[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/actions_helper/ptp_motion_handler.hpp:22[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/franka_action_server.hpp:23[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/franka_action_server.cpp:15[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/robot.hpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/robot.hpp:33[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/actions_helper/ptp_motion_handler.hpp:22[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/actions_helper/ptp_motion_handler.cpp:15[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/robot.hpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/robot.hpp:33[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/robot.cpp:23[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/robot.hpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/robot.cpp:[m[K In member function ‘[01m[Kvoid franka_hardware::Robot::[01;32m[KwriteOnceJointVelocities[m[K(const std::array<double, 7>&)[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/robot.cpp:185:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::[01;32m[KcomputeUpperLimitsJointVelocity[m[K(const std::array<double, 7>&)[m[K’ is deprecated: Use Robot::getUpperJointVelocityLimits(const std::array<double, 7UL> &joint_positions) instead with system images >= 5.9.0. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  185 |         [01;35m[Kfranka::computeUpperLimitsJointVelocity(current_state_.q_d)[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/robot.cpp:19[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/rate_limiting.h:134:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 | [01;36m[KcomputeUpperLimitsJointVelocity[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/robot.cpp:186:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::[01;32m[KcomputeLowerLimitsJointVelocity[m[K(const std::array<double, 7>&)[m[K’ is deprecated: Use Robot::getlowerJointVelocityLimits(const std::array<double, 7UL> &joint_positions) instead with system images >= 5.9.0. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  186 |         [01;35m[Kfranka::computeLowerLimitsJointVelocity(current_state_.q_d)[m[K, franka::kMaxJointAcceleration,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/rate_limiting.h:171:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  171 | [01;36m[KcomputeLowerLimitsJointVelocity[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/robot.cpp:[m[K In member function ‘[01m[Kvoid franka_hardware::Robot::[01;32m[KwriteOnceJointPositions[m[K(const std::array<double, 7>&)[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/robot.cpp:209:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::[01;32m[KcomputeUpperLimitsJointVelocity[m[K(const std::array<double, 7>&)[m[K’ is deprecated: Use Robot::getUpperJointVelocityLimits(const std::array<double, 7UL> &joint_positions) instead with system images >= 5.9.0. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  209 |         franka::limitRate([01;35m[Kfranka::computeUpperLimitsJointVelocity(current_state_.q_d)[m[K,
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/rate_limiting.h:134:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 | [01;36m[KcomputeUpperLimitsJointVelocity[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/robot.cpp:210:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::[01;32m[KcomputeLowerLimitsJointVelocity[m[K(const std::array<double, 7>&)[m[K’ is deprecated: Use Robot::getlowerJointVelocityLimits(const std::array<double, 7UL> &joint_positions) instead with system images >= 5.9.0. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  210 |                           [01;35m[Kfranka::computeLowerLimitsJointVelocity(current_state_.q_d)[m[K,
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/rate_limiting.h:171:1:[m[K [01;36m[Knote: [m[Kdeclared here
+  171 | [01;36m[KcomputeLowerLimitsJointVelocity[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/robot.hpp:33[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/actions_helper/ptp_motion_handler.hpp:22[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/franka_action_server.hpp:23[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/franka_hardware_interface.hpp:37[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/franka_hardware_interface.cpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/robot.hpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/franka_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn franka_hardware::FrankaHardwareInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/franka_hardware_interface.cpp:386:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  386 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/system_interface.hpp:18[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/src/franka_hardware_interface.cpp:25[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+      |                          [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/robot.hpp:33[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/franka_robot_test.hpp:7[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/franka_robot_test.cpp:1[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/robot.hpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/robot.hpp:33[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/include/franka_hardware_mocks/franka_hardware_robot_mock.hpp:5[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/franka_hardware_cartesian_command_interface_test.hpp:20[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/franka_hardware_cartesian_command_interface_test.cpp:1[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/robot.hpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/robot.hpp:33[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/actions_helper/ptp_motion_handler.hpp:22[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/ptp_motion_test.cpp:6[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/robot.hpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/robot.hpp:33[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/include/franka_hardware_mocks/franka_hardware_robot_mock.hpp:5[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/franka_action_server_test.cpp:8[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/robot.hpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/robot.hpp:33[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/actions_helper/ptp_motion_handler.hpp:22[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/franka_action_server.hpp:23[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/franka_hardware_interface.hpp:37[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/franka_hardware_interface_test.cpp:21[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/../include/franka_hardware/robot.hpp:31[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/franka_hardware_interface_test.cpp:15[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/franka_hardware_interface_test.cpp:[m[K In member function ‘[01m[Kvirtual void FrankaHardwareInterfaceTest_given_that_the_robot_interfaces_are_set_when_call_export_state_interface_robot_model_interface_exists_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/franka_hardware/test/franka_hardware_interface_test.cpp:271:16:[m[K [01;35m[Kwarning: [m[Kdereferencing type-punned pointer will break strict-aliasing rules [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstrict-aliasing-Wstrict-aliasing]8;;[m[K]
+  271 |               *[01;35m[Kreinterpret_cast<double*>(&model_address)[m[K,  // NOLINT
+      |                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

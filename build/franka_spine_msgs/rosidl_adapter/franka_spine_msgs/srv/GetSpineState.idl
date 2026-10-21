@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from franka_spine_msgs/srv/GetSpineState.srv
+// generated code does not contain a copyright notice
+
+
+module franka_spine_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Query the current spine state of the Franka Spine." "\n"
+      "Possible states: NotReadyToSwitchOn, SwitchedOff, ReadyToSwitchOn," "\n"
+      "  MotorOff, SwitchedOn, QuickStopActive, FaultReactionActive, Fault, Unknown.")
+    struct GetSpineState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetSpineState_Response {
+      @verbatim (language="comment", text=
+        "Current spine state")
+      string state;
+
+      @verbatim (language="comment", text=
+        "Error code (empty when no error)")
+      string error_code;
+
+      @verbatim (language="comment", text=
+        "Human-readable error description")
+      string error_description;
+
+      @verbatim (language="comment", text=
+        "True if the REST call succeeded")
+      boolean success;
+    };
+  };
+};

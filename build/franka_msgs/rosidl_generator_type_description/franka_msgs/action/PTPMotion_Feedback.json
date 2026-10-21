@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/action/PTPMotion_Feedback",
+      "fields": [
+        {
+          "name": "target_status",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "franka_msgs/msg/TargetStatus"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "franka_msgs/msg/TargetStatus",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/action/PTPMotion_Feedback",
+      "hash_string": "RIHS01_dc1d38f727aed57e5d8cdc415204611fa61638f946c5453066538a2873bf3d6d"
+    },
+    {
+      "type_name": "franka_msgs/msg/TargetStatus",
+      "hash_string": "RIHS01_7fee694ce8c9efcf798c0c4bb32b7f861ec90f2d954eca624a48b268241d64df"
+    }
+  ]
+}

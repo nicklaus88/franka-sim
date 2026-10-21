@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/franka_conveyor_force_system/ament_cmake_core/franka_conveyor_force_systemConfig-version.cmake

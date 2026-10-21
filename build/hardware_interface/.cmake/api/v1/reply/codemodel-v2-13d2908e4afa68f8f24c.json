@@ -1,0 +1,283 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-eadfe68f3223c6196f30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-Release-4c8667082ed8f149e75b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hardware_interface",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_generate_version_header__hardware_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_generate_version_header__hardware_interface-Release-1478ab97f9fd26b4a47c.json",
+					"name" : "ament_generate_version_header__hardware_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-Release-8bab94a1b3898613ad29.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-Release-97da0075890437244904.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-e70696507e32646dcf95.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-10c8e1e960ff1f811e67.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hardware_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hardware_interface-Release-49efe7509f9f75f4d4cb.json",
+					"name" : "hardware_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hardware_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hardware_interface_uninstall-Release-78b6bbb08168612e01cd.json",
+					"name" : "hardware_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mock_components::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mock_components-Release-100bdf774015e5dbf297.json",
+					"name" : "mock_components",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_component_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_component_interfaces-Release-9553d122adff70074ea1.json",
+					"name" : "test_component_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_component_interfaces_custom_export::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_component_interfaces_custom_export-Release-58cb221488d19b85038a.json",
+					"name" : "test_component_interfaces_custom_export",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_component_parser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_component_parser-Release-585849e68f21fd3cf87d.json",
+					"name" : "test_component_parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_generic_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_generic_system-Release-ade095ea02ba5cb205b1.json",
+					"name" : "test_generic_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_hardware_components::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_hardware_components-Release-7f4e8777d8a18cd44445.json",
+					"name" : "test_hardware_components",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_helpers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_helpers-Release-05f502aab4285ec03e9d.json",
+					"name" : "test_helpers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_inst_hardwares::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_inst_hardwares-Release-c2caafd69f349ed83818.json",
+					"name" : "test_inst_hardwares",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_joint_handle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_joint_handle-Release-8094499681cb56583743.json",
+					"name" : "test_joint_handle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_lexical_casts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_lexical_casts-Release-62af0d42aab9399d5ac5.json",
+					"name" : "test_lexical_casts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_macros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_macros-Release-a31cf00af659cdd140f3.json",
+					"name" : "test_macros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-1e3ca3c333f61a112190.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nick/franka_ros2_ws/build/hardware_interface",
+		"source" : "/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "franka_spine_msgs__rs",
+		"source" : "/home/nick/franka_ros2_ws/build/franka_spine_msgs/franka_spine_msgs__rs"
+	}
+}

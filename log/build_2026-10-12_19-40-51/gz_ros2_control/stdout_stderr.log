@@ -1,0 +1,379 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ros2_control_cmake: 0.4.0 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+-- Compiler warnings enabled for GNU
+-- Performing Test COMPILER_SUPPORTS_CXX20
+-- Performing Test COMPILER_SUPPORTS_CXX20 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX17
+-- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found controller_manager: 4.49.0 (/home/nick/franka_ros2_ws/install/controller_manager/share/controller_manager/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+  Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+  Lyrical Luth.
+
+        Use tl/expected.hpp from libexpected-dev,
+        or rcpputils/tl_expected/expected.hpp if the system header is not available)
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+  /home/nick/franka_ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nick/franka_ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake:41 (include)
+  CMakeLists.txt:15 (find_package)
+
+[0m
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found gz_sim_vendor: 0.0.13 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)
+-- Looking for gz-sim8 -- found version 8.15.0
+-- Searching for dependencies of gz-sim8
+-- Looking for sdformat14 -- found version 14.9.0
+-- Searching for dependencies of sdformat14
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 10.0.0
+-- Looking for gz-math7 -- found version 7.7.0
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for dependencies of gz-utils2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.2.1
+-- Searching for dependencies of gz-utils2-cli
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-plugin2> component [loader]
+-- Looking for gz-plugin2-loader -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2-loader
+-- Searching for <gz-plugin2> component [register]
+-- Looking for gz-plugin2-register -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2-register
+-- Looking for gz-transport13 -- found version 13.6.0
+-- Searching for dependencies of gz-transport13
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq, version 4.3.5
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.39.3
+-- Found UUID: TRUE  
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-msgs10 -- found version 10.4.0
+-- Searching for dependencies of gz-msgs10
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-math7 -- found version 7.7.0
+-- Searching for <gz-transport13> component [log]
+-- Looking for gz-transport13-log -- found version 13.6.0
+-- Searching for dependencies of gz-transport13-log
+-- Searching for <gz-transport13> component [parameters]
+-- Looking for gz-transport13-parameters -- found version 13.6.0
+-- Searching for dependencies of gz-transport13-parameters
+-- Looking for gz-msgs10 -- found version 10.4.0
+-- Looking for gz-common5 -- found version 5.9.0
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <gz-common5> component [av]
+-- Looking for gz-common5-av -- found version 5.9.0
+-- Searching for dependencies of gz-common5-av
+-- Checking for module 'libswscale'
+--   Found libswscale, version 7.5.100
+-- Found SWSCALE: TRUE  
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice, version 60.3.100
+-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+-- Checking for module 'libavformat'
+--   Found libavformat, version 60.16.100
+-- Found AVFORMAT: TRUE  
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 60.31.102
+-- Found AVCODEC: TRUE  
+-- Checking for module 'libavutil'
+--   Found libavutil, version 58.29.100
+-- Found AVUTIL: TRUE  
+-- Searching for <gz-common5> component [events]
+-- Looking for gz-common5-events -- found version 5.9.0
+-- Searching for dependencies of gz-common5-events
+-- Looking for gz-math7 -- found version 7.7.0
+-- Searching for <gz-common5> component [graphics]
+-- Looking for gz-common5-graphics -- found version 5.9.0
+-- Searching for dependencies of gz-common5-graphics
+-- Looking for gz-math7 -- found version 7.7.0
+-- Found GzAssimp: TRUE (found version "5.3.0") 
+-- Searching for <gz-common5> component [io]
+-- Looking for gz-common5-io -- found version 5.9.0
+-- Searching for dependencies of gz-common5-io
+-- Searching for <gz-common5> component [profiler]
+-- Looking for gz-common5-profiler -- found version 5.9.0
+-- Searching for dependencies of gz-common5-profiler
+-- Looking for gz-fuel_tools9 -- found version 9.1.1
+-- Searching for dependencies of gz-fuel_tools9
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Found JSONCPP: TRUE  
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.5
+-- Found YAML: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.7.3
+-- Found ZIP: TRUE  
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-common5 -- found version 5.9.0
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [testing]
+-- Looking for gz-common5-testing -- found version 5.9.0
+-- Searching for dependencies of gz-common5-testing
+-- Looking for gz-math7 -- found version 7.7.0
+-- Looking for gz-msgs10 -- found version 10.4.0
+-- Looking for gz-gui8 -- found version 8.4.0
+-- Searching for dependencies of gz-gui8
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-math7 -- found version 7.7.0
+-- Looking for gz-common5 -- found version 5.9.0
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-transport13 -- found version 13.6.0
+-- Looking for gz-rendering8 -- found version 8.2.3
+-- Searching for dependencies of gz-rendering8
+-- Looking for gz-math7 -- found version 7.7.0
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-math7> component [eigen3]
+-- Looking for gz-math7-eigen3 -- found version 7.7.0
+-- Searching for dependencies of gz-math7-eigen3
+-- Looking for gz-common5 -- found version 5.9.0
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [graphics]
+-- Searching for <gz-common5> component [events]
+-- Searching for <gz-common5> component [geospatial]
+-- Looking for gz-common5-geospatial -- found version 5.9.0
+-- Searching for dependencies of gz-common5-geospatial
+-- Looking for gz-math7 -- found version 7.7.0
+-- Looking for gz-common5 -- found version 5.9.0
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-plugin2> component [all]
+-- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+-- Looking for gz-msgs10 -- found version 10.4.0
+-- Looking for gz-physics7 -- found version 7.8.0
+-- Searching for dependencies of gz-physics7
+-- Looking for gz-common5 -- found version 5.9.0
+-- Looking for gz-math7 -- found version 7.7.0
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-physics7> component [heightmap]
+-- Looking for gz-physics7-heightmap -- found version 7.8.0
+-- Searching for dependencies of gz-physics7-heightmap
+-- Looking for gz-common5 -- found version 5.9.0
+-- Searching for <gz-physics7> component [mesh]
+-- Looking for gz-physics7-mesh -- found version 7.8.0
+-- Searching for dependencies of gz-physics7-mesh
+-- Looking for gz-common5 -- found version 5.9.0
+-- Searching for <gz-physics7> component [sdf]
+-- Looking for gz-physics7-sdf -- found version 7.8.0
+-- Searching for dependencies of gz-physics7-sdf
+-- Looking for sdformat14 -- found version 14.9.0
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8
+-- Looking for gz-math7 -- found version 7.7.0
+-- Looking for gz-common5 -- found version 5.9.0
+-- Looking for gz-transport13 -- found version 13.6.0
+-- Looking for gz-rendering8 -- found version 8.2.3
+-- Looking for gz-msgs10 -- found version 10.4.0
+-- Looking for sdformat14 -- found version 14.9.0
+-- Searching for <gz-sensors8> component [air_pressure]
+-- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-air_pressure
+-- Searching for <gz-sensors8> component [air_speed]
+-- Looking for gz-sensors8-air_speed -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-air_speed
+-- Searching for <gz-sensors8> component [altimeter]
+-- Looking for gz-sensors8-altimeter -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-altimeter
+-- Searching for <gz-sensors8> component [imu]
+-- Looking for gz-sensors8-imu -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-imu
+-- Searching for <gz-sensors8> component [force_torque]
+-- Looking for gz-sensors8-force_torque -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-force_torque
+-- Searching for <gz-sensors8> component [logical_camera]
+-- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-logical_camera
+-- Searching for <gz-sensors8> component [magnetometer]
+-- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-magnetometer
+-- Searching for <gz-sensors8> component [navsat]
+-- Looking for gz-sensors8-navsat -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-navsat
+-- Searching for <gz-sensors8> component [dvl]
+-- Looking for gz-sensors8-dvl -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-dvl
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8
+-- Looking for gz-math7 -- found version 7.7.0
+-- Looking for gz-common5 -- found version 5.9.0
+-- Looking for gz-transport13 -- found version 13.6.0
+-- Looking for gz-rendering8 -- found version 8.2.3
+-- Looking for gz-msgs10 -- found version 10.4.0
+-- Looking for sdformat14 -- found version 14.9.0
+-- Searching for <gz-sensors8> component [rendering]
+-- Looking for gz-sensors8-rendering -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-rendering
+-- Searching for <gz-sensors8> component [rendering]
+-- Searching for <gz-sensors8> component [lidar]
+-- Looking for gz-sensors8-lidar -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-lidar
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [gpu_lidar]
+-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-gpu_lidar
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [camera]
+-- Looking for gz-sensors8-camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [boundingbox_camera]
+-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-boundingbox_camera
+-- Searching for <gz-sensors8> component [segmentation_camera]
+-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-segmentation_camera
+-- Searching for <gz-sensors8> component [depth_camera]
+-- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-depth_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [rgbd_camera]
+-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-rgbd_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [thermal_camera]
+-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-thermal_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [wide_angle_camera]
+-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-wide_angle_camera
+-- Looking for gz-rendering8 -- found version 8.2.3
+-- Looking for gz-math7 -- found version 7.7.0
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Configuring done (3.9s)
+-- Generating done (0.1s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTS
+
+[0m
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/gz_ros2_control
+[ 16%] [32mBuilding CXX object CMakeFiles/gz_hardware_plugins.dir/src/gz_system.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ign_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gz_ros2_control-system.dir/src/gz_ros2_control_plugin.cpp.o[0m
+[01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:[m[K In member function ‘[01m[Kvirtual gz_ros2_control::CallbackReturn gz_ros2_control::GazeboSimSystem::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:600:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  600 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/system_interface.hpp:18[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp:27[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/include/gz_ros2_control/gz_system.hpp:24[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/src/gz_system.cpp:15[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+      |                          [01;36m[K^~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool gz_ros2_control::GZResourceManager::[01;32m[Kload_and_initialize_components[m[K(const std::string&, unsigned int)[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:114:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid hardware_interface::ResourceManager::[01;32m[Kimport_component[m[K(std::unique_ptr<hardware_interface::SystemInterface>, const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use import_component(std::unique_ptr<SystemInterface> system, const HardwareComponentParams & params) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  114 |       [01;35m[Kimport_component(std::move(gzSimSystem), individual_hardware_info)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:46[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:33[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/resource_manager.hpp:458:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  458 |   [01;36m[Kimport_component[m[K(std::unique_ptr<SystemInterface> system, const HardwareInfo & hardware_info);
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual bool gz_ros2_control::GZResourceManager::[01;32m[Kload_and_initialize_components[m[K(const std::string&, unsigned int)[m[K’:
+[01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:114:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid hardware_interface::ResourceManager::[01;32m[Kimport_component[m[K(std::unique_ptr<hardware_interface::SystemInterface>, const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use import_component(std::unique_ptr<SystemInterface> system, const HardwareComponentParams & params) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  114 |       [01;35m[Kimport_component(std::move(gzSimSystem), individual_hardware_info)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:46[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/gz_ros2_control/gz_ros2_control/src/gz_ros2_control_plugin.cpp:33[m[K:
+[01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/resource_manager.hpp:458:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  458 |   [01;36m[Kimport_component[m[K(std::unique_ptr<SystemInterface> system, const HardwareInfo & hardware_info);
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX shared library libgz_hardware_plugins.so[0m
+[ 66%] Built target gz_hardware_plugins
+[ 83%] [32m[1mLinking CXX shared library libgz_ros2_control-system.so[0m
+[100%] [32m[1mLinking CXX shared library libign_ros2_control-system.so[0m
+[100%] Built target gz_ros2_control-system
+[100%] Built target ign_ros2_control-system
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/include/gz_ros2_control/gz_ros2_control/gz_ros2_control_plugin.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/include/gz_ros2_control/gz_ros2_control/gz_system.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/include/gz_ros2_control/gz_ros2_control/gz_system_interface.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/lib/libign_ros2_control-system.so
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control//gz_hardware_plugins.xml
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/environment/gz_ros2_control.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/environment/path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/environment/path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.bash
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.zsh
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/package.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/ament_index/resource_index/packages/gz_ros2_control
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig-version.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/package.xml
+-- Installing: /home/nick/franka_ros2_ws/install/gz_ros2_control/lib/libgz_ros2_control-system.so
+-- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/gz_ros2_control/lib/libgz_ros2_control-system.so" to ""
+-- Installing: /home/nick/franka_ros2_ws/install/gz_ros2_control/lib/libgz_hardware_plugins.so
+-- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/gz_ros2_control/lib/libgz_hardware_plugins.so" to ""
+-- Installing: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/export_gz_ros2_control.cmake
+-- Installing: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/export_gz_ros2_control-release.cmake
+-- Installing: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/export_gz_ros2_controlExport.cmake
+-- Installing: /home/nick/franka_ros2_ws/install/gz_ros2_control/share/gz_ros2_control/cmake/export_gz_ros2_controlExport-release.cmake

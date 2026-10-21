@@ -1,0 +1,33 @@
+{
+  "package_name": "franka_msgs",
+  "output_dir": "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_generator_type_description/franka_msgs",
+  "idl_tuples": [
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/ErrorRecovery.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/Grasp.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/Homing.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/Move.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:action/PTPMotion.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/CollisionIndicators.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/Elbow.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/Errors.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/FrankaRobotState.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/GraspEpsilon.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:msg/TargetStatus.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetCartesianStiffness.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetTCPFrame.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetForceTorqueCollisionBehavior.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetFullCollisionBehavior.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetJointStiffness.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetStiffnessFrame.idl",
+    "/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_adapter/franka_msgs:srv/SetLoad.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

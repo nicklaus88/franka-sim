@@ -1,0 +1,1 @@
+controller_interface;pluginlib;rclcpp;rclcpp_lifecycle;franka_semantic_components;tf2;tf2_msgs;geometry_msgs;nav_msgs;diff_drive_controller;generate_parameter_library;realtime_tools;kdl_parser;urdf;rclpy;sensor_msgs;std_srvs;franka_desk_api;launch;launch_ros;ament_index_python;ament_lint_auto;ament_lint_common

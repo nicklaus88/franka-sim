@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/hardware_component_interface.hpp

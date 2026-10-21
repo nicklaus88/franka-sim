@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_generator_c/franka_msgs/msg/detail/errors__type_support.h

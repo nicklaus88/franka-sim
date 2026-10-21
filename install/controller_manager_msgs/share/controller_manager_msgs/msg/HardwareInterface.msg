@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/ros2_control/controller_manager_msgs/msg/HardwareInterface.msg

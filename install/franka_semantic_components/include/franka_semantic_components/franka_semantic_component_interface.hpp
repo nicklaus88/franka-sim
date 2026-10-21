@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_semantic_components/include/franka_semantic_components/franka_semantic_component_interface.hpp

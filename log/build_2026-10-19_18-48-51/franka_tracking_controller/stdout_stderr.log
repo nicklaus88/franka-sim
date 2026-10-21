@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found controller_interface: 4.49.0 (/home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_tracking_controller
+[ 50%] Building CXX object CMakeFiles/franka_tracking_controller.dir/src/Velocity.cpp.o
+[100%] Linking CXX shared library libfranka_tracking_controller.so
+[100%] Built target franka_tracking_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller//plugins.xml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/lib/libfranka_tracking_controller.so
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/ament_index/resource_index/package_run_dependencies/franka_tracking_controller
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/ament_index/resource_index/parent_prefix_path/franka_tracking_controller
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/environment/path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/environment/path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/local_setup.bash
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/local_setup.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/local_setup.zsh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/package.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/ament_index/resource_index/packages/franka_tracking_controller
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_tracking_controller
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/cmake/franka_tracking_controllerConfig.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/cmake/franka_tracking_controllerConfig-version.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_tracking_controller/share/franka_tracking_controller/package.xml

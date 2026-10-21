@@ -1,0 +1,17 @@
+{
+  "package_name": "franka_spine_msgs",
+  "non_idl_tuples": [
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:action/MoveAbsolute.action",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:msg/UserLimits.msg",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:msg/SpineParameters.msg",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:msg/SpinePosition.msg",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:msg/SpineState.msg",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:srv/GetSpineState.srv",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:srv/GetPosition.srv",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:srv/FaultReset.srv",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:srv/SwitchOn.srv",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:srv/SwitchOff.srv",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:srv/Halt.srv",
+    "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs:srv/GetParameters.srv"
+  ]
+}

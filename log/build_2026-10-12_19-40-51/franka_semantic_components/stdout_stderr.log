@@ -1,0 +1,129 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found franka_hardware: 3.6.0 (/home/nick/franka_ros2_ws/install/franka_hardware/share/franka_hardware/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found franka_msgs: 3.6.0 (/home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+-- Found controller_interface: 4.49.0 (/home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/cmake)
+-- Found ament_cmake_clang_format: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_copyright: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_flake8: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+-- Found ament_cmake_gmock: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+-- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (1.4s)
+-- Generating done (0.1s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTS
+
+[0m
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_semantic_components
+[  4%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_robot_state.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/translation_utils.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_semantic_component_interface.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_robot_model.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_cartesian_velocity_interface.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/franka_semantic_components.dir/src/franka_cartesian_pose_interface.cpp.o[0m
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:24[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_semantic_components/src/franka_robot_model.cpp:15[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/install/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/install/franka_hardware/include/franka_hardware/model.hpp:19[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+[ 31%] [32m[1mLinking CXX shared library libfranka_semantic_components.so[0m
+[ 31%] Built target franka_semantic_components
+[ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 45%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 45%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 50%] Built target gmock_main
+[ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 54%] Built target gmock
+[ 59%] [32mBuilding CXX object CMakeFiles/franka_semantic_component_interface_test.dir/test/franka_semantic_interface_test.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/test_franka_robot_state.dir/test/franka_robot_state_test.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/franka_cartesian_velocity_interface_test.dir/test/franka_cartesian_velocity_interface_test.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/franka_cartesian_pose_interface_test.dir/test/franka_cartesian_pose_interface_test.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/test_franka_robot_model.dir/test/franka_robot_model_test.cpp.o[0m
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp:24[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_semantic_components/test/franka_robot_model_test.hpp:25[m[K,
+                 from [01m[K/home/nick/franka_ros2_ws/src/franka_semantic_components/test/franka_robot_model_test.cpp:15[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/franka_hardware/include/franka_hardware/model.hpp:[m[K In member function ‘[01m[Kstd::array<double, 7> franka_hardware::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’:
+[01m[K/home/nick/franka_ros2_ws/install/franka_hardware/include/franka_hardware/model.hpp:141:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::array<double, 7> franka::Model::[01;32m[Kcoriolis[m[K(const std::array<double, 7>&, const std::array<double, 7>&, const std::array<double, 9>&, double, const std::array<double, 3>&) const[m[K’ is deprecated: Use coriolis(q, dq, i_total, m_total, f_x_ctotal, g_earth) instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  141 |     return [01;35m[Kmodel_->coriolis(q, dq, I_total, m_total, F_x_Ctotal)[m[K;
+      |            [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nick/franka_ros2_ws/src/franka_semantic_components/test/franka_robot_model_test.hpp:23[m[K:
+[01m[K/home/nick/franka_ros2_ws/install/libfranka/include/franka/model.h:248:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  248 |   [01;36m[Kcoriolis[m[K(const std::array<double, 7>& q,        // NOLINT(readability-identifier-length)
+      |   [01;36m[K^~~~~~~~[m[K
+[ 81%] [32m[1mLinking CXX executable franka_semantic_component_interface_test[0m
+[ 86%] [32m[1mLinking CXX executable franka_cartesian_velocity_interface_test[0m
+[ 86%] Built target franka_semantic_component_interface_test
+[ 86%] Built target franka_cartesian_velocity_interface_test
+[ 90%] [32m[1mLinking CXX executable test_franka_robot_state[0m
+[ 95%] [32m[1mLinking CXX executable franka_cartesian_pose_interface_test[0m
+[ 95%] Built target test_franka_robot_state
+[ 95%] Built target franka_cartesian_pose_interface_test
+[100%] [32m[1mLinking CXX executable test_franka_robot_model[0m
+[100%] Built target test_franka_robot_model
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/lib/libfranka_semantic_components.so
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_cartesian_pose_interface.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_cartesian_velocity_interface.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_model.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_robot_state.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/include/franka_semantic_components/franka_semantic_component_interface.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/robot_description_test.txt
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/library_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/library_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/package_run_dependencies/franka_semantic_components
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/parent_prefix_path/franka_semantic_components
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/ament_prefix_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/environment/path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.bash
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.zsh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/ament_index/resource_index/packages/franka_semantic_components
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake/franka_semantic_componentsConfig-version.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/package.xml

@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/action/ErrorRecovery_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "franka_msgs/action/ErrorRecovery_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "franka_msgs/action/ErrorRecovery_Result",
+        "fields": [
+          {
+            "name": "structure_needs_at_least_one_member",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/action/ErrorRecovery_GetResult_Response",
+      "hash_string": "RIHS01_b05dfca7e4d9ff8afa2741cd98c8e090cc5a1266547e14e43967f9662952c922"
+    },
+    {
+      "type_name": "franka_msgs/action/ErrorRecovery_Result",
+      "hash_string": "RIHS01_74997c44439ad72ba37cacdc39d968e34ca84cc8e18ab6b9d5b883b59e8aef8e"
+    }
+  ]
+}

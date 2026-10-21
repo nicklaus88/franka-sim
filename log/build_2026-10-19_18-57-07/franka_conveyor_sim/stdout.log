@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing franka_conveyor_sim.egg-info/PKG-INFO
+writing dependency_links to franka_conveyor_sim.egg-info/dependency_links.txt
+writing entry points to franka_conveyor_sim.egg-info/entry_points.txt
+writing top-level names to franka_conveyor_sim.egg-info/top_level.txt
+reading manifest file 'franka_conveyor_sim.egg-info/SOURCES.txt'
+writing manifest file 'franka_conveyor_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka-conveyor-sim.egg-link (link to .)
+Installing box_pose_estimator script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+Installing box_spawner script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+Installing conveyor_tracker script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+Installing pickup_executor script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+Installing pickup_planner script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+
+Installed /home/nick/franka_ros2_ws/build/franka_conveyor_sim
+running symlink_data
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/test/results/conveyor_tracking_stop_validation.json -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/test/results
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/test/results/conveyor_tracking_stop_trace.json -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/test/results
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/test/results/conveyor_tracking_tracking_trace.json -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/test/results
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/test/results/conveyor_tracking_watchdog_validation.json -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/test/results
+symbolically linking /home/nick/franka_ros2_ws/build/franka_conveyor_sim/test/results/conveyor_tracking_tracking_validation.json -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/test/results

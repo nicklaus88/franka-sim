@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nick/franka_ros2_ws/build/mobile_fr3_duo_trajectory_controller/libmobile_fr3_duo_trajectory_controller.so" "TARGETS" "mobile_fr3_duo_trajectory_controller" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

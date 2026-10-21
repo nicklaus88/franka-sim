@@ -1,0 +1,85 @@
+[0.135s] Invoking command in '/home/nick/franka_ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/realtime_tools/realtime_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/realtime_tools
+[0.230s] -- Found ros2_control_cmake: 0.4.0 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.233s] -- Compiler warnings enabled for GNU
+[0.236s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.236s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.654s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.664s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.733s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.733s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.750s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.770s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.983s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.005s] -- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.094s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.302s] -- Found rclcpp_action: 28.1.22 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.377s] -- Found ament_cmake_gmock: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.379s] -- Found lifecycle_msgs: 2.0.4 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[1.403s] -- Found rclcpp_lifecycle: 28.1.22 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.445s] -- Found test_msgs: 2.0.4 (/opt/ros/jazzy/share/test_msgs/cmake)
+[1.556s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.565s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.568s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.746s] -- Configuring done (1.5s)
+[1.964s] -- Generating done (0.2s)
+[2.015s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/realtime_tools
+[2.035s] Invoked command in '/home/nick/franka_ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/realtime_tools/realtime_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/realtime_tools
+[2.036s] Invoking command in '/home/nick/franka_ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/realtime_tools -- -j20 -l20
+[2.149s] [ 10%] Built target gmock
+[2.150s] [ 17%] Built target gmock_main
+[2.157s] [ 25%] Built target thread_priority
+[2.164s] [ 35%] Built target realtime_tools
+[2.208s] [ 42%] Built target thread_priority_tests
+[2.218s] [ 50%] Built target realtime_box_tests
+[2.226s] [ 60%] Built target realtime_clock_tests
+[2.226s] [ 64%] Built target realtime_buffer_tests
+[2.234s] [ 71%] Built target realtime_mutex_tests
+[2.254s] [ 78%] Built target test_async_function_handler
+[2.255s] [ 85%] Built target realtime_server_goal_handle_tests
+[2.258s] [ 92%] Built target realtime_publisher_tests
+[2.288s] [100%] Built target lock_free_queue_tests
+[2.307s] Invoked command in '/home/nick/franka_ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/realtime_tools -- -j20 -l20
+[2.310s] Invoking command in '/home/nick/franka_ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/realtime_tools
+[2.324s] -- Install configuration: "Release"
+[2.325s] -- Execute custom install script
+[2.325s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/async_function_handler.hpp
+[2.326s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/lock_free_queue.hpp
+[2.326s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/mutex.hpp
+[2.326s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h
+[2.326s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.hpp
+[2.326s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box_best_effort.h
+[2.327s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h
+[2.327s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.hpp
+[2.327s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h
+[2.327s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.hpp
+[2.327s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_helpers.hpp
+[2.327s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h
+[2.328s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.hpp
+[2.328s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h
+[2.328s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.hpp
+[2.328s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_thread_safe_box.hpp
+[2.328s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp
+[2.329s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[2.329s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[2.329s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[2.329s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[2.329s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[2.329s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[2.330s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/environment/path.sh
+[2.330s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[2.330s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.bash
+[2.330s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.sh
+[2.330s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[2.330s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[2.330s] -- Symlinking: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/package.dsv
+[2.344s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[2.345s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake
+[2.345s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.345s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[2.346s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[2.346s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/package.xml
+[2.346s] -- Up-to-date: /home/nick/franka_ros2_ws/install/realtime_tools/lib/librealtime_tools.so
+[2.347s] -- Up-to-date: /home/nick/franka_ros2_ws/install/realtime_tools/lib/libthread_priority.so
+[2.347s] -- Up-to-date: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
+[2.348s] -- Up-to-date: /home/nick/franka_ros2_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-release.cmake
+[2.351s] Invoked command in '/home/nick/franka_ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/realtime_tools

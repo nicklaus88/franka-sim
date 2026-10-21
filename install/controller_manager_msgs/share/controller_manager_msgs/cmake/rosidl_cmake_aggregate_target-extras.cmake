@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/controller_manager_msgs/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake

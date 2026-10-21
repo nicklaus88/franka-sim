@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_mobile/launch/battery.launch.py

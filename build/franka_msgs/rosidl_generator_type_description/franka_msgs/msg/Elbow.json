@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/msg/Elbow",
+      "fields": [
+        {
+          "name": "position",
+          "type": {
+            "type_id": 59,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "desired_position",
+          "type": {
+            "type_id": 59,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "commanded_position",
+          "type": {
+            "type_id": 59,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "commanded_velocity",
+          "type": {
+            "type_id": 59,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "commanded_acceleration",
+          "type": {
+            "type_id": 59,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/msg/Elbow",
+      "hash_string": "RIHS01_f54141b92a05447bfa2f993ac28c289b477358a3d543ad099e1a34c10d70d9bb"
+    }
+  ]
+}

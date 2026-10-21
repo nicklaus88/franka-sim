@@ -1,0 +1,52 @@
+running egg_info
+creating ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info
+writing ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/PKG-INFO
+writing dependency_links to ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/dependency_links.txt
+writing entry points to ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/entry_points.txt
+writing top-level names to ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/top_level.txt
+writing manifest file '../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/SOURCES.txt'
+reading manifest file '../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/SOURCES.txt'
+writing manifest file '../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build
+creating /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib
+creating /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib/franka_conveyor_sim
+copying franka_conveyor_sim/box_spawner.py -> /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib/franka_conveyor_sim
+copying franka_conveyor_sim/__init__.py -> /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib/franka_conveyor_sim
+running install
+running install_lib
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim
+copying /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib/franka_conveyor_sim/box_spawner.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim
+copying /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib/franka_conveyor_sim/__init__.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim
+byte-compiling /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim/box_spawner.py to box_spawner.cpython-312.pyc
+byte-compiling /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/ament_index
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/ament_index/resource_index
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/ament_index/resource_index/packages
+copying resource/franka_conveyor_sim -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim
+copying README.md -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box
+copying models/box/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box
+copying models/box/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor
+copying models/conveyor/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor
+copying models/conveyor/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/worlds
+copying worlds/conveyor_test.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/worlds
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/config
+copying config/conveyor.yaml -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/config
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+copying launch/add_conveyor.launch.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+copying launch/conveyor_test.launch.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch/__pycache__
+copying launch/__pycache__/conveyor_test.launch.cpython-312.pyc -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch/__pycache__
+copying launch/__pycache__/add_conveyor.launch.cpython-312.pyc -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch/__pycache__
+running install_egg_info
+Copying ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim-0.1.0-py3.12.egg-info
+running install_scripts
+Installing box_spawner script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+writing list of installed files to '/home/nick/franka_ros2_ws/build/franka_conveyor_sim/install.log'

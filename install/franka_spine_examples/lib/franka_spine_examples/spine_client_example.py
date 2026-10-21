@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_examples/scripts/spine_client_example.py

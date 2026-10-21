@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_spine_msgs/action/MoveAbsolute_Feedback",
+      "fields": [
+        {
+          "name": "current_position",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_spine_msgs/action/MoveAbsolute_Feedback",
+      "hash_string": "RIHS01_84b533ef018b546eafb38e6565dd3cbdac36353ee9a22aa86071c625a1a9fdff"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/franka_spine_msgs/ament_cmake_core/franka_spine_msgsConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/ros2_robotiq_gripper/robotiq_driver/include/robotiq_driver/default_serial.hpp

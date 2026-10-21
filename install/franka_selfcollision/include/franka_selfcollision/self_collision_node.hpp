@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_selfcollision/include/franka_selfcollision/self_collision_node.hpp

@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_fr3_moveit_config/launch/moveit.launch.py

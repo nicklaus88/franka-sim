@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_generator_c/franka_spine_msgs/srv/detail/get_position__type_support.h

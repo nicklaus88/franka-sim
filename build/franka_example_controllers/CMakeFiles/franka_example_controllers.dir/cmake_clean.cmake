@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_elbow_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_elbow_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_impedance_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_impedance_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_orientation_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_orientation_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_pose_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_pose_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_velocity_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/cartesian_velocity_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/elbow_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/elbow_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/gravity_compensation_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/gravity_compensation_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/gripper_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/gripper_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/joint_impedance_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/joint_impedance_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/joint_impedance_with_ik_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/joint_impedance_with_ik_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/joint_position_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/joint_position_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/joint_velocity_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/joint_velocity_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/model_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/model_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/move_to_start_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3/move_to_start_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3_duo/fr3_duo_joint_impedance_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/fr3_duo/fr3_duo_joint_impedance_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/mobile_fr3_duo/mobile_fr3_duo_joint_impedance_example_controller.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/mobile_fr3_duo/mobile_fr3_duo_joint_impedance_example_controller.cpp.o.d"
+  "CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o"
+  "CMakeFiles/franka_example_controllers.dir/src/motion_generator.cpp.o.d"
+  "libfranka_example_controllers.pdb"
+  "libfranka_example_controllers.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/franka_example_controllers.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

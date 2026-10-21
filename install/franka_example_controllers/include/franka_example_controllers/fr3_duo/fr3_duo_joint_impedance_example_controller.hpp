@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_example_controllers/include/franka_example_controllers/fr3_duo/fr3_duo_joint_impedance_example_controller.hpp

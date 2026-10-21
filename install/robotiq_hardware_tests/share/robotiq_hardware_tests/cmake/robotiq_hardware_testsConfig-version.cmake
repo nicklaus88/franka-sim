@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/robotiq_hardware_tests/ament_cmake_core/robotiq_hardware_testsConfig-version.cmake

@@ -1,0 +1,294 @@
+[0.017s] Invoking command in '/home/nick/franka_ros2_ws/build/franka_conveyor_force_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/franka_conveyor_force_system -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/franka_conveyor_force_system
+[0.305s] -- The C compiler identification is GNU 13.3.0
+[0.486s] -- The CXX compiler identification is GNU 13.3.0
+[0.521s] -- Detecting C compiler ABI info
+[0.648s] -- Detecting C compiler ABI info - done
+[0.657s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.658s] -- Detecting C compile features
+[0.658s] -- Detecting C compile features - done
+[0.674s] -- Detecting CXX compiler ABI info
+[0.797s] -- Detecting CXX compiler ABI info - done
+[0.810s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.811s] -- Detecting CXX compile features
+[0.811s] -- Detecting CXX compile features - done
+[0.830s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.021s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.107s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.209s] -- Found gz_sim_vendor: 0.0.13 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)
+[1.312s] -- Looking for gz-sim8 -- found version 8.15.0
+[1.331s] -- Searching for dependencies of gz-sim8
+[1.337s] -- Looking for sdformat14 -- found version 14.9.0
+[1.337s] -- Searching for dependencies of sdformat14
+[1.352s] -- Checking for module 'tinyxml2'
+[1.382s] --   Found tinyxml2, version 10.0.0
+[1.439s] -- Looking for gz-math7 -- found version 7.7.0
+[1.439s] -- Searching for dependencies of gz-math7
+[1.447s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.447s] -- Searching for dependencies of gz-utils2
+[1.450s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.450s] -- Searching for dependencies of gz-utils2
+[1.450s] -- Searching for <gz-utils2> component [cli]
+[1.455s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[1.455s] -- Searching for dependencies of gz-utils2-cli
+[1.460s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.460s] -- Searching for dependencies of gz-plugin2
+[1.460s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.461s] -- Searching for <gz-plugin2> component [loader]
+[1.465s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[1.465s] -- Searching for dependencies of gz-plugin2-loader
+[1.466s] -- Searching for <gz-plugin2> component [register]
+[1.469s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[1.470s] -- Searching for dependencies of gz-plugin2-register
+[1.474s] -- Looking for gz-transport13 -- found version 13.6.0
+[1.474s] -- Searching for dependencies of gz-transport13
+[1.674s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[1.694s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.699s] -- Checking for module 'libzmq >= 4'
+[1.723s] --   Found libzmq, version 4.3.5
+[1.784s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.794s] -- Checking for module 'uuid'
+[1.821s] --   Found uuid, version 2.39.3
+[1.870s] -- Found UUID: TRUE  
+[1.870s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.877s] -- Looking for gz-msgs10 -- found version 10.4.0
+[1.877s] -- Searching for dependencies of gz-msgs10
+[1.903s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.903s] -- Looking for gz-math7 -- found version 7.7.0
+[1.916s] -- Searching for <gz-transport13> component [log]
+[1.924s] -- Looking for gz-transport13-log -- found version 13.6.0
+[1.924s] -- Searching for dependencies of gz-transport13-log
+[1.926s] -- Searching for <gz-transport13> component [parameters]
+[1.932s] -- Looking for gz-transport13-parameters -- found version 13.6.0
+[1.932s] -- Searching for dependencies of gz-transport13-parameters
+[1.934s] -- Looking for gz-msgs10 -- found version 10.4.0
+[1.938s] -- Looking for gz-common5 -- found version 5.9.0
+[1.938s] -- Searching for dependencies of gz-common5
+[1.938s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.939s] -- Looking for dlfcn.h - found
+[1.941s] -- Looking for libdl - found
+[1.942s] -- Found DL: TRUE  
+[1.948s] -- Searching for <gz-common5> component [av]
+[1.952s] -- Looking for gz-common5-av -- found version 5.9.0
+[1.952s] -- Searching for dependencies of gz-common5-av
+[1.960s] -- Checking for module 'libswscale'
+[1.989s] --   Found libswscale, version 7.5.100
+[2.037s] -- Found SWSCALE: TRUE  
+[2.045s] -- Checking for module 'libavdevice >= 56.4.100'
+[2.071s] --   Found libavdevice, version 60.3.100
+[2.134s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[2.142s] -- Checking for module 'libavformat'
+[2.166s] --   Found libavformat, version 60.16.100
+[2.216s] -- Found AVFORMAT: TRUE  
+[2.224s] -- Checking for module 'libavcodec'
+[2.253s] --   Found libavcodec, version 60.31.102
+[2.302s] -- Found AVCODEC: TRUE  
+[2.309s] -- Checking for module 'libavutil'
+[2.336s] --   Found libavutil, version 58.29.100
+[2.382s] -- Found AVUTIL: TRUE  
+[2.384s] -- Searching for <gz-common5> component [events]
+[2.391s] -- Looking for gz-common5-events -- found version 5.9.0
+[2.391s] -- Searching for dependencies of gz-common5-events
+[2.392s] -- Looking for gz-math7 -- found version 7.7.0
+[2.393s] -- Searching for <gz-common5> component [graphics]
+[2.401s] -- Looking for gz-common5-graphics -- found version 5.9.0
+[2.402s] -- Searching for dependencies of gz-common5-graphics
+[2.402s] -- Looking for gz-math7 -- found version 7.7.0
+[2.414s] -- Found GzAssimp: TRUE (found version "5.3.0") 
+[2.415s] -- Searching for <gz-common5> component [io]
+[2.423s] -- Looking for gz-common5-io -- found version 5.9.0
+[2.423s] -- Searching for dependencies of gz-common5-io
+[2.424s] -- Searching for <gz-common5> component [profiler]
+[2.429s] -- Looking for gz-common5-profiler -- found version 5.9.0
+[2.429s] -- Searching for dependencies of gz-common5-profiler
+[2.437s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[2.438s] -- Searching for dependencies of gz-fuel_tools9
+[2.574s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[2.593s] -- Checking for module 'jsoncpp'
+[2.621s] --   Found jsoncpp, version 1.9.5
+[2.669s] -- Found JSONCPP: TRUE  
+[2.693s] -- Checking for module 'yaml-0.1'
+[2.722s] --   Found yaml-0.1, version 0.2.5
+[2.770s] -- Found YAML: TRUE  
+[2.778s] -- Checking for module 'libzip'
+[2.807s] --   Found libzip, version 1.7.3
+[2.861s] -- Found ZIP: TRUE  
+[2.861s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.862s] -- Looking for gz-common5 -- found version 5.9.0
+[2.862s] -- Searching for dependencies of gz-common5
+[2.862s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.862s] -- Looking for dlfcn.h - found
+[2.862s] -- Looking for libdl - found
+[2.873s] -- Searching for <gz-common5> component [testing]
+[2.880s] -- Looking for gz-common5-testing -- found version 5.9.0
+[2.880s] -- Searching for dependencies of gz-common5-testing
+[2.882s] -- Looking for gz-math7 -- found version 7.7.0
+[2.883s] -- Looking for gz-msgs10 -- found version 10.4.0
+[2.890s] -- Looking for gz-gui8 -- found version 8.4.0
+[2.890s] -- Searching for dependencies of gz-gui8
+[2.912s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.913s] -- Looking for gz-math7 -- found version 7.7.0
+[2.913s] -- Looking for gz-common5 -- found version 5.9.0
+[2.914s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.914s] -- Looking for gz-transport13 -- found version 13.6.0
+[2.923s] -- Looking for gz-rendering8 -- found version 8.2.3
+[2.923s] -- Searching for dependencies of gz-rendering8
+[2.924s] -- Looking for gz-math7 -- found version 7.7.0
+[2.924s] -- Searching for dependencies of gz-math7
+[2.924s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.924s] -- Searching for <gz-math7> component [eigen3]
+[2.928s] -- Looking for gz-math7-eigen3 -- found version 7.7.0
+[2.928s] -- Searching for dependencies of gz-math7-eigen3
+[2.940s] -- Looking for gz-common5 -- found version 5.9.0
+[2.940s] -- Searching for dependencies of gz-common5
+[2.940s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.940s] -- Looking for dlfcn.h - found
+[2.940s] -- Looking for libdl - found
+[2.948s] -- Searching for <gz-common5> component [graphics]
+[2.948s] -- Searching for <gz-common5> component [events]
+[2.948s] -- Searching for <gz-common5> component [geospatial]
+[2.957s] -- Looking for gz-common5-geospatial -- found version 5.9.0
+[2.957s] -- Searching for dependencies of gz-common5-geospatial
+[2.957s] -- Looking for gz-math7 -- found version 7.7.0
+[2.958s] -- Looking for gz-common5 -- found version 5.9.0
+[2.960s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.960s] -- Searching for dependencies of gz-plugin2
+[2.960s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.960s] -- Searching for <gz-plugin2> component [all]
+[2.965s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[2.966s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.967s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.999s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[3.000s] -- Looking for gz-msgs10 -- found version 10.4.0
+[3.108s] -- Looking for gz-physics7 -- found version 7.8.0
+[3.108s] -- Searching for dependencies of gz-physics7
+[3.108s] -- Looking for gz-common5 -- found version 5.9.0
+[3.109s] -- Looking for gz-math7 -- found version 7.7.0
+[3.110s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.110s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.113s] -- Searching for <gz-physics7> component [heightmap]
+[3.120s] -- Looking for gz-physics7-heightmap -- found version 7.8.0
+[3.120s] -- Searching for dependencies of gz-physics7-heightmap
+[3.121s] -- Looking for gz-common5 -- found version 5.9.0
+[3.122s] -- Searching for <gz-physics7> component [mesh]
+[3.126s] -- Looking for gz-physics7-mesh -- found version 7.8.0
+[3.126s] -- Searching for dependencies of gz-physics7-mesh
+[3.126s] -- Looking for gz-common5 -- found version 5.9.0
+[3.127s] -- Searching for <gz-physics7> component [sdf]
+[3.131s] -- Looking for gz-physics7-sdf -- found version 7.8.0
+[3.131s] -- Searching for dependencies of gz-physics7-sdf
+[3.131s] -- Looking for sdformat14 -- found version 14.9.0
+[3.135s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.135s] -- Searching for dependencies of gz-sensors8
+[3.156s] -- Looking for gz-math7 -- found version 7.7.0
+[3.156s] -- Looking for gz-common5 -- found version 5.9.0
+[3.157s] -- Looking for gz-transport13 -- found version 13.6.0
+[3.158s] -- Looking for gz-rendering8 -- found version 8.2.3
+[3.158s] -- Looking for gz-msgs10 -- found version 10.4.0
+[3.159s] -- Looking for sdformat14 -- found version 14.9.0
+[3.161s] -- Searching for <gz-sensors8> component [air_pressure]
+[3.168s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[3.168s] -- Searching for dependencies of gz-sensors8-air_pressure
+[3.170s] -- Searching for <gz-sensors8> component [air_speed]
+[3.176s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[3.176s] -- Searching for dependencies of gz-sensors8-air_speed
+[3.177s] -- Searching for <gz-sensors8> component [altimeter]
+[3.181s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[3.181s] -- Searching for dependencies of gz-sensors8-altimeter
+[3.182s] -- Searching for <gz-sensors8> component [imu]
+[3.186s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[3.186s] -- Searching for dependencies of gz-sensors8-imu
+[3.187s] -- Searching for <gz-sensors8> component [force_torque]
+[3.190s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[3.191s] -- Searching for dependencies of gz-sensors8-force_torque
+[3.191s] -- Searching for <gz-sensors8> component [logical_camera]
+[3.195s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[3.195s] -- Searching for dependencies of gz-sensors8-logical_camera
+[3.196s] -- Searching for <gz-sensors8> component [magnetometer]
+[3.199s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[3.199s] -- Searching for dependencies of gz-sensors8-magnetometer
+[3.200s] -- Searching for <gz-sensors8> component [navsat]
+[3.204s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[3.204s] -- Searching for dependencies of gz-sensors8-navsat
+[3.204s] -- Searching for <gz-sensors8> component [dvl]
+[3.208s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[3.208s] -- Searching for dependencies of gz-sensors8-dvl
+[3.208s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.208s] -- Searching for dependencies of gz-sensors8
+[3.226s] -- Looking for gz-math7 -- found version 7.7.0
+[3.226s] -- Looking for gz-common5 -- found version 5.9.0
+[3.227s] -- Looking for gz-transport13 -- found version 13.6.0
+[3.227s] -- Looking for gz-rendering8 -- found version 8.2.3
+[3.227s] -- Looking for gz-msgs10 -- found version 10.4.0
+[3.227s] -- Looking for sdformat14 -- found version 14.9.0
+[3.227s] -- Searching for <gz-sensors8> component [rendering]
+[3.231s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[3.231s] -- Searching for dependencies of gz-sensors8-rendering
+[3.233s] -- Searching for <gz-sensors8> component [rendering]
+[3.233s] -- Searching for <gz-sensors8> component [lidar]
+[3.237s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[3.237s] -- Searching for dependencies of gz-sensors8-lidar
+[3.237s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.238s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[3.244s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[3.244s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[3.245s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.246s] -- Searching for <gz-sensors8> component [camera]
+[3.251s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[3.251s] -- Searching for dependencies of gz-sensors8-camera
+[3.252s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.253s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[3.256s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[3.256s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[3.257s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[3.261s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[3.261s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[3.262s] -- Searching for <gz-sensors8> component [depth_camera]
+[3.265s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[3.265s] -- Searching for dependencies of gz-sensors8-depth_camera
+[3.265s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.266s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[3.270s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[3.270s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[3.270s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.271s] -- Searching for <gz-sensors8> component [thermal_camera]
+[3.274s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[3.274s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[3.275s] -- Looking for gz-sensors8 -- found version 8.2.2
+[3.276s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[3.279s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[3.279s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[3.280s] -- Looking for gz-rendering8 -- found version 8.2.3
+[3.281s] -- Looking for gz-math7 -- found version 7.7.0
+[3.281s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.300s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.301s] -- Looking for gz-transport13 -- found version 13.6.0
+[3.377s] -- Configuring done (3.3s)
+[3.395s] -- Generating done (0.0s)
+[3.397s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_conveyor_force_system
+[3.406s] Invoked command in '/home/nick/franka_ros2_ws/build/franka_conveyor_force_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/franka_conveyor_force_system -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/franka_conveyor_force_system
+[3.406s] Invoking command in '/home/nick/franka_ros2_ws/build/franka_conveyor_force_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/franka_conveyor_force_system -- -j20 -l20
+[3.473s] [ 50%] Building CXX object CMakeFiles/franka_conveyor_force_system.dir/src/ConveyorForce.cc.o
+[5.723s] [100%] Linking CXX shared library libfranka_conveyor_force_system.so
+[6.111s] [100%] Built target franka_conveyor_force_system
+[6.120s] Invoked command in '/home/nick/franka_ros2_ws/build/franka_conveyor_force_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/franka_conveyor_force_system -- -j20 -l20
+[6.131s] Invoking command in '/home/nick/franka_ros2_ws/build/franka_conveyor_force_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/franka_conveyor_force_system
+[6.142s] -- Install configuration: ""
+[6.143s] -- Execute custom install script
+[6.143s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/lib/libfranka_conveyor_force_system.so
+[6.152s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/conveyor_force.dsv
+[6.167s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/ament_index/resource_index/package_run_dependencies/franka_conveyor_force_system
+[6.178s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/ament_index/resource_index/parent_prefix_path/franka_conveyor_force_system
+[6.192s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/ament_prefix_path.sh
+[6.206s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/ament_prefix_path.dsv
+[6.220s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/path.sh
+[6.234s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/environment/path.dsv
+[6.250s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.bash
+[6.266s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.sh
+[6.280s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.zsh
+[6.295s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/local_setup.dsv
+[6.309s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/package.dsv
+[6.326s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/ament_index/resource_index/packages/franka_conveyor_force_system
+[6.340s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/cmake/franka_conveyor_force_systemConfig.cmake
+[6.355s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/cmake/franka_conveyor_force_systemConfig-version.cmake
+[6.370s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_conveyor_force_system/share/franka_conveyor_force_system/package.xml
+[6.388s] Invoked command in '/home/nick/franka_ros2_ws/build/franka_conveyor_force_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/franka_ros2_ws/install/rqt_controller_manager:/home/nick/franka_ros2_ws/install/franka_conveyor_sim:/home/nick/franka_ros2_ws/install/ros2controlcli:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/franka_conveyor_force_system

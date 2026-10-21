@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/build/franka_msgs/rosidl_generator_rs/franka_msgs/rust/src/msg/rmw.rs

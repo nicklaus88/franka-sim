@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_hardware/include/franka_hardware/franka_hardware_interface.hpp

@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/nick/franka_ros2_ws/build/franka_spine_msgs/franka_spine_msgs__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "franka_spine_msgs__rs::@ca43249a4270a41c4956",
+	"name" : "franka_spine_msgs__rs",
+	"paths" : 
+	{
+		"build" : "franka_spine_msgs__rs",
+		"source" : "/home/nick/franka_ros2_ws/build/franka_spine_msgs/franka_spine_msgs__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/nick/franka_ros2_ws/build/franka_spine_msgs/franka_spine_msgs__rs/CMakeFiles/franka_spine_msgs__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nick/franka_ros2_ws/build/franka_spine_msgs/franka_spine_msgs__rs/CMakeFiles/franka_spine_msgs__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_generator_rs/franka_spine_msgs/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

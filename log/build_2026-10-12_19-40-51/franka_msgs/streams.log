@@ -1,0 +1,723 @@
+[0.030s] Invoking command in '/home/nick/franka_ros2_ws/build/franka_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/franka_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/franka_msgs
+[0.177s] -- The C compiler identification is GNU 13.3.0
+[0.242s] -- The CXX compiler identification is GNU 13.3.0
+[0.255s] -- Detecting C compiler ABI info
+[0.471s] -- Detecting C compiler ABI info - done
+[0.484s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.484s] -- Detecting C compile features
+[0.484s] -- Detecting C compile features - done
+[0.492s] -- Detecting CXX compiler ABI info
+[0.869s] -- Detecting CXX compiler ABI info - done
+[0.880s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.880s] -- Detecting CXX compile features
+[0.881s] -- Detecting CXX compile features - done
+[0.884s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.019s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.077s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.198s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.997s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.299s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.044s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.056s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.206s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[7.231s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[8.272s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.814s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.363s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.597s] -- Found PythonExtra: /usr/bin/python3  
+[11.332s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[11.549s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.560s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[11.601s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.603s] -- Added test 'lint_cmake' to check CMake code style
+[11.604s] -- Added test 'xmllint' to check XML markup files
+[11.608s] -- Configuring done (11.6s)
+[11.675s] -- Generating done (0.0s)
+[11.677s] [33mCMake Warning:
+[11.677s]   Manually-specified variables were not used by the project:
+[11.677s] 
+[11.677s]     BUILD_TESTS
+[11.677s] 
+[11.677s] [0m
+[11.686s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_msgs
+[11.700s] Invoked command in '/home/nick/franka_ros2_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/franka_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/franka_msgs
+[11.701s] Invoking command in '/home/nick/franka_ros2_ws/build/franka_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/franka_msgs -- -j20 -l20
+[11.746s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[11.749s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[11.757s] [  2%] Built target ament_cmake_python_symlink_franka_msgs
+[12.059s] running egg_info
+[12.060s] creating franka_msgs.egg-info
+[12.081s] writing franka_msgs.egg-info/PKG-INFO
+[12.081s] writing dependency_links to franka_msgs.egg-info/dependency_links.txt
+[12.081s] writing top-level names to franka_msgs.egg-info/top_level.txt
+[12.082s] writing manifest file 'franka_msgs.egg-info/SOURCES.txt'
+[12.130s] reading manifest file 'franka_msgs.egg-info/SOURCES.txt'
+[12.131s] writing manifest file 'franka_msgs.egg-info/SOURCES.txt'
+[12.155s] [  2%] Built target ament_cmake_python_build_franka_msgs_egg
+[12.568s] [  2%] Built target franka_msgs__rosidl_generator_type_description
+[12.578s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.592s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.640s] [  3%] Built target franka_msgs__rs
+[14.917s] [  3%] Built target franka_msgs__cpp
+[15.403s] [  3%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/grasp__functions.c.o[0m
+[15.404s] [  4%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/error_recovery__functions.c.o[0m
+[15.407s] [  5%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/grasp__description.c.o[0m
+[15.417s] [  5%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/error_recovery__description.c.o[0m
+[15.417s] [  5%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/homing__description.c.o[0m
+[15.417s] [  5%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/error_recovery__type_support.c.o[0m
+[15.543s] [  6%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/grasp__type_support.c.o[0m
+[15.543s] [  7%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/homing__functions.c.o[0m
+[15.547s] [  9%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/collision_indicators__functions.c.o[0m
+[15.547s] [ 10%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/collision_indicators__type_support.c.o[0m
+[15.547s] [ 11%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/elbow__functions.c.o[0m
+[15.552s] [ 12%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/ptp_motion__functions.c.o[0m
+[15.552s] [ 13%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/collision_indicators__description.c.o[0m
+[15.552s] [ 13%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/move__description.c.o[0m
+[15.552s] [  9%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/move__functions.c.o[0m
+[15.553s] [  9%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/ptp_motion__type_support.c.o[0m
+[15.553s] [  9%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/elbow__description.c.o[0m
+[15.554s] [  9%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/homing__type_support.c.o[0m
+[15.554s] [  9%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/ptp_motion__description.c.o[0m
+[15.556s] [ 13%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/action/detail/move__type_support.c.o[0m
+[15.572s] [ 13%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/elbow__type_support.c.o[0m
+[15.573s] [ 14%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/errors__description.c.o[0m
+[15.605s] [ 14%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/errors__functions.c.o[0m
+[15.710s] [ 15%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/errors__type_support.c.o[0m
+[15.721s] [ 15%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/franka_robot_state__description.c.o[0m
+[15.730s] [ 15%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/franka_robot_state__type_support.c.o[0m
+[15.735s] [ 16%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/grasp_epsilon__description.c.o[0m
+[15.735s] [ 16%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/grasp_epsilon__functions.c.o[0m
+[15.749s] [ 17%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/franka_robot_state__functions.c.o[0m
+[15.749s] [ 18%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/grasp_epsilon__type_support.c.o[0m
+[15.756s] [ 18%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/target_status__description.c.o[0m
+[15.760s] [ 19%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/target_status__functions.c.o[0m
+[15.771s] [ 19%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/msg/detail/target_status__type_support.c.o[0m
+[15.815s] [ 20%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_cartesian_stiffness__description.c.o[0m
+[15.822s] [ 20%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_cartesian_stiffness__functions.c.o[0m
+[15.835s] [ 21%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.c.o[0m
+[15.852s] [ 21%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_tcp_frame__description.c.o[0m
+[15.855s] [ 22%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_tcp_frame__functions.c.o[0m
+[15.897s] [ 22%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_force_torque_collision_behavior__description.c.o[0m
+[15.897s] [ 22%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_tcp_frame__type_support.c.o[0m
+[15.904s] [ 24%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_full_collision_behavior__description.c.o[0m
+[15.905s] [ 24%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_force_torque_collision_behavior__functions.c.o[0m
+[15.909s] [ 24%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support.c.o[0m
+[15.930s] [ 25%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_full_collision_behavior__type_support.c.o[0m
+[15.934s] [ 25%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_full_collision_behavior__functions.c.o[0m
+[15.942s] [ 25%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_joint_stiffness__description.c.o[0m
+[15.985s] [ 26%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_joint_stiffness__functions.c.o[0m
+[16.017s] [ 26%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_joint_stiffness__type_support.c.o[0m
+[16.078s] [ 27%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_stiffness_frame__description.c.o[0m
+[16.177s] [ 27%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_stiffness_frame__functions.c.o[0m
+[16.197s] [ 28%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_load__functions.c.o[0m
+[16.201s] [ 28%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_load__description.c.o[0m
+[16.202s] [ 29%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_stiffness_frame__type_support.c.o[0m
+[16.221s] [ 29%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_c.dir/rosidl_generator_c/franka_msgs/srv/detail/set_load__type_support.c.o[0m
+[17.618s] [ 30%] [32m[1mLinking C shared library libfranka_msgs__rosidl_generator_c.so[0m
+[17.835s] [ 30%] Built target franka_msgs__rosidl_generator_c
+[17.877s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.883s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.883s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.884s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.890s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.899s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.282s] [ 33%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/action/ptp_motion__type_support.cpp.o[0m
+[21.282s] [ 34%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/action/grasp__type_support.cpp.o[0m
+[21.282s] [ 34%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/action/error_recovery__type_support.cpp.o[0m
+[21.285s] [ 34%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/action/homing__type_support.cpp.o[0m
+[21.287s] [ 35%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/action/move__type_support.cpp.o[0m
+[21.288s] [ 36%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/errors__type_support.cpp.o[0m
+[21.290s] [ 37%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/collision_indicators__type_support.cpp.o[0m
+[21.297s] [ 38%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/grasp_epsilon__type_support.cpp.o[0m
+[21.299s] [ 38%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/elbow__type_support.cpp.o[0m
+[21.304s] [ 38%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/target_status__type_support.cpp.o[0m
+[21.312s] [ 39%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_cartesian_stiffness__type_support.cpp.o[0m
+[21.313s] [ 39%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/msg/franka_robot_state__type_support.cpp.o[0m
+[21.335s] [ 39%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_full_collision_behavior__type_support.cpp.o[0m
+[21.336s] [ 39%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_tcp_frame__type_support.cpp.o[0m
+[21.339s] [ 40%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_force_torque_collision_behavior__type_support.cpp.o[0m
+[22.074s] [ 41%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_joint_stiffness__type_support.cpp.o[0m
+[22.124s] [ 41%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_stiffness_frame__type_support.cpp.o[0m
+[22.292s] [ 42%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/franka_msgs/srv/set_load__type_support.cpp.o[0m
+[23.280s] [ 42%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/action/ptp_motion__type_support.cpp.o[0m
+[23.281s] [ 44%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/action/move__type_support.cpp.o[0m
+[23.281s] [ 44%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/action/error_recovery__type_support.cpp.o[0m
+[23.281s] [ 44%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/action/homing__type_support.cpp.o[0m
+[23.282s] [ 44%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/action/grasp__type_support.cpp.o[0m
+[23.282s] [ 45%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/collision_indicators__type_support.cpp.o[0m
+[23.283s] [ 46%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/errors__type_support.cpp.o[0m
+[23.283s] [ 46%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/elbow__type_support.cpp.o[0m
+[23.283s] [ 46%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/franka_robot_state__type_support.cpp.o[0m
+[23.293s] [ 47%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/target_status__type_support.cpp.o[0m
+[23.293s] [ 47%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_cartesian_stiffness__type_support.cpp.o[0m
+[23.293s] [ 47%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_tcp_frame__type_support.cpp.o[0m
+[23.296s] [ 48%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/msg/grasp_epsilon__type_support.cpp.o[0m
+[23.352s] [ 49%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_force_torque_collision_behavior__type_support.cpp.o[0m
+[23.442s] [ 49%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_full_collision_behavior__type_support.cpp.o[0m
+[23.445s] [ 50%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_joint_stiffness__type_support.cpp.o[0m
+[23.450s] [ 51%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_load__type_support.cpp.o[0m
+[23.458s] [ 51%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/franka_msgs/srv/set_stiffness_frame__type_support.cpp.o[0m
+[23.465s] [ 51%] [32m[1mLinking CXX shared library libfranka_msgs__rosidl_typesupport_cpp.so[0m
+[23.521s] [ 52%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/action/detail/dds_fastrtps/grasp__type_support.cpp.o[0m
+[23.521s] [ 52%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/action/detail/dds_fastrtps/error_recovery__type_support.cpp.o[0m
+[23.522s] [ 53%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/action/detail/dds_fastrtps/homing__type_support.cpp.o[0m
+[23.525s] [ 53%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/action/detail/dds_fastrtps/move__type_support.cpp.o[0m
+[23.535s] [ 53%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/collision_indicators__type_support.cpp.o[0m
+[23.537s] [ 54%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/action/detail/dds_fastrtps/ptp_motion__type_support.cpp.o[0m
+[23.538s] [ 55%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/elbow__type_support.cpp.o[0m
+[23.549s] [ 55%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/action/detail/error_recovery__type_support.cpp.o[0m
+[23.559s] [ 55%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/errors__type_support.cpp.o[0m
+[23.593s] [ 55%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/action/detail/error_recovery__type_support_c.cpp.o[0m
+[23.658s] [ 56%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/action/detail/grasp__type_support_c.cpp.o[0m
+[23.658s] [ 56%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/action/detail/homing__type_support_c.cpp.o[0m
+[23.661s] [ 57%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/action/detail/grasp__type_support.cpp.o[0m
+[23.661s] [ 58%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/action/detail/move__type_support_c.cpp.o[0m
+[23.663s] [ 58%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/action/detail/ptp_motion__type_support_c.cpp.o[0m
+[23.669s] [ 58%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/collision_indicators__type_support_c.cpp.o[0m
+[23.749s] [ 59%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/action/detail/error_recovery__type_support.c.o[0m
+[24.062s] [ 60%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/franka_robot_state__type_support.cpp.o[0m
+[24.071s] [ 60%] [32m[1mLinking CXX shared library libfranka_msgs__rosidl_typesupport_c.so[0m
+[24.075s] [ 60%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/action/detail/grasp__type_support.c.o[0m
+[24.079s] [ 60%] Built target franka_msgs__rosidl_typesupport_cpp
+[24.101s] [ 60%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/grasp_epsilon__type_support.cpp.o[0m
+[24.103s] [ 60%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/action/detail/homing__type_support.cpp.o[0m
+[24.106s] [ 61%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/action/detail/homing__type_support.c.o[0m
+[24.531s] [ 62%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/action/detail/move__type_support.cpp.o[0m
+[24.547s] [ 63%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/msg/detail/dds_fastrtps/target_status__type_support.cpp.o[0m
+[24.556s] [ 63%] Built target franka_msgs__rosidl_typesupport_c
+[24.579s] [ 63%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/errors__type_support_c.cpp.o[0m
+[24.579s] [ 64%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/elbow__type_support_c.cpp.o[0m
+[24.927s] [ 64%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/action/detail/ptp_motion__type_support.cpp.o[0m
+[24.931s] [ 64%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/action/detail/move__type_support.c.o[0m
+[24.941s] [ 64%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_cartesian_stiffness__type_support.cpp.o[0m
+[24.943s] [ 65%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/collision_indicators__type_support.cpp.o[0m
+[24.969s] [ 66%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_tcp_frame__type_support.cpp.o[0m
+[24.993s] [ 67%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/franka_robot_state__type_support_c.cpp.o[0m
+[24.994s] [ 67%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/collision_indicators__type_support.c.o[0m
+[24.995s] [ 68%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/action/detail/ptp_motion__type_support.c.o[0m
+[24.999s] [ 68%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/grasp_epsilon__type_support_c.cpp.o[0m
+[25.059s] [ 69%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/msg/detail/target_status__type_support_c.cpp.o[0m
+[25.067s] [ 69%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_force_torque_collision_behavior__type_support.cpp.o[0m
+[25.075s] [ 69%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/elbow__type_support.cpp.o[0m
+[25.421s] [ 69%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/elbow__type_support.c.o[0m
+[25.448s] [ 70%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/errors__type_support.c.o[0m
+[25.458s] [ 71%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_full_collision_behavior__type_support.cpp.o[0m
+[25.469s] [ 71%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_joint_stiffness__type_support.cpp.o[0m
+[25.470s] [ 71%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_cartesian_stiffness__type_support_c.cpp.o[0m
+[25.485s] [ 72%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_tcp_frame__type_support_c.cpp.o[0m
+[25.491s] [ 73%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/errors__type_support.cpp.o[0m
+[26.179s] [ 73%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support_c.cpp.o[0m
+[26.198s] [ 73%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/franka_robot_state__type_support.c.o[0m
+[26.224s] [ 73%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_joint_stiffness__type_support_c.cpp.o[0m
+[26.224s] [ 74%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/grasp_epsilon__type_support.cpp.o[0m
+[26.224s] [ 75%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_stiffness_frame__type_support.cpp.o[0m
+[26.224s] [ 76%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_full_collision_behavior__type_support_c.cpp.o[0m
+[26.224s] [ 73%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/franka_robot_state__type_support.cpp.o[0m
+[26.224s] [ 77%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/grasp_epsilon__type_support.c.o[0m
+[26.227s] [ 77%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/franka_msgs/srv/detail/dds_fastrtps/set_load__type_support.cpp.o[0m
+[26.231s] [ 79%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.cpp.o[0m
+[26.231s] [ 79%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_stiffness_frame__type_support_c.cpp.o[0m
+[26.241s] [ 79%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/msg/detail/target_status__type_support.cpp.o[0m
+[26.243s] [ 79%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/franka_msgs/srv/detail/set_load__type_support_c.cpp.o[0m
+[26.256s] [ 79%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/msg/detail/target_status__type_support.c.o[0m
+[26.273s] [ 80%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.c.o[0m
+[26.329s] [ 80%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_tcp_frame__type_support.c.o[0m
+[26.330s] [ 81%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support.c.o[0m
+[26.366s] [ 81%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_tcp_frame__type_support.cpp.o[0m
+[26.381s] [ 82%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support.cpp.o[0m
+[27.180s] [ 82%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_full_collision_behavior__type_support.cpp.o[0m
+[27.182s] [ 82%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_full_collision_behavior__type_support.c.o[0m
+[27.188s] [ 83%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_joint_stiffness__type_support.c.o[0m
+[27.189s] [ 84%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_joint_stiffness__type_support.cpp.o[0m
+[27.205s] [ 84%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_stiffness_frame__type_support.cpp.o[0m
+[27.208s] [ 85%] [32mBuilding CXX object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/franka_msgs/srv/detail/set_load__type_support.cpp.o[0m
+[27.209s] [ 85%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_stiffness_frame__type_support.c.o[0m
+[27.225s] [ 86%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/franka_msgs/srv/detail/set_load__type_support.c.o[0m
+[27.273s] [ 87%] [32m[1mLinking CXX shared library libfranka_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[27.699s] [ 88%] [32m[1mLinking CXX shared library libfranka_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[27.701s] [ 88%] [32m[1mLinking C shared library libfranka_msgs__rosidl_typesupport_introspection_c.so[0m
+[27.826s] [ 88%] Built target franka_msgs__rosidl_typesupport_introspection_c
+[27.841s] [ 88%] Built target franka_msgs__rosidl_typesupport_fastrtps_cpp
+[27.850s] [ 88%] Built target franka_msgs__rosidl_typesupport_fastrtps_c
+[28.042s] [ 88%] [32m[1mLinking CXX shared library libfranka_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[28.473s] [ 88%] Built target franka_msgs__rosidl_typesupport_introspection_cpp
+[28.498s] [ 88%] Built target franka_msgs
+[28.526s] [ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[33.409s] [ 88%] Built target franka_msgs__py
+[33.432s] [ 88%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/action/_homing_s.c.o[0m
+[33.432s] [ 88%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/action/_ptp_motion_s.c.o[0m
+[33.432s] [ 89%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/action/_grasp_s.c.o[0m
+[33.432s] [ 90%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_collision_indicators_s.c.o[0m
+[33.432s] [ 90%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_elbow_s.c.o[0m
+[33.432s] [ 91%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_errors_s.c.o[0m
+[33.432s] [ 91%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_franka_robot_state_s.c.o[0m
+[33.433s] [ 92%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_grasp_epsilon_s.c.o[0m
+[33.437s] [ 93%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/action/_move_s.c.o[0m
+[33.437s] [ 93%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/msg/_target_status_s.c.o[0m
+[33.437s] [ 94%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_cartesian_stiffness_s.c.o[0m
+[33.437s] [ 95%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_force_torque_collision_behavior_s.c.o[0m
+[33.437s] [ 95%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_full_collision_behavior_s.c.o[0m
+[33.437s] [ 95%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/action/_error_recovery_s.c.o[0m
+[33.439s] [ 96%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_joint_stiffness_s.c.o[0m
+[33.440s] [ 96%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_stiffness_frame_s.c.o[0m
+[33.442s] [ 96%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_tcp_frame_s.c.o[0m
+[33.460s] [ 97%] [32mBuilding C object CMakeFiles/franka_msgs__rosidl_generator_py.dir/rosidl_generator_py/franka_msgs/srv/_set_load_s.c.o[0m
+[34.238s] [ 97%] [32m[1mLinking C shared library libfranka_msgs__rosidl_generator_py.so[0m
+[34.293s] [ 97%] Built target franka_msgs__rosidl_generator_py
+[34.312s] [ 97%] [32mBuilding C object CMakeFiles/franka_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[34.316s] [ 97%] [32mBuilding C object CMakeFiles/franka_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.317s] [ 97%] [32mBuilding C object CMakeFiles/franka_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[35.054s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/franka_msgs/franka_msgs_s__rosidl_typesupport_c.so[0m
+[35.098s] [ 98%] Built target franka_msgs_s__rosidl_typesupport_c
+[35.098s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/franka_msgs/franka_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[35.138s] [ 99%] Built target franka_msgs_s__rosidl_typesupport_fastrtps_c
+[35.205s] [100%] [32m[1mLinking C shared module rosidl_generator_py/franka_msgs/franka_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[35.244s] [100%] Built target franka_msgs_s__rosidl_typesupport_introspection_c
+[35.257s] Invoked command in '/home/nick/franka_ros2_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/franka_msgs -- -j20 -l20
+[35.258s] Invoking command in '/home/nick/franka_ros2_ws/build/franka_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/franka_msgs
+[35.268s] -- Install configuration: "Release"
+[35.269s] -- Execute custom install script
+[35.269s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/ament_index/resource_index/rosidl_interfaces/franka_msgs
+[35.280s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/ErrorRecovery.json
+[35.291s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/Grasp.json
+[35.302s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/Homing.json
+[35.310s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/Move.json
+[35.321s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/PTPMotion.json
+[35.329s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/CollisionIndicators.json
+[35.340s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/Elbow.json
+[35.347s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/Errors.json
+[35.358s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/FrankaRobotState.json
+[35.365s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/GraspEpsilon.json
+[35.376s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/TargetStatus.json
+[35.387s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetCartesianStiffness.json
+[35.394s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetTCPFrame.json
+[35.404s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetForceTorqueCollisionBehavior.json
+[35.782s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetFullCollisionBehavior.json
+[35.807s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetJointStiffness.json
+[35.818s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetStiffnessFrame.json
+[35.828s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetLoad.json
+[35.837s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__functions.h
+[35.848s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__struct.h
+[35.855s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__type_support.h
+[35.866s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__functions.h
+[35.875s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__struct.h
+[35.885s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__type_support.h
+[35.894s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__functions.h
+[35.901s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__struct.h
+[35.911s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__type_support.h
+[35.922s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__functions.h
+[35.930s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__struct.h
+[35.940s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__type_support.h
+[35.949s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__functions.h
+[35.956s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__struct.h
+[35.963s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__type_support.h
+[35.971s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/error_recovery.h
+[35.980s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/grasp.h
+[35.989s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/homing.h
+[35.997s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/move.h
+[36.007s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/ptp_motion.h
+[36.015s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/collision_indicators.h
+[36.026s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__functions.h
+[36.034s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__struct.h
+[36.042s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__type_support.h
+[36.050s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__functions.h
+[36.059s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__struct.h
+[36.069s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__type_support.h
+[36.076s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__functions.h
+[36.083s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__struct.h
+[36.091s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__type_support.h
+[36.098s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__functions.h
+[36.108s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__struct.h
+[36.116s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__type_support.h
+[36.127s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__functions.h
+[36.138s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__struct.h
+[36.145s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__type_support.h
+[36.152s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__functions.h
+[36.163s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__struct.h
+[36.173s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__type_support.h
+[36.182s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/elbow.h
+[36.192s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/errors.h
+[36.200s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/franka_robot_state.h
+[36.207s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/grasp_epsilon.h
+[36.216s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/rosidl_generator_c__visibility_control.h
+[36.223s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/target_status.h
+[36.232s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__functions.h
+[36.242s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__struct.h
+[36.251s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.h
+[36.258s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__functions.h
+[36.266s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__struct.h
+[36.276s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support.h
+[36.283s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__functions.h
+[36.292s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__struct.h
+[36.302s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__type_support.h
+[36.310s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__functions.h
+[36.319s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__struct.h
+[36.329s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__type_support.h
+[36.336s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__functions.h
+[36.346s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__struct.h
+[36.353s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__type_support.h
+[36.362s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__functions.h
+[36.372s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__struct.h
+[36.381s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__type_support.h
+[36.391s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__functions.h
+[36.400s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__struct.h
+[36.410s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__type_support.h
+[36.420s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_cartesian_stiffness.h
+[36.430s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_force_torque_collision_behavior.h
+[36.440s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_full_collision_behavior.h
+[36.450s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_joint_stiffness.h
+[36.459s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_load.h
+[36.469s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_stiffness_frame.h
+[36.478s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_tcp_frame.h
+[36.489s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/environment/library_path.sh
+[36.498s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/environment/library_path.dsv
+[36.506s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__rosidl_typesupport_fastrtps_c.h
+[36.517s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__rosidl_typesupport_fastrtps_c.h
+[36.524s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__rosidl_typesupport_fastrtps_c.h
+[36.535s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__rosidl_typesupport_fastrtps_c.h
+[36.543s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__rosidl_typesupport_fastrtps_c.h
+[36.551s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__rosidl_typesupport_fastrtps_c.h
+[36.559s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__rosidl_typesupport_fastrtps_c.h
+[36.566s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__rosidl_typesupport_fastrtps_c.h
+[36.573s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__rosidl_typesupport_fastrtps_c.h
+[36.580s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__rosidl_typesupport_fastrtps_c.h
+[36.590s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__rosidl_typesupport_fastrtps_c.h
+[36.599s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[36.610s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__rosidl_typesupport_fastrtps_c.h
+[36.619s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__rosidl_typesupport_fastrtps_c.h
+[36.627s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__rosidl_typesupport_fastrtps_c.h
+[36.633s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__rosidl_typesupport_fastrtps_c.h
+[36.641s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__rosidl_typesupport_fastrtps_c.h
+[36.651s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__rosidl_typesupport_fastrtps_c.h
+[36.660s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__rosidl_typesupport_fastrtps_c.h
+[36.670s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__rosidl_typesupport_introspection_c.h
+[36.679s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__rosidl_typesupport_introspection_c.h
+[36.688s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__rosidl_typesupport_introspection_c.h
+[36.694s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__rosidl_typesupport_introspection_c.h
+[36.701s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__rosidl_typesupport_introspection_c.h
+[36.710s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__rosidl_typesupport_introspection_c.h
+[36.719s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__rosidl_typesupport_introspection_c.h
+[36.730s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__rosidl_typesupport_introspection_c.h
+[36.739s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__rosidl_typesupport_introspection_c.h
+[36.749s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__rosidl_typesupport_introspection_c.h
+[36.759s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__rosidl_typesupport_introspection_c.h
+[36.766s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[36.777s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__rosidl_typesupport_introspection_c.h
+[36.788s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__rosidl_typesupport_introspection_c.h
+[36.798s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__rosidl_typesupport_introspection_c.h
+[36.808s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__rosidl_typesupport_introspection_c.h
+[36.819s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__rosidl_typesupport_introspection_c.h
+[36.828s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__rosidl_typesupport_introspection_c.h
+[36.838s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__rosidl_typesupport_introspection_c.h
+[36.849s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__builder.hpp
+[36.858s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__struct.hpp
+[36.868s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__traits.hpp
+[36.875s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__type_support.hpp
+[36.882s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__builder.hpp
+[36.892s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__struct.hpp
+[36.900s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__traits.hpp
+[36.910s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__type_support.hpp
+[36.919s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__builder.hpp
+[36.929s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__struct.hpp
+[36.937s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__traits.hpp
+[36.948s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__type_support.hpp
+[36.957s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__builder.hpp
+[36.969s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__struct.hpp
+[36.976s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__traits.hpp
+[36.988s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__type_support.hpp
+[36.996s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__builder.hpp
+[37.007s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__struct.hpp
+[37.016s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__traits.hpp
+[37.023s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__type_support.hpp
+[37.030s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/error_recovery.hpp
+[37.038s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/grasp.hpp
+[37.049s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/homing.hpp
+[37.057s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/move.hpp
+[37.068s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/ptp_motion.hpp
+[37.079s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/collision_indicators.hpp
+[37.090s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__builder.hpp
+[37.098s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__struct.hpp
+[37.110s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__traits.hpp
+[37.117s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__type_support.hpp
+[37.128s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__builder.hpp
+[37.137s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__struct.hpp
+[37.146s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__traits.hpp
+[37.155s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__type_support.hpp
+[37.161s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__builder.hpp
+[37.168s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__struct.hpp
+[37.175s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__traits.hpp
+[37.183s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__type_support.hpp
+[37.193s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__builder.hpp
+[37.201s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__struct.hpp
+[37.211s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__traits.hpp
+[37.223s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__type_support.hpp
+[37.233s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__builder.hpp
+[37.242s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__struct.hpp
+[37.253s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__traits.hpp
+[37.264s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__type_support.hpp
+[37.273s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__builder.hpp
+[37.282s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__struct.hpp
+[37.293s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__traits.hpp
+[37.303s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__type_support.hpp
+[37.313s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/elbow.hpp
+[37.323s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/errors.hpp
+[37.332s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/franka_robot_state.hpp
+[37.342s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/grasp_epsilon.hpp
+[37.352s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[37.361s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/target_status.hpp
+[37.367s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__builder.hpp
+[37.378s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__struct.hpp
+[37.388s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__traits.hpp
+[37.395s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__type_support.hpp
+[37.404s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__builder.hpp
+[37.413s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__struct.hpp
+[37.422s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__traits.hpp
+[37.432s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__type_support.hpp
+[37.442s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__builder.hpp
+[37.453s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__struct.hpp
+[37.463s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__traits.hpp
+[37.473s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__type_support.hpp
+[37.482s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__builder.hpp
+[37.492s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__struct.hpp
+[37.501s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__traits.hpp
+[37.509s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__type_support.hpp
+[37.517s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__builder.hpp
+[37.528s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__struct.hpp
+[37.536s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__traits.hpp
+[37.546s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__type_support.hpp
+[37.552s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__builder.hpp
+[37.560s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__struct.hpp
+[37.570s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__traits.hpp
+[37.580s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__type_support.hpp
+[37.588s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__builder.hpp
+[37.598s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__struct.hpp
+[37.608s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__traits.hpp
+[37.618s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__type_support.hpp
+[37.626s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_cartesian_stiffness.hpp
+[37.633s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_force_torque_collision_behavior.hpp
+[37.641s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_full_collision_behavior.hpp
+[37.649s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_joint_stiffness.hpp
+[37.660s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_load.hpp
+[37.668s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_stiffness_frame.hpp
+[37.680s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/set_tcp_frame.hpp
+[37.687s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__rosidl_typesupport_fastrtps_cpp.hpp
+[37.694s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__rosidl_typesupport_fastrtps_cpp.hpp
+[37.703s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__rosidl_typesupport_fastrtps_cpp.hpp
+[37.710s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+[37.720s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[37.727s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__rosidl_typesupport_fastrtps_cpp.hpp
+[37.734s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__rosidl_typesupport_fastrtps_cpp.hpp
+[37.743s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__rosidl_typesupport_fastrtps_cpp.hpp
+[37.750s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[37.761s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__rosidl_typesupport_fastrtps_cpp.hpp
+[37.773s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__rosidl_typesupport_fastrtps_cpp.hpp
+[37.782s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[37.792s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__rosidl_typesupport_fastrtps_cpp.hpp
+[37.803s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__rosidl_typesupport_fastrtps_cpp.hpp
+[37.813s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__rosidl_typesupport_fastrtps_cpp.hpp
+[37.821s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__rosidl_typesupport_fastrtps_cpp.hpp
+[37.828s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__rosidl_typesupport_fastrtps_cpp.hpp
+[37.835s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[37.842s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[37.851s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/error_recovery__rosidl_typesupport_introspection_cpp.hpp
+[37.862s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/grasp__rosidl_typesupport_introspection_cpp.hpp
+[37.873s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/homing__rosidl_typesupport_introspection_cpp.hpp
+[37.883s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+[37.894s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/action/detail/ptp_motion__rosidl_typesupport_introspection_cpp.hpp
+[37.904s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/collision_indicators__rosidl_typesupport_introspection_cpp.hpp
+[37.914s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/elbow__rosidl_typesupport_introspection_cpp.hpp
+[37.924s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/errors__rosidl_typesupport_introspection_cpp.hpp
+[37.934s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/franka_robot_state__rosidl_typesupport_introspection_cpp.hpp
+[37.944s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/grasp_epsilon__rosidl_typesupport_introspection_cpp.hpp
+[37.951s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/msg/detail/target_status__rosidl_typesupport_introspection_cpp.hpp
+[37.960s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_cartesian_stiffness__rosidl_typesupport_introspection_cpp.hpp
+[37.968s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_force_torque_collision_behavior__rosidl_typesupport_introspection_cpp.hpp
+[37.979s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_full_collision_behavior__rosidl_typesupport_introspection_cpp.hpp
+[37.987s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_joint_stiffness__rosidl_typesupport_introspection_cpp.hpp
+[37.997s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_load__rosidl_typesupport_introspection_cpp.hpp
+[38.006s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_stiffness_frame__rosidl_typesupport_introspection_cpp.hpp
+[38.017s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/include/franka_msgs/franka_msgs/srv/detail/set_tcp_frame__rosidl_typesupport_introspection_cpp.hpp
+[38.026s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/environment/pythonpath.sh
+[38.036s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/environment/pythonpath.dsv
+[38.043s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs-3.6.0-py3.12.egg-info/PKG-INFO
+[38.053s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs-3.6.0-py3.12.egg-info/SOURCES.txt
+[38.064s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs-3.6.0-py3.12.egg-info/dependency_links.txt
+[38.071s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs-3.6.0-py3.12.egg-info/top_level.txt
+[38.082s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/__init__.py
+[38.092s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_c.c
+[38.101s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[38.108s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/_franka_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[38.119s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/__init__.py
+[38.128s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_error_recovery.py
+[38.135s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_error_recovery_s.c
+[38.143s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_grasp.py
+[38.151s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_grasp_s.c
+[38.160s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_homing.py
+[38.168s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_homing_s.c
+[38.175s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_move.py
+[38.182s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_move_s.c
+[38.190s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_ptp_motion.py
+[38.199s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_ptp_motion_s.c
+[38.209s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_c.so
+[38.219s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_fastrtps_c.so
+[38.228s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_introspection_c.so
+[38.235s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/__init__.py
+[38.243s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_collision_indicators.py
+[38.250s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_collision_indicators_s.c
+[38.259s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_elbow.py
+[38.270s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_elbow_s.c
+[38.277s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_errors.py
+[38.287s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_errors_s.c
+[38.294s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_franka_robot_state.py
+[38.305s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_franka_robot_state_s.c
+[38.313s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_grasp_epsilon.py
+[38.322s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_grasp_epsilon_s.c
+[38.330s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_target_status.py
+[38.340s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_target_status_s.c
+[38.349s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/__init__.py
+[38.357s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_cartesian_stiffness.py
+[38.368s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_cartesian_stiffness_s.c
+[38.378s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_force_torque_collision_behavior.py
+[38.388s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_force_torque_collision_behavior_s.c
+[38.396s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_full_collision_behavior.py
+[38.406s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_full_collision_behavior_s.c
+[38.414s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_joint_stiffness.py
+[38.423s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_joint_stiffness_s.c
+[38.431s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_load.py
+[38.441s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_load_s.c
+[38.452s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_stiffness_frame.py
+[38.460s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_stiffness_frame_s.c
+[38.469s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_tcp_frame.py
+[38.476s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_tcp_frame_s.c
+[38.484s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_fastrtps_c.so
+[38.484s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_introspection_c.so
+[38.484s] -- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/franka_msgs_s__rosidl_typesupport_c.so
+[38.485s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/rust/Cargo.toml
+[38.494s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/rust/build.rs
+[38.504s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/rust/src/action.rs
+[38.511s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/rust/src/action/rmw.rs
+[38.521s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/rust/src/lib.rs
+[38.529s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/rust/src/msg.rs
+[38.540s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/rust/src/msg/rmw.rs
+[38.551s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/rust/src/srv.rs
+[38.561s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/rust/src/srv/rmw.rs
+[38.571s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/ErrorRecovery.idl
+[38.581s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/Grasp.idl
+[38.591s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/Homing.idl
+[38.601s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/Move.idl
+[38.611s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/PTPMotion.idl
+[38.620s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/CollisionIndicators.idl
+[38.630s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/Elbow.idl
+[38.640s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/Errors.idl
+[38.651s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/FrankaRobotState.idl
+[38.660s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/GraspEpsilon.idl
+[38.671s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/TargetStatus.idl
+[38.681s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetCartesianStiffness.idl
+[38.692s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetTCPFrame.idl
+[38.703s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetForceTorqueCollisionBehavior.idl
+[38.713s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetFullCollisionBehavior.idl
+[38.721s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetJointStiffness.idl
+[38.728s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetStiffnessFrame.idl
+[38.736s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetLoad.idl
+[38.743s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/ErrorRecovery.action
+[38.753s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/Grasp.action
+[38.763s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/Homing.action
+[38.773s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/Move.action
+[38.784s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/action/PTPMotion.action
+[38.793s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/CollisionIndicators.msg
+[38.804s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/Elbow.msg
+[38.814s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/Errors.msg
+[38.824s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/FrankaRobotState.msg
+[38.831s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/GraspEpsilon.msg
+[38.837s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/msg/TargetStatus.msg
+[38.844s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetCartesianStiffness.srv
+[38.851s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetTCPFrame.srv
+[38.857s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetForceTorqueCollisionBehavior.srv
+[38.865s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetFullCollisionBehavior.srv
+[38.873s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetJointStiffness.srv
+[38.883s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetStiffnessFrame.srv
+[38.892s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/srv/SetLoad.srv
+[38.903s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/ament_index/resource_index/package_run_dependencies/franka_msgs
+[38.912s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/ament_index/resource_index/parent_prefix_path/franka_msgs
+[38.922s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/environment/ament_prefix_path.sh
+[38.932s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/environment/ament_prefix_path.dsv
+[38.940s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/environment/path.sh
+[38.947s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/environment/path.dsv
+[38.957s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/local_setup.bash
+[38.964s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/local_setup.sh
+[38.975s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/local_setup.zsh
+[38.985s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/local_setup.dsv
+[38.994s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.dsv
+[39.001s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/ament_index/resource_index/packages/franka_msgs
+[39.012s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/rosidl_cmake-extras.cmake
+[39.022s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.032s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.042s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[39.053s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[39.063s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.074s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.080s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[39.091s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgsConfig.cmake
+[39.099s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgsConfig-version.cmake
+[39.106s] -- Symlinking: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/package.xml
+[39.115s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_generator_c.so
+[39.115s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_generator_c.so" to ""
+[39.115s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_fastrtps_c.so
+[39.115s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[39.115s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_introspection_c.so
+[39.116s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_introspection_c.so" to ""
+[39.116s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_c.so
+[39.116s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_c.so" to ""
+[39.116s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_fastrtps_cpp.so
+[39.116s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[39.117s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_introspection_cpp.so
+[39.117s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[39.117s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_cpp.so
+[39.117s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_typesupport_cpp.so" to ""
+[39.219s] Listing '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs'...
+[39.219s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/__init__.py'...
+[39.219s] Listing '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action'...
+[39.219s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/__init__.py'...
+[39.219s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_error_recovery.py'...
+[39.219s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_grasp.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_homing.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_move.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/action/_ptp_motion.py'...
+[39.220s] Listing '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/__init__.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_collision_indicators.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_elbow.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_errors.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_franka_robot_state.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_grasp_epsilon.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/msg/_target_status.py'...
+[39.220s] Listing '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/__init__.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_cartesian_stiffness.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_force_torque_collision_behavior.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_full_collision_behavior.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_joint_stiffness.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_load.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_stiffness_frame.py'...
+[39.220s] Compiling '/home/nick/franka_ros2_ws/install/franka_msgs/lib/python3.12/site-packages/franka_msgs/srv/_set_tcp_frame.py'...
+[39.224s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_generator_py.so
+[39.224s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/franka_msgs/lib/libfranka_msgs__rosidl_generator_py.so" to ""
+[39.224s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_generator_cExport.cmake
+[39.224s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_generator_cExport-release.cmake
+[39.224s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[39.224s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[39.224s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_introspection_cExport.cmake
+[39.224s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[39.224s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_cExport.cmake
+[39.224s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_cExport-release.cmake
+[39.224s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_generator_cppExport.cmake
+[39.225s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[39.225s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[39.225s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[39.225s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[39.225s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_cppExport.cmake
+[39.225s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/franka_msgs__rosidl_typesupport_cppExport-release.cmake
+[39.225s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_generator_pyExport.cmake
+[39.225s] -- Installing: /home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake/export_franka_msgs__rosidl_generator_pyExport-release.cmake
+[39.227s] Invoked command in '/home/nick/franka_ros2_ws/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/franka_msgs

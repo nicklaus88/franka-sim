@@ -1,0 +1,11 @@
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/uninstall.dir
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/franka_spine_server_uninstall.dir
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/ament_cmake_python_symlink_franka_spine_server.dir
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/ament_cmake_python_build_franka_spine_server_egg.dir
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/test.dir
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/edit_cache.dir
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/rebuild_cache.dir
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/list_install_components.dir
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/install.dir
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/install/local.dir
+/home/nick/franka_ros2_ws/build/franka_spine_server/CMakeFiles/install/strip.dir

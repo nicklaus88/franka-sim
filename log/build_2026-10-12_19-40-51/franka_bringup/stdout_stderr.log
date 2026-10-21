@@ -1,0 +1,146 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found launch_testing_ament_cmake: 3.4.12 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+  Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+  Lyrical Luth.
+
+        Use tl/expected.hpp from libexpected-dev,
+        or rcpputils/tl_expected/expected.hpp if the system header is not available)
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+  /opt/ros/jazzy/share/forward_command_controller/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/forward_command_controller/cmake/forward_command_controllerConfig.cmake:41 (include)
+  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:36 (find_package)
+  CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+
+[0m
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- ROBOT_IP not defined, defaulting to 172.16.0.1...
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (4.7s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTS
+
+[0m
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_bringup
+Built target ament_cmake_python_symlink_franka_bringup
+running egg_info
+creating franka_bringup.egg-info
+writing franka_bringup.egg-info/PKG-INFO
+writing dependency_links to franka_bringup.egg-info/dependency_links.txt
+writing top-level names to franka_bringup.egg-info/top_level.txt
+writing manifest file 'franka_bringup.egg-info/SOURCES.txt'
+reading manifest file 'franka_bringup.egg-info/SOURCES.txt'
+writing manifest file 'franka_bringup.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_franka_bringup_egg
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/environment/pythonpath.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/environment/pythonpath.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup-3.6.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup-3.6.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup-3.6.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup-3.6.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/__init__.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/launch_utils.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/testing/__init__.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/testing/controller_service_client.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/testing/controller_test_utils.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/testing/fake_hardware_test_base.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/config/controllers.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/config/fr3_duo.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/config/franka.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/config/mobile_fr3_duo.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/config/tmr.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/config/xbox.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/example.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/fr3_duo.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/franka.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/joint_impedance_with_ik_example_controller.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/mobile_fr3_duo.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/mobile_teleop.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/launch/tmrv0_2.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/urdf/fr3_duo.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/urdf/franka_arm.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/urdf/mobile_fr3_duo.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/urdf/tmrv0_2.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/README.md
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/config/test_0.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/config/test_1.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/config/test_fake_hardware_fr3.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/config/test_fake_hardware_fr3_duo.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/config/test_fake_hardware_mobile_fr3_duo.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/config/test_fake_hardware_tmr.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/config/test_use_fake_hardware.config.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/ros2_control_test_helpers.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_controller_activation_order.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_deactivate_write_hardware.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_fake_hardware_controllers.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_fake_hardware_fr3_duo.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_fake_hardware_mobile_fr3_duo.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_fake_hardware_tmr.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_fr3_duo_interfaces.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_franka_arm_interfaces.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_gazebo_wrapper_expansion.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_hardware_example_controllers.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_hardware_generic_controller.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_launch_file_parsing.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_mobile_fr3_duo_interfaces.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/test/test_teleop_plumbing.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/ament_index/resource_index/package_run_dependencies/franka_bringup
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/ament_index/resource_index/parent_prefix_path/franka_bringup
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/environment/path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/environment/path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/local_setup.bash
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/local_setup.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/local_setup.zsh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/ament_index/resource_index/packages/franka_bringup
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/cmake/franka_bringupConfig.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/cmake/franka_bringupConfig-version.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_bringup/share/franka_bringup/package.xml
+Listing '/home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/__init__.py'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/launch_utils.py'...
+Listing '/home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/testing'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/testing/__init__.py'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/testing/controller_service_client.py'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/testing/controller_test_utils.py'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_bringup/lib/python3.12/site-packages/franka_bringup/testing/fake_hardware_test_base.py'...

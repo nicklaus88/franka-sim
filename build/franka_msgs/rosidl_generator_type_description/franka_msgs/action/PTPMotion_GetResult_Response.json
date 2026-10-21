@@ -1,0 +1,85 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "franka_msgs/action/PTPMotion_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "franka_msgs/action/PTPMotion_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "franka_msgs/action/PTPMotion_Result",
+        "fields": [
+          {
+            "name": "target_status",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "franka_msgs/msg/TargetStatus"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "error_message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "franka_msgs/msg/TargetStatus",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "franka_msgs/action/PTPMotion_GetResult_Response",
+      "hash_string": "RIHS01_60f9440f075707321c2689ef542967d2ef7bb4c91e3118995b2c1ecf061986f0"
+    },
+    {
+      "type_name": "franka_msgs/action/PTPMotion_Result",
+      "hash_string": "RIHS01_782f46a1cf988a3deb9257c91e7536e5cb0a30cf9862dc294a57ca187380a5a4"
+    },
+    {
+      "type_name": "franka_msgs/msg/TargetStatus",
+      "hash_string": "RIHS01_7fee694ce8c9efcf798c0c4bb32b7f861ec90f2d954eca624a48b268241d64df"
+    }
+  ]
+}

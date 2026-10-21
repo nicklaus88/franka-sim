@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (5.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/olv_module_descriptions
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_cam.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_gnx.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_imu.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_n5g.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_rad.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_srv.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_wheel.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/rviz/visualize_olive.rviz
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-cam01.dae
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-chassis01.zip
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-gnx01.dae
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-imu01.dae
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-n5g01.dae
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-rad01.dae
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-srv01-body.dae
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-srv01-horn.dae
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-srv01.dae
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-wheel01.dae
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-cam01.urdf
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-cam01.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-chassis01.urdf
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-chassis01.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-gnx01.urdf
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-gnx01.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-imu01.urdf
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-imu01.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-n5g01.urdf
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-n5g01.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-rad01.urdf
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-rad01.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-srv01.urdf
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-srv01.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-wheel01.urdf
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-wheel01.urdf.xacro
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/ament_index/resource_index/package_run_dependencies/olv_module_descriptions
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/ament_index/resource_index/parent_prefix_path/olv_module_descriptions
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/environment/ament_prefix_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/environment/path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/environment/path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/local_setup.bash
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/local_setup.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/local_setup.zsh
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/package.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/ament_index/resource_index/packages/olv_module_descriptions
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/cmake/olv_module_descriptionsConfig.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/cmake/olv_module_descriptionsConfig-version.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/package.xml

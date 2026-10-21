@@ -1,0 +1,1 @@
+ament_index_cpp;franka_hardware;gz_ros2_control;gz_sim_vendor;hardware_interface;libfranka;pinocchio;pluginlib;rclcpp;rclcpp_lifecycle;realtime_tools;eigen;franka_description;xacro;ament_lint_auto;ament_cmake_gmock

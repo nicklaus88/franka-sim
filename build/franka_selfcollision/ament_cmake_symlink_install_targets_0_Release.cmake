@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nick/franka_ros2_ws/build/franka_selfcollision/self_collision_node" "TARGETS" "self_collision_node" "RUNTIME_DESTINATION" "lib/franka_selfcollision")

@@ -1,0 +1,25 @@
+{
+  "package_name": "franka_spine_msgs",
+  "output_dir": "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_generator_type_description/franka_spine_msgs",
+  "idl_tuples": [
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:action/MoveAbsolute.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:msg/UserLimits.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:msg/SpineParameters.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:msg/SpinePosition.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:msg/SpineState.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/GetSpineState.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/GetPosition.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/FaultReset.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/SwitchOn.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/SwitchOff.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/Halt.idl",
+    "/home/nick/franka_ros2_ws/build/franka_spine_msgs/rosidl_adapter/franka_spine_msgs:srv/GetParameters.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

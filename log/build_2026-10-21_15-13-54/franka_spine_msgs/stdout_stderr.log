@@ -1,0 +1,351 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.8s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_spine_msgs
+[  1%] Built target franka_spine_msgs__rosidl_generator_type_description
+[  1%] Built target franka_spine_msgs__rs
+[  1%] Built target ament_cmake_python_symlink_franka_spine_msgs
+[  1%] Built target franka_spine_msgs__cpp
+[ 27%] Built target franka_spine_msgs__rosidl_generator_c
+[ 37%] Built target franka_spine_msgs__rosidl_typesupport_introspection_c
+[ 46%] Built target franka_spine_msgs__rosidl_typesupport_c
+[ 55%] Built target franka_spine_msgs__rosidl_typesupport_fastrtps_cpp
+[ 65%] Built target franka_spine_msgs__rosidl_typesupport_fastrtps_c
+[ 75%] Built target franka_spine_msgs__rosidl_typesupport_cpp
+[ 85%] Built target franka_spine_msgs__rosidl_typesupport_introspection_cpp
+[ 85%] Built target franka_spine_msgs
+[ 86%] Built target franka_spine_msgs__py
+[ 95%] Built target franka_spine_msgs__rosidl_generator_py
+[ 96%] Built target franka_spine_msgs_s__rosidl_typesupport_fastrtps_c
+[ 98%] Built target franka_spine_msgs_s__rosidl_typesupport_c
+[100%] Built target franka_spine_msgs_s__rosidl_typesupport_introspection_c
+running egg_info
+writing franka_spine_msgs.egg-info/PKG-INFO
+writing dependency_links to franka_spine_msgs.egg-info/dependency_links.txt
+writing top-level names to franka_spine_msgs.egg-info/top_level.txt
+reading manifest file 'franka_spine_msgs.egg-info/SOURCES.txt'
+writing manifest file 'franka_spine_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_franka_spine_msgs_egg
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/ament_index/resource_index/rosidl_interfaces/franka_spine_msgs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/action/MoveAbsolute.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/UserLimits.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpineParameters.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpinePosition.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpineState.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetSpineState.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetPosition.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/FaultReset.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOn.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOff.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/Halt.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetParameters.json
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/move_absolute.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/spine_parameters.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/spine_position.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/spine_state.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/user_limits.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__functions.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__struct.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__type_support.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/fault_reset.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_parameters.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_position.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_spine_state.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/halt.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/switch_off.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/switch_on.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/library_path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/library_path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/move_absolute.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/spine_parameters.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/spine_position.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/spine_state.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/user_limits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__builder.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__struct.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__traits.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__type_support.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/fault_reset.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_parameters.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_position.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/get_spine_state.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/halt.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/switch_off.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/switch_on.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/action/detail/move_absolute__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_parameters__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_position__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/spine_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/msg/detail/user_limits__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/fault_reset__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_parameters__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/get_spine_state__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/halt__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_off__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/include/franka_spine_msgs/franka_spine_msgs/srv/detail/switch_on__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/pythonpath.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs-3.6.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs-3.6.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs-3.6.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs-3.6.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/__init__.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/_franka_spine_msgs_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/_franka_spine_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/_franka_spine_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/action/__init__.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/action/_move_absolute.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/action/_move_absolute_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_c.so
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/msg/__init__.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/msg/_spine_parameters.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/msg/_spine_parameters_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/msg/_spine_position.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/msg/_spine_position_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/msg/_spine_state.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/msg/_spine_state_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/msg/_user_limits.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/msg/_user_limits_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/__init__.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_fault_reset.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_fault_reset_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_get_parameters.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_get_parameters_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_get_position.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_get_position_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_get_spine_state.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_get_spine_state_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_halt.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_halt_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_switch_off.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_switch_off_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_switch_on.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv/_switch_on_s.c
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/franka_spine_msgs_s__rosidl_typesupport_c.so
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/Cargo.toml
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/build.rs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/action.rs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/action/rmw.rs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/lib.rs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/msg.rs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/msg/rmw.rs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/srv.rs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/rust/src/srv/rmw.rs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/action/MoveAbsolute.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/UserLimits.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpineParameters.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpinePosition.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpineState.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetSpineState.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetPosition.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/FaultReset.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOn.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOff.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/Halt.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetParameters.idl
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/action/MoveAbsolute.action
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/UserLimits.msg
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpineParameters.msg
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpinePosition.msg
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/msg/SpineState.msg
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetSpineState.srv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetPosition.srv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/FaultReset.srv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOn.srv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/SwitchOff.srv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/Halt.srv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/srv/GetParameters.srv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/ament_index/resource_index/package_run_dependencies/franka_spine_msgs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/ament_index/resource_index/parent_prefix_path/franka_spine_msgs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/environment/path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/local_setup.bash
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/local_setup.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/local_setup.zsh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/package.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/ament_index/resource_index/packages/franka_spine_msgs
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgsConfig.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgsConfig-version.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/package.xml
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_typesupport_cpp.so
+Listing '/home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/__init__.py'...
+Listing '/home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/action'...
+Listing '/home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/msg'...
+Listing '/home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/python3.12/site-packages/franka_spine_msgs/srv'...
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/lib/libfranka_spine_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_generator_cExport-release.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_cExport-release.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/franka_spine_msgs__rosidl_typesupport_cppExport-release.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/nick/franka_ros2_ws/install/franka_spine_msgs/share/franka_spine_msgs/cmake/export_franka_spine_msgs__rosidl_generator_pyExport-release.cmake

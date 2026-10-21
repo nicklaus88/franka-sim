@@ -1,0 +1,3 @@
+/home/nick/franka_ros2_ws/install/transmission_interface/lib/libtransmission_interface.so
+/home/nick/franka_ros2_ws/install/transmission_interface/share/transmission_interface/cmake/export_transmission_interfaceExport.cmake
+/home/nick/franka_ros2_ws/install/transmission_interface/share/transmission_interface/cmake/export_transmission_interfaceExport-release.cmake

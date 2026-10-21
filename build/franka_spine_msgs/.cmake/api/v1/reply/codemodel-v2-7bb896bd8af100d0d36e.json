@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-a1915cf4a6e5fb1563ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "franka_spine_msgs__py",
+					"jsonFile" : "directory-franka_spine_msgs__py-Release-bad173a4aee7d4f8e947.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nick/franka_ros2_ws/build/franka_spine_msgs/franka_spine_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "franka_spine_msgs__rs",
+					"jsonFile" : "directory-franka_spine_msgs__rs-Release-763ce68aed49869d4ff8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nick/franka_ros2_ws/build/franka_spine_msgs/franka_spine_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "franka_spine_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_franka_spine_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_franka_spine_msgs_egg-Release-a5bda2bf14ac847b1bce.json",
+					"name" : "ament_cmake_python_build_franka_spine_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_franka_spine_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_franka_spine_msgs-Release-175689c16242bb11105d.json",
+					"name" : "ament_cmake_python_symlink_franka_spine_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs-Release-75f11be4bd5d2d8b0bbd.json",
+					"name" : "franka_spine_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs__cpp-Release-a0b05cc4209c7c4f7e98.json",
+					"name" : "franka_spine_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "franka_spine_msgs__py::@4df58d678710d904b33d",
+					"jsonFile" : "target-franka_spine_msgs__py-Release-4dfa398fd60f54ce0359.json",
+					"name" : "franka_spine_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs__rosidl_generator_c-Release-6894b67171cf894a6782.json",
+					"name" : "franka_spine_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs__rosidl_generator_py-Release-26aa63ca295087cb6f29.json",
+					"name" : "franka_spine_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs__rosidl_generator_type_description-Release-6bb72f9e8ebec3d7c58a.json",
+					"name" : "franka_spine_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs__rosidl_typesupport_c-Release-4435d7d7136ff6e77c2d.json",
+					"name" : "franka_spine_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs__rosidl_typesupport_cpp-Release-30d1c22b7ef466102c78.json",
+					"name" : "franka_spine_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs__rosidl_typesupport_fastrtps_c-Release-7bb4cd45fcc8799f9b52.json",
+					"name" : "franka_spine_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs__rosidl_typesupport_fastrtps_cpp-Release-50ed4577083968b8cb33.json",
+					"name" : "franka_spine_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs__rosidl_typesupport_introspection_c-Release-a63a4a35c1326ebac9e3.json",
+					"name" : "franka_spine_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs__rosidl_typesupport_introspection_cpp-Release-7a7622e025abd1b7df9f.json",
+					"name" : "franka_spine_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "franka_spine_msgs__rs::@ca43249a4270a41c4956",
+					"jsonFile" : "target-franka_spine_msgs__rs-Release-6e52efa17380f9afda6d.json",
+					"name" : "franka_spine_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs_s__rosidl_typesupport_c-Release-e0f40b8b96cd6bd51c37.json",
+					"name" : "franka_spine_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs_s__rosidl_typesupport_fastrtps_c-Release-994d70e56b05721b35ec.json",
+					"name" : "franka_spine_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs_s__rosidl_typesupport_introspection_c-Release-a8c97a0e8c2a89304484.json",
+					"name" : "franka_spine_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "franka_spine_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-franka_spine_msgs_uninstall-Release-f6a2e6cd4b6b323e3b17.json",
+					"name" : "franka_spine_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-ec6931bc8f576adde7f1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nick/franka_ros2_ws/build/franka_spine_msgs",
+		"source" : "/home/nick/franka_ros2_ws/src/franka_spine/franka_spine_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

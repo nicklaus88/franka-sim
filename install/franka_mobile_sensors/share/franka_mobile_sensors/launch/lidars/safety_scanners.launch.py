@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/franka_description_extensions/franka_mobile_sensors/launch/lidars/safety_scanners.launch.py

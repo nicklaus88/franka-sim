@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: franka-conveyor-sim
+Version: 0.1.0
+Summary: Physical Gazebo Harmonic conveyor environment
+Maintainer: Franka conveyor contributors
+Maintainer-email: maintainer@example.com
+License: Apache-2.0

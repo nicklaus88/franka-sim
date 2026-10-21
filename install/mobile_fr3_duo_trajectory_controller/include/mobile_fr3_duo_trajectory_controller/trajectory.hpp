@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/mobile_fr3_duo_trajectory_controller/include/mobile_fr3_duo_trajectory_controller/trajectory.hpp

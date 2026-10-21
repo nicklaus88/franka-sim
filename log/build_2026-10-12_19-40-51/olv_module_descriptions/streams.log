@@ -1,0 +1,89 @@
+[0.026s] Invoking command in '/home/nick/franka_ros2_ws/build/olv_module_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/olvx_descriptions_module -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/olv_module_descriptions
+[0.160s] -- The C compiler identification is GNU 13.3.0
+[0.199s] -- The CXX compiler identification is GNU 13.3.0
+[0.210s] -- Detecting C compiler ABI info
+[0.373s] -- Detecting C compiler ABI info - done
+[0.402s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.402s] -- Detecting C compile features
+[0.402s] -- Detecting C compile features - done
+[0.417s] -- Detecting CXX compiler ABI info
+[0.524s] -- Detecting CXX compiler ABI info - done
+[0.531s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.531s] -- Detecting CXX compile features
+[0.531s] -- Detecting CXX compile features - done
+[0.534s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.689s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.751s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.833s] -- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+[4.257s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[5.165s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.291s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.291s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.293s] -- Added test 'lint_cmake' to check CMake code style
+[5.294s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.297s] -- Added test 'xmllint' to check XML markup files
+[5.298s] -- Configuring done (5.3s)
+[5.300s] -- Generating done (0.0s)
+[5.301s] [33mCMake Warning:
+[5.301s]   Manually-specified variables were not used by the project:
+[5.301s] 
+[5.301s]     BUILD_TESTS
+[5.301s] 
+[5.301s] [0m
+[5.505s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/olv_module_descriptions
+[5.516s] Invoked command in '/home/nick/franka_ros2_ws/build/olv_module_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/olvx_descriptions_module -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/olv_module_descriptions
+[5.517s] Invoking command in '/home/nick/franka_ros2_ws/build/olv_module_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/olv_module_descriptions -- -j20 -l20
+[6.965s] Invoked command in '/home/nick/franka_ros2_ws/build/olv_module_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/olv_module_descriptions -- -j20 -l20
+[6.967s] Invoking command in '/home/nick/franka_ros2_ws/build/olv_module_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/olv_module_descriptions
+[6.977s] -- Install configuration: "Release"
+[6.978s] -- Execute custom install script
+[6.978s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_cam.launch.py
+[6.996s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_gnx.launch.py
+[7.016s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_imu.launch.py
+[7.029s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_n5g.launch.py
+[7.039s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_rad.launch.py
+[7.047s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_srv.launch.py
+[7.057s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/launch/visualize_olive_wheel.launch.py
+[7.069s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/rviz/visualize_olive.rviz
+[7.079s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-cam01.dae
+[7.090s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-chassis01.zip
+[7.098s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-gnx01.dae
+[7.106s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-imu01.dae
+[7.114s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-n5g01.dae
+[7.121s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-rad01.dae
+[7.127s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-srv01-body.dae
+[7.135s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-srv01-horn.dae
+[7.144s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-srv01.dae
+[7.153s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/meshes/olv-wheel01.dae
+[7.164s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-cam01.urdf
+[7.172s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-cam01.urdf.xacro
+[7.182s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-chassis01.urdf
+[7.190s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-chassis01.urdf.xacro
+[7.200s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-gnx01.urdf
+[7.208s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-gnx01.urdf.xacro
+[7.215s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-imu01.urdf
+[7.225s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-imu01.urdf.xacro
+[7.233s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-n5g01.urdf
+[7.245s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-n5g01.urdf.xacro
+[7.253s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-rad01.urdf
+[7.264s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-rad01.urdf.xacro
+[7.274s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-srv01.urdf
+[7.285s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-srv01.urdf.xacro
+[7.292s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-wheel01.urdf
+[7.298s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/urdf/olv-wheel01.urdf.xacro
+[7.309s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/ament_index/resource_index/package_run_dependencies/olv_module_descriptions
+[7.315s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/ament_index/resource_index/parent_prefix_path/olv_module_descriptions
+[7.326s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/environment/ament_prefix_path.sh
+[7.336s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/environment/ament_prefix_path.dsv
+[7.344s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/environment/path.sh
+[7.355s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/environment/path.dsv
+[7.364s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/local_setup.bash
+[7.370s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/local_setup.sh
+[7.378s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/local_setup.zsh
+[7.384s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/local_setup.dsv
+[7.390s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/package.dsv
+[7.400s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/ament_index/resource_index/packages/olv_module_descriptions
+[7.408s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/cmake/olv_module_descriptionsConfig.cmake
+[7.418s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/cmake/olv_module_descriptionsConfig-version.cmake
+[7.428s] -- Symlinking: /home/nick/franka_ros2_ws/install/olv_module_descriptions/share/olv_module_descriptions/package.xml
+[7.440s] Invoked command in '/home/nick/franka_ros2_ws/build/olv_module_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/olv_module_descriptions

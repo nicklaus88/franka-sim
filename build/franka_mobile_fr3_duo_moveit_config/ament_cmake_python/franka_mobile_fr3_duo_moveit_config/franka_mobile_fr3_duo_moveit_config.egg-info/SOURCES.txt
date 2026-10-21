@@ -1,0 +1,8 @@
+setup.py
+franka_mobile_fr3_duo_moveit_config/__init__.py
+franka_mobile_fr3_duo_moveit_config/description.py
+franka_mobile_fr3_duo_moveit_config/parameters.py
+franka_mobile_fr3_duo_moveit_config.egg-info/PKG-INFO
+franka_mobile_fr3_duo_moveit_config.egg-info/SOURCES.txt
+franka_mobile_fr3_duo_moveit_config.egg-info/dependency_links.txt
+franka_mobile_fr3_duo_moveit_config.egg-info/top_level.txt

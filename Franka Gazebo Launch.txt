@@ -1,0 +1,6 @@
+Franka Gazebo Launch (stationary)
+
+source franka_sim_env.sh
+	-or source ~/franka_ros2_ws/franka_sim_env.sh if not in 	workspace
+
+ros2 launch franka_gazebo_bringup franka_sim.launch.py

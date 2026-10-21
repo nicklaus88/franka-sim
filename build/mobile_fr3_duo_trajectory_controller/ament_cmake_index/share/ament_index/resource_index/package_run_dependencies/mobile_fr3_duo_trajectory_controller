@@ -1,0 +1,1 @@
+controller_interface;control_msgs;hardware_interface;rclcpp;rclcpp_action;rclcpp_lifecycle;realtime_tools;trajectory_msgs;generate_parameter_library;franka_semantic_components;franka_example_controllers

@@ -1,0 +1,54 @@
+[0.923s] Invoking command in '/home/nick/franka_ros2_ws/src/franka_conveyor_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nick/franka_ros2_ws/build/franka_conveyor_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/franka_conveyor_sim build --build-base /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build install --record /home/nick/franka_ros2_ws/build/franka_conveyor_sim/install.log --install-scripts $base/lib/franka_conveyor_sim --single-version-externally-managed install_data
+[1.119s] running egg_info
+[1.119s] creating ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info
+[1.132s] writing ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/PKG-INFO
+[1.132s] writing dependency_links to ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/dependency_links.txt
+[1.132s] writing entry points to ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/entry_points.txt
+[1.132s] writing top-level names to ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/top_level.txt
+[1.132s] writing manifest file '../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/SOURCES.txt'
+[1.158s] reading manifest file '../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/SOURCES.txt'
+[1.158s] writing manifest file '../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/SOURCES.txt'
+[1.158s] running build
+[1.159s] running build_py
+[1.159s] creating /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build
+[1.159s] creating /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib
+[1.159s] creating /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib/franka_conveyor_sim
+[1.159s] copying franka_conveyor_sim/box_spawner.py -> /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib/franka_conveyor_sim
+[1.159s] copying franka_conveyor_sim/__init__.py -> /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib/franka_conveyor_sim
+[1.159s] running install
+[1.163s] running install_lib
+[1.176s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim
+[1.176s] copying /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib/franka_conveyor_sim/box_spawner.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim
+[1.176s] copying /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build/lib/franka_conveyor_sim/__init__.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim
+[1.177s] byte-compiling /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim/box_spawner.py to box_spawner.cpython-312.pyc
+[1.178s] byte-compiling /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim/__init__.py to __init__.cpython-312.pyc
+[1.178s] running install_data
+[1.178s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/ament_index
+[1.178s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/ament_index/resource_index
+[1.178s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/ament_index/resource_index/packages
+[1.178s] copying resource/franka_conveyor_sim -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/ament_index/resource_index/packages
+[1.179s] copying package.xml -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim
+[1.179s] copying README.md -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim
+[1.179s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models
+[1.179s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box
+[1.179s] copying models/box/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box
+[1.179s] copying models/box/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/box
+[1.179s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor
+[1.179s] copying models/conveyor/model.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor
+[1.179s] copying models/conveyor/model.config -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/models/conveyor
+[1.179s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/worlds
+[1.179s] copying worlds/conveyor_test.sdf -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/worlds
+[1.179s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/config
+[1.179s] copying config/conveyor.yaml -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/config
+[1.179s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+[1.179s] copying launch/add_conveyor.launch.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+[1.179s] copying launch/conveyor_test.launch.py -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch
+[1.179s] creating /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch/__pycache__
+[1.179s] copying launch/__pycache__/conveyor_test.launch.cpython-312.pyc -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch/__pycache__
+[1.179s] copying launch/__pycache__/add_conveyor.launch.cpython-312.pyc -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim/launch/__pycache__
+[1.179s] running install_egg_info
+[1.193s] Copying ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim-0.1.0-py3.12.egg-info
+[1.193s] running install_scripts
+[1.284s] Installing box_spawner script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+[1.284s] writing list of installed files to '/home/nick/franka_ros2_ws/build/franka_conveyor_sim/install.log'
+[1.301s] Invoked command in '/home/nick/franka_ros2_ws/src/franka_conveyor_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nick/franka_ros2_ws/build/franka_conveyor_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/franka_conveyor_sim build --build-base /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build install --record /home/nick/franka_ros2_ws/build/franka_conveyor_sim/install.log --install-scripts $base/lib/franka_conveyor_sim --single-version-externally-managed install_data

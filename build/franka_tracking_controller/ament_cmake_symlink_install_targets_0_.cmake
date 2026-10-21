@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nick/franka_ros2_ws/build/franka_tracking_controller/libfranka_tracking_controller.so" "TARGETS" "franka_tracking_controller" "LIBRARY_DESTINATION" "lib")

@@ -1,0 +1,188 @@
+[0.026s] Invoking command in '/home/nick/franka_ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/nick/franka_ros2_ws/src/ros2_control/controller_interface -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/controller_interface
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.099s] -- Detecting CXX compiler ABI info
+[0.189s] -- Detecting CXX compiler ABI info - done
+[0.196s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.197s] -- Detecting CXX compile features
+[0.197s] -- Detecting CXX compile features - done
+[0.200s] -- Found ros2_control_cmake: 0.4.0 (/opt/ros/jazzy/share/ros2_control_cmake/cmake)
+[0.201s] -- Compiler warnings enabled for GNU
+[0.201s] -- Performing Test COMPILER_SUPPORTS_CXX20
+[0.278s] -- Performing Test COMPILER_SUPPORTS_CXX20 - Success
+[0.278s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[0.449s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[0.449s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[0.453s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.604s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.662s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.708s] -- Found hardware_interface: 4.49.0 (/home/nick/franka_ros2_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.760s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.775s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.027s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.031s] -- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.061s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.116s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.334s] -- Found ament_cmake_gmock: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.337s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.369s] -- The C compiler identification is GNU 13.3.0
+[1.379s] -- Detecting C compiler ABI info
+[1.453s] -- Detecting C compiler ABI info - done
+[1.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.461s] -- Detecting C compile features
+[1.461s] -- Detecting C compile features - done
+[1.468s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.469s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.546s] -- Configuring done (1.5s)
+[1.689s] -- Generating done (0.1s)
+[1.691s] [33mCMake Warning:
+[1.691s]   Manually-specified variables were not used by the project:
+[1.691s] 
+[1.691s]     BUILD_TESTS
+[1.691s] 
+[1.691s] [0m
+[1.724s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/controller_interface
+[1.741s] Invoked command in '/home/nick/franka_ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/nick/franka_ros2_ws/src/ros2_control/controller_interface -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/controller_interface
+[1.742s] Invoking command in '/home/nick/franka_ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/controller_interface -- -j20 -l20
+[1.798s] [  2%] [34m[1mGenerating controller_interface/version.h[0m
+[1.802s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.839s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.840s] [ 10%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.880s] [ 10%] Built target ament_generate_version_header__controller_interface
+[1.934s] [ 13%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface_base.cpp.o[0m
+[1.939s] [ 15%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[1.942s] [ 18%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/chainable_controller_interface.cpp.o[0m
+[4.494s] [ 21%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.660s] [ 21%] Built target gmock_main
+[35.409s] [ 23%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[36.008s] [ 23%] Built target controller_interface
+[38.661s] [ 26%] [32m[1mLinking CXX static library libgmock.a[0m
+[40.550s] [ 26%] Built target gmock
+[40.605s] [ 28%] [32mBuilding CXX object CMakeFiles/test_chainable_controller_interface.dir/test/test_chainable_controller_interface.cpp.o[0m
+[40.612s] [ 34%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[40.613s] [ 31%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[40.613s] [ 36%] [32mBuilding CXX object CMakeFiles/test_gps_sensor.dir/test/test_gps_sensor.cpp.o[0m
+[40.615s] [ 39%] [32mBuilding CXX object CMakeFiles/test_led_rgb_device.dir/test/test_led_rgb_device.cpp.o[0m
+[40.619s] [ 42%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[40.621s] [ 44%] [32mBuilding CXX object CMakeFiles/test_magnetic_field_sensor.dir/test/test_magnetic_field_sensor.cpp.o[0m
+[40.623s] [ 47%] [32mBuilding CXX object CMakeFiles/test_pose_sensor.dir/test/test_pose_sensor.cpp.o[0m
+[40.629s] [ 50%] [32mBuilding CXX object CMakeFiles/test_controller_tf_prefix.dir/test/test_controller_tf_prefix.cpp.o[0m
+[40.644s] [ 52%] [32mBuilding CXX object CMakeFiles/test_controller_interface.dir/test/test_controller_interface.cpp.o[0m
+[40.651s] [ 55%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[40.656s] [ 57%] [32mBuilding CXX object CMakeFiles/test_semantic_component_command_interface.dir/test/test_semantic_component_command_interface.cpp.o[0m
+[40.664s] [ 60%] [32mBuilding CXX object CMakeFiles/test_test_utils.dir/test/test_test_utils.cpp.o[0m
+[40.680s] [ 63%] [32mBuilding CXX object CMakeFiles/test_range_sensor.dir/test/test_range_sensor.cpp.o[0m
+[60.244s] [ 65%] [32m[1mLinking CXX executable test_controller_tf_prefix[0m
+[66.048s] [ 65%] Built target test_controller_tf_prefix
+[73.868s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp:[m[K In member function ‘[01m[Kvirtual void ChainableControllerInterfaceTest_export_state_interfaces_list_only_Test::[01;32m[KTestBody[m[K()[m[K’:
+[73.868s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp:95:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::Handle::[01;32m[Kset_value[m[K(const T&) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[73.868s]    94 |   [01;35m[Kcontroller.exported_state_interfaces_.at("testable_chainable_controller/test_state_ptr")[m[K
+[73.868s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[73.868s]    95 | [01;35m[K    ->set_value(EXPORTED_STATE_INTERFACE_VALUE)[m[K;
+[73.868s]       |     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[73.868s] In file included from [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/include/controller_interface/controller_interface_base.hpp:27[m[K,
+[73.869s]                  from [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/include/controller_interface/chainable_controller_interface.hpp:23[m[K,
+[73.869s]                  from [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/test/test_chainable_controller_interface.hpp:22[m[K,
+[73.869s]                  from [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp:15[m[K:
+[73.869s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:511:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[73.869s]   511 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value)
+[73.869s]       |                      [01;36m[K^~~~~~~~~[m[K
+[73.894s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp:[m[K In member function ‘[01m[Kvirtual void ChainableControllerInterfaceTest_export_state_interfaces_list_plus_legacy_Test::[01;32m[KTestBody[m[K()[m[K’:
+[73.894s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp:138:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::Handle::[01;32m[Kset_value[m[K(const T&) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[73.894s]   137 |   [01;35m[Kcontroller.exported_state_interfaces_.at("testable_chainable_controller/test_state_ptr")[m[K
+[73.894s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[73.894s]   138 | [01;35m[K    ->set_value(EXPORTED_STATE_INTERFACE_VALUE)[m[K;
+[73.895s]       |     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[73.895s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:511:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[73.895s]   511 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value)
+[73.895s]       |                      [01;36m[K^~~~~~~~~[m[K
+[73.936s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp:[m[K In member function ‘[01m[Kvirtual void ChainableControllerInterfaceTest_export_reference_interfaces_list_only_Test::[01;32m[KTestBody[m[K()[m[K’:
+[73.936s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp:207:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::Handle::[01;32m[Kset_value[m[K(const T&) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[73.936s]   206 |   [01;35m[Kcontroller.exported_reference_interfaces_.at("testable_chainable_controller/test_itf_ptr")[m[K
+[73.936s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[73.936s]   207 | [01;35m[K    ->set_value(INTERFACE_VALUE)[m[K;
+[73.936s]       |     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[73.936s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:511:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[73.937s]   511 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value)
+[73.937s]       |                      [01;36m[K^~~~~~~~~[m[K
+[73.960s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp:[m[K In member function ‘[01m[Kvirtual void ChainableControllerInterfaceTest_export_reference_interfaces_list_plus_legacy_Test::[01;32m[KTestBody[m[K()[m[K’:
+[73.960s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/controller_interface/test/test_chainable_controller_interface.cpp:250:16:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::Handle::[01;32m[Kset_value[m[K(const T&) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[73.960s]   249 |   [01;35m[Kcontroller.exported_reference_interfaces_.at("testable_chainable_controller/test_itf_ptr")[m[K
+[73.960s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[73.960s]   250 | [01;35m[K    ->set_value(INTERFACE_VALUE)[m[K;
+[73.960s]       |     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[73.960s] [01m[K/home/nick/franka_ros2_ws/src/ros2_control/hardware_interface/include/hardware_interface/handle.hpp:511:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[73.960s]   511 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value)
+[73.961s]       |                      [01;36m[K^~~~~~~~~[m[K
+[78.266s] [ 68%] [32m[1mLinking CXX executable test_semantic_component_command_interface[0m
+[78.402s] [ 71%] [32m[1mLinking CXX executable test_led_rgb_device[0m
+[78.714s] [ 71%] Built target test_semantic_component_command_interface
+[78.725s] [ 71%] Built target test_led_rgb_device
+[79.016s] [ 73%] [32m[1mLinking CXX executable test_magnetic_field_sensor[0m
+[79.452s] [ 73%] Built target test_magnetic_field_sensor
+[80.093s] [ 76%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[80.325s] [ 78%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[80.490s] [ 78%] Built target test_controller_with_options
+[80.638s] [ 78%] Built target test_force_torque_sensor
+[80.890s] [ 81%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[80.997s] [ 84%] [32m[1mLinking CXX executable test_pose_sensor[0m
+[81.249s] [ 84%] Built target test_imu_sensor
+[81.263s] [ 86%] [32m[1mLinking CXX executable test_range_sensor[0m
+[81.267s] [ 86%] Built target test_pose_sensor
+[81.508s] [ 89%] [32m[1mLinking CXX executable test_test_utils[0m
+[81.525s] [ 89%] Built target test_range_sensor
+[81.753s] [ 92%] [32m[1mLinking CXX executable test_controller_interface[0m
+[81.777s] [ 92%] Built target test_test_utils
+[81.991s] [ 94%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[82.017s] [ 94%] Built target test_controller_interface
+[82.165s] [ 94%] Built target test_semantic_component_interface
+[82.412s] [ 97%] [32m[1mLinking CXX executable test_chainable_controller_interface[0m
+[82.463s] [100%] [32m[1mLinking CXX executable test_gps_sensor[0m
+[82.604s] [100%] Built target test_chainable_controller_interface
+[82.710s] [100%] Built target test_gps_sensor
+[82.725s] Invoked command in '/home/nick/franka_ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/controller_interface -- -j20 -l20
+[82.727s] Invoking command in '/home/nick/franka_ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/controller_interface
+[82.738s] -- Install configuration: "Release"
+[82.738s] -- Execute custom install script
+[82.739s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/chainable_controller_interface.hpp
+[82.752s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/controller_interface.hpp
+[82.764s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp
+[82.771s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/controller_interface_params.hpp
+[82.779s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/helpers.hpp
+[82.787s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/test_utils.hpp
+[82.794s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/tf_prefix.hpp
+[82.802s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/semantic_components/force_torque_sensor.hpp
+[82.809s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/semantic_components/gps_sensor.hpp
+[82.816s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/semantic_components/imu_sensor.hpp
+[82.824s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/semantic_components/led_rgb_device.hpp
+[82.832s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/semantic_components/magnetic_field_sensor.hpp
+[82.839s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/semantic_components/pose_sensor.hpp
+[82.847s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/semantic_components/range_sensor.hpp
+[82.855s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/semantic_components/semantic_component_command_interface.hpp
+[82.863s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/semantic_components/semantic_component_interface.hpp
+[82.871s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.sh
+[82.879s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[82.889s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[82.901s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[82.913s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[82.925s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[82.937s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/environment/path.sh
+[82.949s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/environment/path.dsv
+[82.960s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/local_setup.bash
+[82.972s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/local_setup.sh
+[82.980s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/local_setup.zsh
+[82.988s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/local_setup.dsv
+[82.999s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/package.dsv
+[83.007s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[83.017s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_targets-extras.cmake
+[83.029s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[83.037s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[83.049s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[83.056s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/package.xml
+[83.064s] -- Symlinking: /home/nick/franka_ros2_ws/install/controller_interface/include/controller_interface/controller_interface/version.h
+[83.073s] -- Installing: /home/nick/franka_ros2_ws/install/controller_interface/lib/libcontroller_interface.so
+[83.073s] -- Set non-toolchain portion of runtime path of "/home/nick/franka_ros2_ws/install/controller_interface/lib/libcontroller_interface.so" to ""
+[83.074s] -- Installing: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interfaceExport.cmake
+[83.074s] -- Installing: /home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/cmake/export_controller_interfaceExport-release.cmake
+[83.076s] Invoked command in '/home/nick/franka_ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/franka_ros2_ws/install/hardware_interface:/home/nick/franka_ros2_ws/install/joint_limits:/home/nick/franka_ros2_ws/install/ros2_control_test_assets:/home/nick/franka_ros2_ws/install/realtime_tools:/home/nick/robo_arm/install/ur_description:/home/nick/clearpath_ws/install/clearpath_common:/home/nick/clearpath_ws/install/clearpath_generator_common:/home/nick/clearpath_ws/install/clearpath_description:/home/nick/clearpath_ws/install/clearpath_sensors_description:/home/nick/clearpath_ws/install/clearpath_msgs:/home/nick/clearpath_ws/install/clearpath_diagnostics:/home/nick/clearpath_ws/install/clearpath_platform_msgs:/home/nick/clearpath_ws/install/clearpath_platform_description:/home/nick/clearpath_ws/install/clearpath_mounts_description:/home/nick/clearpath_ws/install/clearpath_motor_msgs:/home/nick/clearpath_ws/install/clearpath_manipulators:/home/nick/clearpath_ws/install/clearpath_manipulators_description:/home/nick/clearpath_ws/install/clearpath_customization:/home/nick/clearpath_ws/install/clearpath_control_msgs:/home/nick/clearpath_ws/install/clearpath_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nick/franka_ros2_ws/install/hardware_interface/lib:/home/nick/franka_ros2_ws/install/joint_limits/lib:/home/nick/franka_ros2_ws/install/ros2_control_test_assets/lib:/home/nick/franka_ros2_ws/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/controller_interface

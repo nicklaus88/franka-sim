@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from franka_spine_msgs/action/MoveAbsolute.action
+// generated code does not contain a copyright notice
+
+
+module franka_spine_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Command an absolute move of the Franka Spine.")
+    struct MoveAbsolute_Goal {
+      @verbatim (language="comment", text=
+        "Target position")
+      @unit (value="m")
+      double position;
+
+      @verbatim (language="comment", text=
+        "Motion velocity, must be > 0")
+      @unit (value="m/s")
+      double velocity;
+
+      @verbatim (language="comment", text=
+        "Motion acceleration, must be > 0")
+      @unit (value="m/s²")
+      double acceleration;
+
+      @verbatim (language="comment", text=
+        "Motion deceleration, must be > 0")
+      @unit (value="m/s²")
+      double deceleration;
+    };
+    struct MoveAbsolute_Result {
+      @verbatim (language="comment", text=
+        "True if the target position was reached")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "How the motion was stopped (from spine response)")
+      string stop_by;
+
+      @verbatim (language="comment", text=
+        "Error description if success is false")
+      string error;
+    };
+    struct MoveAbsolute_Feedback {
+      @verbatim (language="comment", text=
+        "Current spine position")
+      @unit (value="m")
+      double current_position;
+    };
+  };
+};

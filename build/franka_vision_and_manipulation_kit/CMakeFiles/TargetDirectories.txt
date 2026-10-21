@@ -1,0 +1,9 @@
+/home/nick/franka_ros2_ws/build/franka_vision_and_manipulation_kit/CMakeFiles/uninstall.dir
+/home/nick/franka_ros2_ws/build/franka_vision_and_manipulation_kit/CMakeFiles/franka_vision_and_manipulation_kit_uninstall.dir
+/home/nick/franka_ros2_ws/build/franka_vision_and_manipulation_kit/CMakeFiles/test.dir
+/home/nick/franka_ros2_ws/build/franka_vision_and_manipulation_kit/CMakeFiles/edit_cache.dir
+/home/nick/franka_ros2_ws/build/franka_vision_and_manipulation_kit/CMakeFiles/rebuild_cache.dir
+/home/nick/franka_ros2_ws/build/franka_vision_and_manipulation_kit/CMakeFiles/list_install_components.dir
+/home/nick/franka_ros2_ws/build/franka_vision_and_manipulation_kit/CMakeFiles/install.dir
+/home/nick/franka_ros2_ws/build/franka_vision_and_manipulation_kit/CMakeFiles/install/local.dir
+/home/nick/franka_ros2_ws/build/franka_vision_and_manipulation_kit/CMakeFiles/install/strip.dir

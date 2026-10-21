@@ -1,0 +1,1 @@
+/home/nick/franka_ros2_ws/src/zed_description/launch/zed_viz.launch.py

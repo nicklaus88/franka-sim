@@ -1,0 +1,64 @@
+[0.025s] Invoking command in '/home/nick/franka_ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/serial -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/serial
+[0.167s] -- The C compiler identification is GNU 13.3.0
+[0.205s] -- The CXX compiler identification is GNU 13.3.0
+[0.216s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.411s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.411s] -- Detecting C compile features
+[0.412s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.513s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.521s] -- Detecting CXX compile features
+[0.521s] -- Detecting CXX compile features - done
+[0.525s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.664s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.724s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.071s] -- Configuring done (1.0s)
+[1.073s] -- Generating done (0.0s)
+[1.074s] [33mCMake Warning:
+[1.074s]   Manually-specified variables were not used by the project:
+[1.074s] 
+[1.074s]     BUILD_TESTS
+[1.074s] 
+[1.074s] [0m
+[1.183s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/serial
+[1.424s] Invoked command in '/home/nick/franka_ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/serial -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/serial
+[1.424s] Invoking command in '/home/nick/franka_ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/serial -- -j20 -l20
+[1.465s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[1.465s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.465s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[7.779s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[8.289s] [100%] Built target serial
+[8.301s] Invoked command in '/home/nick/franka_ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/serial -- -j20 -l20
+[8.302s] Invoking command in '/home/nick/franka_ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/serial
+[8.307s] -- Install configuration: "Release"
+[8.308s] -- Execute custom install script
+[8.308s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/include/serial/impl/unix.h
+[8.315s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/include/serial/impl/win.h
+[8.325s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/include/serial/serial.h
+[8.336s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/include/serial/v8stdint.h
+[8.346s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/environment/library_path.sh
+[8.357s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[8.368s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[8.378s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[8.388s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[8.396s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[8.406s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/environment/path.sh
+[8.412s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/environment/path.dsv
+[8.422s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/local_setup.bash
+[8.430s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/local_setup.sh
+[8.437s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/local_setup.zsh
+[8.447s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/local_setup.dsv
+[8.454s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/package.dsv
+[8.461s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[8.470s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.476s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[8.482s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[8.489s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[8.495s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[8.501s] -- Symlinking: /home/nick/franka_ros2_ws/install/serial/share/serial/package.xml
+[8.508s] -- Installing: /home/nick/franka_ros2_ws/install/serial/lib/libserial.a
+[8.508s] -- Installing: /home/nick/franka_ros2_ws/install/serial/share/serial/cmake/export_serialExport.cmake
+[8.508s] -- Installing: /home/nick/franka_ros2_ws/install/serial/share/serial/cmake/export_serialExport-release.cmake
+[8.510s] Invoked command in '/home/nick/franka_ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/serial

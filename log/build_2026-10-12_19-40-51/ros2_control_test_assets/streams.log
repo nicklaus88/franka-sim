@@ -1,0 +1,50 @@
+[0.036s] Invoking command in '/home/nick/franka_ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/ros2_control/ros2_control_test_assets -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/ros2_control_test_assets
+[0.164s] -- The CXX compiler identification is GNU 13.3.0
+[0.176s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.265s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.413s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.486s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.735s] -- Configuring done (0.7s)
+[0.738s] -- Generating done (0.0s)
+[0.739s] [33mCMake Warning:
+[0.739s]   Manually-specified variables were not used by the project:
+[0.739s] 
+[0.739s]     BUILD_TESTS
+[0.739s] 
+[0.739s] [0m
+[0.846s] -- Build files have been written to: /home/nick/franka_ros2_ws/build/ros2_control_test_assets
+[0.850s] Invoked command in '/home/nick/franka_ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nick/franka_ros2_ws/src/ros2_control/ros2_control_test_assets -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nick/franka_ros2_ws/install/ros2_control_test_assets
+[0.852s] Invoking command in '/home/nick/franka_ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/ros2_control_test_assets -- -j20 -l20
+[0.888s] Invoked command in '/home/nick/franka_ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nick/franka_ros2_ws/build/ros2_control_test_assets -- -j20 -l20
+[0.899s] Invoking command in '/home/nick/franka_ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/ros2_control_test_assets
+[0.908s] -- Install configuration: "Release"
+[0.909s] -- Execute custom install script
+[0.909s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/components_urdfs.hpp
+[0.916s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/descriptions.hpp
+[0.927s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/test_asset_6d_robot_description.hpp
+[0.934s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/test_hardware_interface_constants.hpp
+[0.940s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/urdf/test_hardware_components.urdf
+[0.949s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.sh
+[0.960s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.dsv
+[0.970s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[0.977s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[0.987s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[0.996s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[1.002s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[1.013s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[1.022s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[1.028s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[1.034s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[1.043s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[1.050s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[1.061s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[1.067s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_targets-extras.cmake
+[1.077s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[1.085s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[1.095s] -- Symlinking: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[1.105s] -- Installing: /home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake
+[1.107s] Invoked command in '/home/nick/franka_ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nick/clearpath_ws/install/clearpath_config:/home/nick/clearpath_ws/install/clearpath_bt_joy:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nick/franka_ros2_ws/build/ros2_control_test_assets

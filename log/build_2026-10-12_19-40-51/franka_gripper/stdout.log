@@ -1,0 +1,94 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found franka_msgs: 3.6.0 (/home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclcpp_action: 28.1.22 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 28.1.22 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Found control_msgs: 5.10.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found ament_cmake_clang_format: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_copyright: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_flake8: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+-- Found launch_testing_ament_cmake: 3.4.12 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- ROBOT_IP not defined, defaulting to 172.16.0.1...
+-- Configuring done (2.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_gripper
+[ 25%] [32mBuilding CXX object CMakeFiles/gripper_server.dir/src/gripper_action_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/franka_gripper_node.dir/rclcpp_components/node_main_franka_gripper_node.cpp.o[0m
+[ 50%] Built target ament_cmake_python_symlink_franka_gripper
+running egg_info
+creating franka_gripper.egg-info
+writing franka_gripper.egg-info/PKG-INFO
+writing dependency_links to franka_gripper.egg-info/dependency_links.txt
+writing top-level names to franka_gripper.egg-info/top_level.txt
+writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+reading manifest file 'franka_gripper.egg-info/SOURCES.txt'
+writing manifest file 'franka_gripper.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_franka_gripper_egg
+[ 75%] [32m[1mLinking CXX executable franka_gripper_node[0m
+[ 75%] Built target franka_gripper_node
+[100%] [32m[1mLinking CXX shared library libgripper_server.so[0m
+[100%] Built target gripper_server
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/lib/franka_gripper/franka_gripper_node
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/lib/libgripper_server.so
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper//launch/gripper.launch.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper//config/franka_gripper_node.yaml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/pythonpath.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/lib/python3.12/site-packages/franka_gripper-3.6.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/lib/python3.12/site-packages/franka_gripper-3.6.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/lib/python3.12/site-packages/franka_gripper-3.6.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/lib/python3.12/site-packages/franka_gripper-3.6.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/lib/python3.12/site-packages/franka_gripper/__init__.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/lib/franka_gripper/fake_gripper_state_publisher.py
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/package_run_dependencies/franka_gripper
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/parent_prefix_path/franka_gripper
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/environment/path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.bash
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.zsh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/packages/franka_gripper
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/ament_index/resource_index/rclcpp_components/franka_gripper
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/cmake/franka_gripperConfig-version.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gripper/share/franka_gripper/package.xml
+Listing '/home/nick/franka_ros2_ws/install/franka_gripper/lib/python3.12/site-packages/franka_gripper'...
+Compiling '/home/nick/franka_ros2_ws/install/franka_gripper/lib/python3.12/site-packages/franka_gripper/__init__.py'...

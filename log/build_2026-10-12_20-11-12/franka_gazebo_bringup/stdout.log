@@ -1,0 +1,47 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_gazebo_bringup
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/launch/gazebo_fr3_duo_example.launch.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/launch/gazebo_franka_arm_example_controller.launch.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/launch/gazebo_mobile_fr3_duo_example.launch.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/launch/gazebo_tmr_example_controller.launch.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/launch/visualize_franka_robot.launch.py
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/config/franka_gazebo_controllers.yaml
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/worlds/robot_with_sensors.sdf
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/worlds/sensor_demo_world.sdf
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/fr3_duo.gazebo.urdf.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/fr3_duo.ros2_control.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/fr3_duo_with_sensors.gazebo.urdf.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/franka_arm.gazebo.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/franka_gazebo_hardware_plugins.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/franka_gazebo_transmissions.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/mobile_fr3_duo.ros2_control.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/mobile_fr3_duo_v0_2.gazebo.urdf.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/mobile_fr3_duo_v0_2_with_sensors.gazebo.urdf.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/sensors.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/urdf/tmrv0_2.gazebo.urdf.xacro
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/ament_index/resource_index/package_run_dependencies/franka_gazebo_bringup
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/ament_index/resource_index/parent_prefix_path/franka_gazebo_bringup
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/environment/path.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/environment/path.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/local_setup.bash
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/local_setup.sh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/local_setup.zsh
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/package.dsv
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/ament_index/resource_index/packages/franka_gazebo_bringup
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/cmake/franka_gazebo_bringupConfig.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/cmake/franka_gazebo_bringupConfig-version.cmake
+-- Up-to-date symlink: /home/nick/franka_ros2_ws/install/franka_gazebo_bringup/share/franka_gazebo_bringup/package.xml

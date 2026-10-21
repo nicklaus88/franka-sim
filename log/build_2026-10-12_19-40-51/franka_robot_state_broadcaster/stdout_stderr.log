@@ -1,0 +1,107 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found control_msgs: 5.10.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+-- Found controller_interface: 4.49.0 (/home/nick/franka_ros2_ws/install/controller_interface/share/controller_interface/cmake)
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found controller_manager: 4.49.0 (/home/nick/franka_ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+  Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+  Lyrical Luth.
+
+        Use tl/expected.hpp from libexpected-dev,
+        or rcpputils/tl_expected/expected.hpp if the system header is not available)
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/jazzy/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+  /home/nick/franka_ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/nick/franka_ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake:41 (include)
+  CMakeLists.txt:35 (find_package)
+
+[0m
+-- Found franka_msgs: 3.6.0 (/home/nick/franka_ros2_ws/install/franka_msgs/share/franka_msgs/cmake)
+-- Found franka_semantic_components: 3.6.0 (/home/nick/franka_ros2_ws/install/franka_semantic_components/share/franka_semantic_components/cmake)
+-- Found Threads: TRUE  
+-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found ament_cmake_gmock: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+-- Found ament_cmake_clang_format: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_copyright: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_flake8: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+-- Found ros2_control_test_assets: 4.49.0 (/home/nick/franka_ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+-- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTS
+
+[0m
+-- Build files have been written to: /home/nick/franka_ros2_ws/build/franka_robot_state_broadcaster
+[ 11%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/nick/franka_ros2_ws/build/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster_parameters.hpp /home/nick/franka_ros2_ws/src/franka_robot_state_broadcaster/src/franka_robot_state_broadcaster_parameters.yaml `[0m
+[ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 44%] [34m[1mCreating deprecated header file /home/nick/franka_ros2_ws/build/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster_parameters.hpp[0m
+[ 44%] Built target franka_robot_state_broadcaster_parameters
+[ 55%] [32mBuilding CXX object CMakeFiles/franka_robot_state_broadcaster.dir/src/franka_robot_state_broadcaster.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 66%] Built target gmock
+[ 77%] [32m[1mLinking CXX shared library libfranka_robot_state_broadcaster.so[0m
+[ 77%] Built target franka_robot_state_broadcaster
+[ 88%] [32mBuilding CXX object CMakeFiles/franka_robot_state_broadcaster_test.dir/test/test_franka_robot_state_broadcaster.cpp.o[0m
+[100%] [32m[1mLinking CXX executable franka_robot_state_broadcaster_test[0m
+[100%] Built target franka_robot_state_broadcaster_test
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster_parameters.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster//franka_robot_state_broadcaster.xml
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/lib/libfranka_robot_state_broadcaster.so
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/async_buffer.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/include/franka_robot_state_broadcaster/franka_robot_state_broadcaster.hpp
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/library_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/franka_robot_state_broadcaster
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/franka_robot_state_broadcaster
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/environment/path.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.bash
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.sh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.zsh
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/local_setup.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.dsv
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/packages/franka_robot_state_broadcaster
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/franka_robot_state_broadcaster
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/cmake/franka_robot_state_broadcasterConfig-version.cmake
+-- Symlinking: /home/nick/franka_ros2_ws/install/franka_robot_state_broadcaster/share/franka_robot_state_broadcaster/package.xml

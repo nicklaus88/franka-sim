@@ -1,0 +1,21 @@
+[0.625s] Invoking command in '/home/nick/franka_ros2_ws/src/franka_conveyor_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nick/franka_ros2_ws/build/franka_conveyor_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/franka_conveyor_sim build --build-base /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build install --record /home/nick/franka_ros2_ws/build/franka_conveyor_sim/install.log --install-scripts $base/lib/franka_conveyor_sim --single-version-externally-managed install_data
+[0.815s] running egg_info
+[0.828s] writing ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/PKG-INFO
+[0.829s] writing dependency_links to ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/dependency_links.txt
+[0.829s] writing entry points to ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/entry_points.txt
+[0.829s] writing top-level names to ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/top_level.txt
+[0.855s] reading manifest file '../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/SOURCES.txt'
+[0.856s] writing manifest file '../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info/SOURCES.txt'
+[0.856s] running build
+[0.856s] running build_py
+[0.856s] running install
+[0.860s] running install_lib
+[0.874s] running install_data
+[0.874s] copying RESUME.md -> /home/nick/franka_ros2_ws/install/franka_conveyor_sim/share/franka_conveyor_sim
+[0.874s] running install_egg_info
+[0.888s] removing '/home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim-0.1.0-py3.12.egg-info' (and everything under it)
+[0.888s] Copying ../../build/franka_conveyor_sim/franka_conveyor_sim.egg-info to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages/franka_conveyor_sim-0.1.0-py3.12.egg-info
+[0.888s] running install_scripts
+[0.979s] Installing box_spawner script to /home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/franka_conveyor_sim
+[0.980s] writing list of installed files to '/home/nick/franka_ros2_ws/build/franka_conveyor_sim/install.log'
+[0.996s] Invoked command in '/home/nick/franka_ros2_ws/src/franka_conveyor_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nick/franka_ros2_ws/build/franka_conveyor_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nick/franka_ros2_ws/install/franka_conveyor_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/franka_conveyor_sim build --build-base /home/nick/franka_ros2_ws/build/franka_conveyor_sim/build install --record /home/nick/franka_ros2_ws/build/franka_conveyor_sim/install.log --install-scripts $base/lib/franka_conveyor_sim --single-version-externally-managed install_data
