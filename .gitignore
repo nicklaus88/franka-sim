@@ -1,0 +1,14 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python caching and environments
+__pycache__/
+*.pyc
+.venv/
+
+# Local credentials and configuration
+.aws/
+.codex/
+.env
