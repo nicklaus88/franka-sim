@@ -1,0 +1,93 @@
+Panels:
+- Class: rviz_common/Displays
+  Name: Displays
+Visualization Manager:
+  Class: ''
+  Global Options:
+    Fixed Frame: world
+    Background Color: 48; 48; 48
+  Displays:
+  - Class: rviz_default_plugins/Grid
+    Name: Grid
+    Enabled: true
+    Cell Size: 0.5
+    Plane: XY
+  - Class: rviz_default_plugins/RobotModel
+    Name: Franka
+    Enabled: true
+    Description Source: Topic
+    Description Topic:
+      Value: /robot_description
+      Durability Policy: Transient Local
+      Reliability Policy: Reliable
+  - Class: rviz_default_plugins/PointCloud2
+    Name: D435 depth cloud
+    Enabled: true
+    Topic:
+      Value: /camera/depth/points
+      Reliability Policy: Best Effort
+      Durability Policy: Volatile
+      Depth: 2
+    Size (m): 0.003
+    Style: Points
+    Color Transformer: RGB8
+  - Class: rviz_default_plugins/Image
+    Name: D435 RGB
+    Enabled: true
+    Topic:
+      Value: /camera/color/image_raw
+      Reliability Policy: Best Effort
+      Durability Policy: Volatile
+      Depth: 2
+  - Class: rviz_default_plugins/Image
+    Name: D435 depth
+    Enabled: true
+    Topic:
+      Value: /camera/depth/image_rect_raw
+      Reliability Policy: Best Effort
+      Durability Policy: Volatile
+      Depth: 2
+  - Class: moveit_rviz_plugin/Trajectory
+    Name: Pickup trajectories
+    Enabled: true
+    Robot Description: robot_description
+    Trajectory Topic: /pickup/display_trajectory
+    Robot Alpha: 0.5
+    Show Robot Visual: true
+    Show Robot Collision: false
+    Loop Animation: true
+    State Display Time: 0.05 s
+  - Class: moveit_rviz_plugin/PlanningScene
+    Name: Pickup collision scene
+    Enabled: true
+    Robot Description: robot_description
+    Planning Scene Topic: /monitored_planning_scene
+    Scene Geometry:
+      Show Scene Geometry: true
+      Scene Alpha: 0.5
+  - Class: rviz_default_plugins/MarkerArray
+    Name: Pregrasp and grasp targets
+    Enabled: true
+    Topic:
+      Value: /pickup/targets
+      Durability Policy: Transient Local
+      Reliability Policy: Reliable
+      Depth: 1
+  - Class: rviz_default_plugins/Image
+    Name: OpenCV cube detection
+    Enabled: true
+    Topic:
+      Value: /pickup/detection_image
+      Durability Policy: Volatile
+      Reliability Policy: Best Effort
+      Depth: 2
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 3.5
+      Focal Point:
+        X: 0.3
+        Y: 0.4
+        Z: 0.45
+      Pitch: 0.6
+      Yaw: 0.8

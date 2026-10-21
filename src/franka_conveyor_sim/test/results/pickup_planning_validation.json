@@ -1,0 +1,24 @@
+{
+  "vision_center_error_m": 0.001892,
+  "pregrasp_fk_error_m": 0.0004083855,
+  "grasp_fk_error_m": 6.7522e-09,
+  "cartesian_fraction": 1.0,
+  "arm_moved": false,
+  "replan_service": "passed",
+  "geometry_unit_tests": 3,
+  "stages": {
+    "current_to_home": {
+      "points": 1,
+      "duration": 0.0
+    },
+    "home_to_pregrasp": {
+      "points": 64,
+      "duration": 6.263499738
+    },
+    "pregrasp_to_grasp": {
+      "points": 27,
+      "duration": 2.542565952
+    }
+  },
+  "log": "/tmp/pickup_planning_50613.log"
+}

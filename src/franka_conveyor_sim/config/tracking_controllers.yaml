@@ -1,0 +1,3 @@
+conveyor_velocity_controller:
+  ros__parameters:
+    type: franka_tracking_controller/Velocity

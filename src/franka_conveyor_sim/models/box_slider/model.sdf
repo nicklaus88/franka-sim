@@ -1,0 +1,71 @@
+<sdf version="1.9">
+  <model name="box_slider" canonical_link="base_link">
+    <link name="base_link">
+      <inertial>
+        <mass>0.20</mass>
+        <inertia>
+          <ixx>0.00033333333333333343</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00033333333333333343</iyy>
+          <iyz>0</iyz>
+          <izz>0.00033333333333333343</izz>
+        </inertia>
+      </inertial>
+      <visual name="main_visual">
+        <pose relative_to="base_link">0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 0.1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.60 0.0 0.0 1</ambient>
+          <diffuse>0.60 0.0 0.0 1</diffuse>
+          <specular>0.8 0.8 0.8 1</specular>
+        </material>
+      </visual>
+      <collision name="main_collision">
+        <geometry>
+          <box>
+            <size>0.1 0.1 0.1</size>
+          </box>
+        </geometry>
+        <pose relative_to="base_link">0 0 0 0 0 0</pose>
+      </collision>
+      <gravity>false</gravity>
+    </link>
+    <joint name="slide" type="prismatic">
+      <parent>anchor</parent>
+      <child>base_link</child>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-100</lower>
+          <upper>100</upper>
+          <effort>100</effort>
+          <velocity>1</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <plugin filename="gz-sim-joint-controller-system" name="gz::sim::systems::JointController">
+      <joint_name>slide</joint_name>
+      <topic>/conveyor/cmd_vel</topic>
+      <initial_velocity>0.0</initial_velocity>
+    </plugin>
+    <link name="anchor">
+      <inertial>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <iyy>0.001</iyy>
+          <izz>0.001</izz>
+        </inertia>
+      </inertial>
+    </link>
+    <joint name="anchor_fixed" type="fixed">
+      <parent>world</parent>
+      <child>anchor</child>
+    </joint>
+  </model>
+</sdf>

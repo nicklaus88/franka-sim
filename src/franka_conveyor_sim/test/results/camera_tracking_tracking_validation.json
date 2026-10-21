@@ -1,0 +1,21 @@
+{
+  "feedback_source": "opencv_rgbd",
+  "control_law": "position_feedback_only",
+  "max_camera_error_m": 0.003500959206794091,
+  "max_tcp_error_vs_current_truth_m": [
+    0.024468333493918887,
+    0.0006538693144063634,
+    0.0010684985414102788
+  ],
+  "max_measurement_age_s": 0.11600000000000321,
+  "samples": 90,
+  "duration": 4.77,
+  "max_abs_error_m": [
+    0.022090737570584912,
+    0.0007206590731965723,
+    0.0003941746526703871
+  ],
+  "controllers": "fr3_arm_controller           joint_trajectory_controller/JointTrajectoryController  active  \njoint_state_broadcaster      joint_state_broadcaster/JointStateBroadcaster          active  \nconveyor_velocity_controller franka_tracking_controller/Velocity                    inactive\n",
+  "log": "/tmp/camera_tracking_13284.log",
+  "trace": "/tmp/camera_tracking_13284.json"
+}

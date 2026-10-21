@@ -1,0 +1,1 @@
+<library path="franka_tracking_controller"><class name="franka_tracking_controller/Velocity" type="franka_tracking_controller::Velocity" base_class_type="controller_interface::ControllerInterface"><description>Velocity commands with steady clock watchdog and hard speed clamp.</description></class></library>

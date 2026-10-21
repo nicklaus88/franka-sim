@@ -1,0 +1,55 @@
+<sdf version="1.9">
+  <model name="box_force">
+    <link name="base_link">
+      <inertial>
+        <mass>0.20</mass>
+        <inertia>
+          <ixx>0.00033333333333333343</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00033333333333333343</iyy>
+          <iyz>0</iyz>
+          <izz>0.00033333333333333343</izz>
+        </inertia>
+      </inertial>
+      <visual name="main_visual">
+        <pose relative_to="base_link">0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.1 0.1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.60 0.0 0.0 1</ambient>
+          <diffuse>0.60 0.0 0.0 1</diffuse>
+          <specular>0.8 0.8 0.8 1</specular>
+        </material>
+      </visual>
+      <collision name="main_collision">
+        <geometry>
+          <box>
+            <size>0.1 0.1 0.1</size>
+          </box>
+        </geometry>
+        <pose relative_to="base_link">0 0 0 0 0 0</pose>
+      </collision>
+    </link>
+    <plugin filename="libfranka_conveyor_force_system.so" name="franka_conveyor::ConveyorForce">
+      <belt_x>0.6</belt_x>
+      <belt_y>0.0</belt_y>
+      <belt_top>0.5</belt_top>
+      <belt_yaw>0.0</belt_yaw>
+      <belt_length>2.0</belt_length>
+      <belt_width>0.4</belt_width>
+      <box_size>0.1</box_size>
+      <initial_speed>0.1</initial_speed>
+      <velocity_gain>10.0</velocity_gain>
+      <integral_gain>2.0</integral_gain>
+      <max_acceleration>1.0</max_acceleration>
+      <height_tolerance>0.003</height_tolerance>
+      <max_vertical_speed>0.03</max_vertical_speed>
+      <max_speed>1.0</max_speed>
+      <velocity_topic>/conveyor/cmd_vel</velocity_topic>
+    </plugin>
+  </model>
+</sdf>

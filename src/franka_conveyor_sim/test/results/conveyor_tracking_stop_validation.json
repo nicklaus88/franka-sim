@@ -1,0 +1,12 @@
+{
+  "samples": 8,
+  "duration": 0.370000000000001,
+  "max_abs_error_m": [
+    0.020086014165168725,
+    5.207984233573937e-05,
+    0.00016801999034393722
+  ],
+  "controllers": "fr3_arm_controller           joint_trajectory_controller/JointTrajectoryController  active  \njoint_state_broadcaster      joint_state_broadcaster/JointStateBroadcaster          active  \nconveyor_velocity_controller franka_tracking_controller/Velocity                    inactive\n",
+  "log": "/tmp/conveyor_tracking_23585.log",
+  "trace": "/tmp/conveyor_tracking_23585.json"
+}

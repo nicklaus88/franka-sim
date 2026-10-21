@@ -1,0 +1,38 @@
+{
+  "log": "/tmp/pickup_smoke_49772.log",
+  "image": "/tmp/pickup_smoke_49772.png",
+  "rgb_encoding": "rgb8",
+  "depth_encoding": "32FC1",
+  "resolution": [
+    848,
+    480
+  ],
+  "frame": "camera_optical_frame",
+  "messages": {
+    "info": 82,
+    "depth_info": 82,
+    "depth": 79,
+    "rgb": 62,
+    "points": 73
+  },
+  "red_pixels": 672,
+  "cube_depth_median": 1.1175756454467773,
+  "center_cloud_point": [
+    1.1161894798278809,
+    -0.0012489201035350561,
+    -0.001249145483598113
+  ],
+  "center_cloud_world": [
+    0.1512489201035348,
+    0.49872090206696507,
+    0.5099983030885418
+  ],
+  "cloud_frame": "camera_link",
+  "box_settled": [
+    0.15000000596046448,
+    0.5,
+    0.47999897599220276
+  ],
+  "controllers": "fr3_arm_controller      joint_trajectory_controller/JointTrajectoryController  active\njoint_state_broadcaster joint_state_broadcaster/JointStateBroadcaster          active\n",
+  "free_fall_retest": "passed"
+}

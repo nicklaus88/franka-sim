@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-19",
+  "mode": "external-force approximation, free bodies, low-friction belt",
+  "controller": {
+    "velocity_gain": 10.0,
+    "integral_gain": 2.0,
+    "max_acceleration": 1.0,
+    "mass_kg": 0.2
+  },
+  "standalone": {
+    "acceleration_samples": [
+      0.03251089155673981,
+      0.09238367527723312
+    ],
+    "speed_response": [
+      {
+        "command": 0.1,
+        "measured_vx": 0.10139085129793901,
+        "force_N": 0.00014504922578113534
+      },
+      {
+        "command": 0.2,
+        "measured_vx": 0.2014747823580193,
+        "force_N": 0.00014160295367244037
+      },
+      {
+        "command": 0.0,
+        "measured_vx": -0.001503483994261963,
+        "force_N": -0.00014069053635466547
+      },
+      {
+        "command": -0.1,
+        "measured_vx": -0.1013712935238719,
+        "force_N": -0.00014193894095720778
+      }
+    ],
+    "peak_force_N": 0.2,
+    "pause": "PASS",
+    "airborne_cutoff_and_free_fall": "PASS",
+    "off_belt_cutoff": "PASS",
+    "pickup_scene": false,
+    "log": "/tmp/conveyor_force_11394.log"
+  },
+  "pickup_scene": {
+    "controllers_before": "fr3_arm_controller      joint_trajectory_controller/JointTrajectoryController  active\njoint_state_broadcaster joint_state_broadcaster/JointStateBroadcaster          active\n",
+    "acceleration_samples": [
+      0.015316844917833805,
+      0.09004633128643036
+    ],
+    "speed_response": [
+      {
+        "command": 0.1,
+        "measured_vx": 0.10189795045124887,
+        "force_N": 0.00014513542130590898
+      },
+      {
+        "command": 0.2,
+        "measured_vx": 0.20046884255299893,
+        "force_N": 0.0001416353017092146
+      },
+      {
+        "command": 0.0,
+        "measured_vx": -0.0015105587891781197,
+        "force_N": -0.0001408363524184126
+      },
+      {
+        "command": -0.1,
+        "measured_vx": -0.10056494481520907,
+        "force_N": -0.00014205642466435798
+      }
+    ],
+    "peak_force_N": 0.2,
+    "pause": "PASS",
+    "airborne_cutoff_and_free_fall": "PASS",
+    "off_belt_cutoff": "PASS",
+    "controllers_after": "fr3_arm_controller      joint_trajectory_controller/JointTrajectoryController  active\njoint_state_broadcaster joint_state_broadcaster/JointStateBroadcaster          active\n",
+    "pickup_scene": true,
+    "log": "/tmp/conveyor_force_11592.log"
+  },
+  "rotated_belt": {
+    "engine": "gz-physics-bullet-featherstone-plugin",
+    "motion_mode": "force",
+    "belt_yaw": 1.5707963267948966,
+    "results": [
+      {
+        "command": 0.1,
+        "start": [
+          0.824,
+          [
+            0.6000529527664185,
+            -0.81502765417099,
+            0.5499985814094543
+          ]
+        ],
+        "end": [
+          2.333,
+          [
+            0.6002333164215088,
+            -0.6614746451377869,
+            0.5499985814094543
+          ]
+        ],
+        "measured_local_vx": 0.10175812394513127,
+        "force_N": 0.00014156514153816844,
+        "plugin_velocity": 0.10134505480527878,
+        "peak_force_N": 0.1389700853215251
+      },
+      {
+        "command": 0.2,
+        "start": [
+          2.836,
+          [
+            0.6002941131591797,
+            -0.569710910320282,
+            0.5499985814094543
+          ]
+        ],
+        "end": [
+          4.346,
+          [
+            0.60047447681427,
+            -0.2648400366306305,
+            0.5499985814094543
+          ]
+        ],
+        "measured_local_vx": 0.2019012408540738,
+        "force_N": 0.0001417656868696552,
+        "plugin_velocity": 0.20132529735565186,
+        "peak_force_N": 0.1389700853215251
+      },
+      {
+        "command": 0.0,
+        "start": [
+          4.85,
+          [
+            0.6005301475524902,
+            -0.24016065895557404,
+            0.5499985814094543
+          ]
+        ],
+        "end": [
+          6.359,
+          [
+            0.6005658507347107,
+            -0.24236133694648743,
+            0.5499985814094543
+          ]
+        ],
+        "measured_local_vx": -0.0014583684499094702,
+        "force_N": -0.0001405615179217272,
+        "plugin_velocity": -0.0013610818423330784,
+        "peak_force_N": 0.2
+      },
+      {
+        "command": -0.1,
+        "start": [
+          6.862,
+          [
+            0.6005658507347107,
+            -0.28180742263793945,
+            0.5499985814094543
+          ]
+        ],
+        "end": [
+          8.368,
+          [
+            0.6005658507347107,
+            -0.43537577986717224,
+            0.5499985814094543
+          ]
+        ],
+        "measured_local_vx": -0.10197102073654234,
+        "force_N": -0.0001422183263860722,
+        "plugin_velocity": -0.10133349150419235,
+        "peak_force_N": 0.2
+      }
+    ],
+    "log": "/tmp/conveyor_smoke_11523.log"
+  },
+  "flow": {
+    "status": "PASS",
+    "birth_sim_times": [
+      3.301,
+      6.402,
+      9.504
+    ],
+    "new_box_vx": 0.10110747195527474,
+    "checks": [
+      "spacing",
+      "pause",
+      "time reset",
+      "command inheritance",
+      "downstream deletion"
+    ],
+    "log": "/tmp/conveyor_flow_12330.log"
+  },
+  "combined_franka": {
+    "status": "PASS",
+    "world": "empty",
+    "measured_vx": 0.10066470627248647,
+    "log": "/tmp/franka_force_wrapper_trial.log"
+  },
+  "stationary_planning_regression": "PASS; /tmp/pickup_planning_13090.log",
+  "unit_tests": "10 passed",
+  "moving_grasp": "not implemented or tested",
+  "existing_world_injection": {
+    "status": "PASS",
+    "world": "empty",
+    "measured_vx": 0.10097859493953706,
+    "controllers": "arm + broadcaster active before/after; joint_states present",
+    "log": "/tmp/franka_force_injection_trial.log"
+  },
+  "slider_transport_regression": "PASS; /tmp/conveyor_slider_force_regression.log"
+}

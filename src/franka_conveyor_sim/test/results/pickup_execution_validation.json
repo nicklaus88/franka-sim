@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-19",
+  "physical_pick_place_return": "PASS",
+  "measured_cube_center_m": [
+    -0.5501770377159119,
+    0.15321293473243713,
+    0.3799992799758911
+  ],
+  "yellow_target_xy_m": [
+    -0.55,
+    0.15
+  ],
+  "placement_xy_error_m": 0.003217808562944071,
+  "peak_cube_center_z_m": 0.6299996376037598,
+  "maximum_neutral_joint_error_rad": 0.0008164862798283323,
+  "final_driven_finger_m": 0.03999999910593033,
+  "completed_stages": [
+    "neutral_to_pregrasp",
+    "pregrasp_to_grasp",
+    "close_fingers",
+    "lift_cube",
+    "transfer_to_target",
+    "lower_to_release",
+    "release_fingers",
+    "retreat_from_target",
+    "return_to_neutral"
+  ],
+  "mechanism": "Gazebo Bullet Featherstone finger contact/friction; no weld or pose teleportation",
+  "execution_log": "/tmp/pickup_execution_22427.log",
+  "cancellation_execution_only_launch": {
+    "cancel": {
+      "status": "cancelled",
+      "reason": "Execution cancelled",
+      "completed": []
+    },
+    "retry": {
+      "status": "failed",
+      "reason": "Arm is not at planned neutral start; return/replan before execution",
+      "completed": []
+    },
+    "stopped": true
+  },
+  "cancellation_log": "/tmp/pickup_execution_20977.log",
+  "unit_tests": "10 passed",
+  "runtime_cube_placement_check": "not implemented; test-only Gazebo truth verification"
+}
